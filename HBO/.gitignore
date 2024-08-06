@@ -78,4 +78,4 @@ DerivedDataCache/*
 */StarterContent
 
 # Keep Local Content Folder
-!/_UE/.gitignore
+*/_UE/!.gitignore
