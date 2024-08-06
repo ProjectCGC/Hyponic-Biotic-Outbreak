@@ -73,9 +73,5 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-# Local Content
-*/_UE/*
+# Starter Content
 */StarterContent
-
-# Keep Local Content Folder
-*/_UE/!.gitignore
