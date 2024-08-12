@@ -1,0 +1,66 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2051106367	PlayerSpeedSwitch			\PlayerSwitches\PlayerSpeedSwitch	
+
+Switch	ID	Name	Switch Group			Notes
+	1296465089	Sprint	PlayerSpeedSwitch			
+	2108779966	Walk	PlayerSpeedSwitch			
+	2655407367	Crouch	PlayerSpeedSwitch			
+	3115216662	Crawl	PlayerSpeedSwitch			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1021618141	MusicState			\Default Work Unit\MusicState	
+	1045871717	GameStatus			\Default Work Unit\GameStatus	
+	1071758680	CombatState			\Default Work Unit\CombatState	
+	2064552269	AreaState			\Default Work Unit\AreaState	
+	3285234865	PlayerState			\Default Work Unit\PlayerState	
+
+State	ID	Name	State Group			Notes
+	77978275	Ambient	MusicState			
+	748895195	None	MusicState			
+	2764240573	Combat	MusicState			
+	748895195	None	GameStatus			
+	984691642	InGame	GameStatus			
+	3374585465	InMenu	GameStatus			
+	721787521	Alert	CombatState			
+	748895195	None	CombatState			
+	2996603896	Engaged	CombatState			
+	3130232582	Panic	CombatState			
+	438105790	Outside	AreaState			
+	748895195	None	AreaState			
+	2331036614	Facility	AreaState			
+	3187728172	Safezone	AreaState			
+	3604647259	MainMenu	AreaState			
+	655265632	Alive	PlayerState			
+	748895195	None	PlayerState			
+	2044049779	Dead	PlayerState			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	525166210	3DAmbienceMaster			\Master Mixers\Master Audio Bus\SFXMaster\3DAmbienceMaster	
+	1681633080	SFXMaster			\Master Mixers\Master Audio Bus\SFXMaster	
+	2355068365	2DAmbienceMaster			\Master Mixers\Master Audio Bus\SFXMaster\2DAmbienceMaster	
+	3199789248	MusicMaster			\Master Mixers\Master Audio Bus\MusicMaster	
+	3408775801	EnemyMaster			\Master Mixers\Master Audio Bus\SFXMaster\EnemyMaster	
+	3538689948	PlayerMaster			\Master Mixers\Master Audio Bus\SFXMaster\PlayerMaster	
+	3803692087	Master Audio Bus			\Master Mixers\Master Audio Bus	
+	3804284798	ObjectMaster			\Master Mixers\Master Audio Bus\SFXMaster\ObjectMaster	
+	3873283120	UXMaster			\Master Mixers\Master Audio Bus\SFXMaster\UXMaster	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	144697359	Outdoor			\Master Mixers\Master Audio Bus\Reverbs\Outdoor	
+	602546716	Room_Large			\Master Mixers\Master Audio Bus\Reverbs\Room_Large	
+	1990128658	Room_Medium			\Master Mixers\Master Audio Bus\Reverbs\Room_Medium	
+	2995775460	Room_Small			\Master Mixers\Master Audio Bus\Reverbs\Room_Small	
+	3545700988	Reverbs			\Master Mixers\Master Audio Bus\Reverbs	
+	3633416828	Hall			\Master Mixers\Master Audio Bus\Reverbs\Hall	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	602546716	Room_Large	Wwise RoomVerb			
+	1990128658	Room_Medium	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
+	3701691487	Hall_Large_Bright	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

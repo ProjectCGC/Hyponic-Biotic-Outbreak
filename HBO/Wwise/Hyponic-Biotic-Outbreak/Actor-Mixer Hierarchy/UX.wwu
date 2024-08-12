@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{51266A75-DC3F-4B94-9250-BC5CB67727D0}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}">
+	<AudioObjects>
+		<WorkUnit Name="UX" ID="{51266A75-DC3F-4B94-9250-BC5CB67727D0}" OwnerID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="7"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Heartbeat" ID="{4B328B2C-40DF-43A9-BDDF-BA5599F08C55}" PersistMode="Reference"/>
+				<WorkUnit Name="UI_SFX" ID="{720EEC6F-E3FD-422A-B5B8-85A45A485888}" PersistMode="Reference"/>
+				<WorkUnit Name="TummyGrumble" ID="{7FD8ABE7-CB16-42E4-8131-31777176DF38}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

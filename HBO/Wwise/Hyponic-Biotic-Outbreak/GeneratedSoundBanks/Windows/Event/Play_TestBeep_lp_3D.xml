@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="161393517" Type="Event" GUID="{E24E7E39-445B-4EC6-89AC-584BA68A900D}" Language="SFX" Hash="{97D0BDEE-753E-6EAD-8823-0902F3DB1910}">
+			<ObjectPath>Play_TestBeep_lp_3D</ObjectPath>
+			<ShortName>Play_TestBeep_lp_3D</ShortName>
+			<Path>Event/Play_TestBeep_lp_3D.bnk</Path>
+			<Media>
+				<File Id="919098022" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TestFiles\SFX_TestBeep_3000ms_lp.wav</ShortName>
+					<Path>Media/919098022.wem</Path>
+					<CachePath>SFX/TestFiles/SFX_TestBeep_3000ms_lp_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="161393517" Name="Play_TestBeep_lp_3D" ObjectPath="\Events\TestEvents\Play_TestBeep_lp_3D" GUID="{E24E7E39-445B-4EC6-89AC-584BA68A900D}" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="919098022"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FE47C40B-A03E-1AE8-E29E-9E584E141FFB}</FileHash>
+</SoundBanksInfo>

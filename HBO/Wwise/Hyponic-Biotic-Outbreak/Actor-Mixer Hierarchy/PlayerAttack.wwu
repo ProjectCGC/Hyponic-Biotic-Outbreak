@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4F50617B-7F4C-46F6-9230-7E077F56B975}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{47BD087E-9714-4A2B-A7C3-5C20AE8EB5E7}">
+	<AudioObjects>
+		<WorkUnit Name="PlayerAttack" ID="{4F50617B-7F4C-46F6-9230-7E077F56B975}" OwnerID="{47BD087E-9714-4A2B-A7C3-5C20AE8EB5E7}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Pistol" ID="{61D29570-5F1D-42B1-9252-F6143427B7BE}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{47BD087E-9714-4A2B-A7C3-5C20AE8EB5E7}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}">
+	<AudioObjects>
+		<WorkUnit Name="SFX_Player" ID="{47BD087E-9714-4A2B-A7C3-5C20AE8EB5E7}" OwnerID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="7"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="PlayerLocomotion" ID="{2292A955-6878-4631-BDB3-8E9BA5D50E02}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerInteraction" ID="{06CEE05C-9954-45AE-B846-A4FD8BFBF0A6}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerEfforts" ID="{18B43E43-06D4-4841-B744-A1706A6D7491}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerAttack" ID="{4F50617B-7F4C-46F6-9230-7E077F56B975}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,102 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1641378436",
+    "Type": "Event",
+    "GUID": "{5FACC5C0-EBC3-491E-B2FF-847FCE128CBD}",
+    "Language": "SFX",
+    "Hash": "{F59182AA-3A02-3538-5305-7C84F659826A}",
+    "ObjectPath": "Play_2DAMB_MainSwitch",
+    "ShortName": "Play_2DAMB_MainSwitch",
+    "Path": "Event/Play_2DAMB_MainSwitch.bnk",
+    "Media": [
+     {
+      "Id": "938028341",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "2D_Ambience\\2DAMB_Facility_Main.wav",
+      "Path": "Media/938028341.wem",
+      "CachePath": "SFX/2D_Ambience/2DAMB_Facility_Main_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1641378436",
+      "Name": "Play_2DAMB_MainSwitch",
+      "ObjectPath": "\\Events\\2DAmbience\\Play_2DAMB_MainSwitch",
+      "GUID": "{5FACC5C0-EBC3-491E-B2FF-847FCE128CBD}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3655687181",
+         "Id": "4218652370",
+         "GUID": "{BCCA41ED-AE70-4D7A-AA67-C340B2821E69}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "938028341"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3655687181",
+      "Name": "AMB_MainSwitch",
+      "ObjectPath": "\\Switches\\AmbienceSwitches\\AMB_MainSwitch",
+      "GUID": "{1AA60EDF-D288-43DC-A9FC-1127730BC6F2}",
+      "Switches": [
+       {
+        "Id": "283584880",
+        "Name": "Facility_Sewers",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AMB_MainSwitch\\Facility_Sewers",
+        "GUID": "{A36220E0-181D-4098-8A10-75FEBB4D7D7F}"
+       },
+       {
+        "Id": "822919650",
+        "Name": "Facilitty_Offices",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AMB_MainSwitch\\Facilitty_Offices",
+        "GUID": "{9AD253AA-5150-40C5-8A56-71D7ED744B97}"
+       },
+       {
+        "Id": "1181123665",
+        "Name": "Facility_CleanLab",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AMB_MainSwitch\\Facility_CleanLab",
+        "GUID": "{49327402-FF50-4524-94D5-3DA4951DE914}"
+       },
+       {
+        "Id": "1500844811",
+        "Name": "Facility_BadLab",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AMB_MainSwitch\\Facility_BadLab",
+        "GUID": "{2DACE892-EC74-4976-9E42-322A3119F2FA}"
+       },
+       {
+        "Id": "3187728172",
+        "Name": "SafeZone",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AMB_MainSwitch\\SafeZone",
+        "GUID": "{02750213-4EDF-4200-ACE0-5D3F062010B5}"
+       },
+       {
+        "Id": "4218652370",
+        "Name": "Facility_Main",
+        "ObjectPath": "\\Switches\\AmbienceSwitches\\AMB_MainSwitch\\Facility_Main",
+        "GUID": "{BCCA41ED-AE70-4D7A-AA67-C340B2821E69}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AC6D6D18-B10D-6B91-FBDB-62B7C28B2B48}"
+ }
+}

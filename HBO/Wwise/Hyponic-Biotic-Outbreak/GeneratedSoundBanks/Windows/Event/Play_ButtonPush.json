@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1318177482",
+    "Type": "Event",
+    "GUID": "{5C954A8F-0989-493F-899F-026E44E9FA13}",
+    "Language": "SFX",
+    "Hash": "{D0EA4D02-F0F1-6CC6-E49F-C2B63A69BC5F}",
+    "ObjectPath": "Play_ButtonPush",
+    "ShortName": "Play_ButtonPush",
+    "Path": "Event/Play_ButtonPush.bnk",
+    "Media": [
+     {
+      "Id": "613885203",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Object\\Button\\ButtonPush.wav",
+      "Path": "Media/613885203.wem",
+      "CachePath": "SFX/Object/Button/ButtonPush_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1318177482",
+      "Name": "Play_ButtonPush",
+      "ObjectPath": "\\Events\\Object\\Button\\Play_ButtonPush",
+      "GUID": "{5C954A8F-0989-493F-899F-026E44E9FA13}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.63560414",
+      "DurationMax": "0.63560414",
+      "MediaRefs": [
+       {
+        "Id": "613885203"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0A68F458-05FB-C656-8CD1-CEDD674171A1}"
+ }
+}

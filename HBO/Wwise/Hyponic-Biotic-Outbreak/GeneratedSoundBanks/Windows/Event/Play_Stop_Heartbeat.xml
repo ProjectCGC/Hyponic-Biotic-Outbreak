@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="774311979" Type="Event" GUID="{4926F842-97EE-4F2E-A6E2-DD0E68984186}" Language="SFX" Hash="{B1E39104-D34B-E015-5CFB-4A21FBD89B6B}">
+			<ObjectPath>Play_Stop_Heartbeat</ObjectPath>
+			<ShortName>Play_Stop_Heartbeat</ShortName>
+			<Path>Event/Play_Stop_Heartbeat.bnk</Path>
+			<Events>
+				<Event Id="774311979" Name="Play_Stop_Heartbeat" ObjectPath="\Events\UX\Heartbeat\Play_Stop_Heartbeat" GUID="{4926F842-97EE-4F2E-A6E2-DD0E68984186}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B2C44027-4E07-BCF2-D58E-F02811277261}</FileHash>
+</SoundBanksInfo>

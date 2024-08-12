@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{200659BA-026F-4A82-B771-4694B21C951C}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{0D1EF124-60D9-41E2-A5C6-2689E13032D2}">
+	<AudioObjects>
+		<WorkUnit Name="FleshMonsterMedium" ID="{200659BA-026F-4A82-B771-4694B21C951C}" OwnerID="{0D1EF124-60D9-41E2-A5C6-2689E13032D2}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="FMMedium_Locomotion" ID="{EFB9C350-B303-4875-B6EF-3A6E7BD5BA21}" PersistMode="Reference"/>
+				<WorkUnit Name="FMMedium_Attack" ID="{85B6C87E-77C7-412A-A3F7-461FB9D3A877}" PersistMode="Reference"/>
+				<WorkUnit Name="FMMedium_AttackHit" ID="{1BDFAB13-3709-45CC-8501-644027227793}" PersistMode="Reference"/>
+				<WorkUnit Name="FMMedium_Idle" ID="{5E4F20C0-709E-49CF-8E75-1A34FF8BE34E}" PersistMode="Reference"/>
+				<WorkUnit Name="FMMedium_Alerted" ID="{334C83D2-FE64-47AC-9E55-171629043FB5}" PersistMode="Reference"/>
+				<WorkUnit Name="FMMedium_InitiateCombat" ID="{A5002086-B868-4497-BFE3-0D7B1B82F727}" PersistMode="Reference"/>
+				<WorkUnit Name="FMMedium_Hurt" ID="{938E13D7-8C7D-41AF-95BA-61DF06BDAFFD}" PersistMode="Reference"/>
+				<WorkUnit Name="FMMedium_Death" ID="{77E66D0E-DAB5-432B-B2EA-529F25D64C99}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

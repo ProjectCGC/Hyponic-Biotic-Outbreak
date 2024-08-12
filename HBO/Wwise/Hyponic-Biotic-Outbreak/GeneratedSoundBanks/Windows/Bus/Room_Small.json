@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2995775460",
+    "Type": "Bus",
+    "GUID": "{D3C6DF4C-791A-4FE6-9079-4DB0FDAD3986}",
+    "Language": "SFX",
+    "Hash": "{92F60CCE-21CE-5083-75B4-0AFD05E3C48C}",
+    "ObjectPath": "Room_Small",
+    "ShortName": "Room_Small",
+    "Path": "Bus/Room_Small.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2995775460",
+      "Name": "Room_Small",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Master Mixers\\Master Audio Bus\\Reverbs\\Room_Small",
+      "GUID": "{D3C6DF4C-791A-4FE6-9079-4DB0FDAD3986}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2995775460"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "3545700988",
+        "Name": "Reverbs",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Master Mixers\\Master Audio Bus\\Reverbs",
+        "GUID": "{2A108C4C-3A5B-4B31-B302-5713B48161E6}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5263BFC4-8E57-2D9C-CB0B-EC0855CB7A79}"
+ }
+}

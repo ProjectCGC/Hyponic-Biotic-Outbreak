@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{97D48442-4373-4ED3-99C0-0946AF74AA82}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Object" ID="{97D48442-4373-4ED3-99C0-0946AF74AA82}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Button" ID="{F750588C-95E6-413A-B2C4-8F1D36B7A10D}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

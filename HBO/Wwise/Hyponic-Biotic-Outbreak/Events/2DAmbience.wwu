@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E42349E0-1709-4E45-AD40-70466391BA50}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="2DAmbience" ID="{E42349E0-1709-4E45-AD40-70466391BA50}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_2DAMB_MainSwitch" ID="{5FACC5C0-EBC3-491E-B2FF-847FCE128CBD}">
+					<ChildrenList>
+						<Action Name="" ID="{BF3D02B5-797C-4E79-BCE7-80CF3B9BFAAB}" ShortID="342473827">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="2DAMB_MainSwitch" ID="{F35D5954-CD08-42AF-9F83-9A30FFB342BE}" WorkUnitID="{0BFBB45A-142C-4B6E-A300-8E75B6BE63A4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{079890B3-6E82-4D7D-9483-570F09476C0F}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{AA3534F5-76B7-4F69-884D-5E3BCC67ED7B}">
+	<AudioObjects>
+		<WorkUnit Name="PMMedium_AttackHit" ID="{079890B3-6E82-4D7D-9483-570F09476C0F}" OwnerID="{AA3534F5-76B7-4F69-884D-5E3BCC67ED7B}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="PMMedium_AttackHit_VineWhip" ID="{FF43B2B8-8F48-4A0E-94CD-B998201A733B}" PersistMode="Reference"/>
+				<WorkUnit Name="PMMedium_AttackHit_ArmFlail" ID="{6B5E12BE-C2EF-47CA-BAE2-4732164E5847}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
