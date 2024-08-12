@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2995775460" Type="Bus" GUID="{D3C6DF4C-791A-4FE6-9079-4DB0FDAD3986}" Language="SFX" Hash="{92F60CCE-21CE-5083-75B4-0AFD05E3C48C}">
+			<ObjectPath>Room_Small</ObjectPath>
+			<ShortName>Room_Small</ShortName>
+			<Path>Bus/Room_Small.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="2995775460" Name="Room_Small" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Small" GUID="{D3C6DF4C-791A-4FE6-9079-4DB0FDAD3986}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2995775460"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2EE992EB-A68A-CF64-1F40-A57DE869D7C1}</FileHash>
+</SoundBanksInfo>

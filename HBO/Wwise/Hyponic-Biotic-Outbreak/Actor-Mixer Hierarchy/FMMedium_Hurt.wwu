@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{938E13D7-8C7D-41AF-95BA-61DF06BDAFFD}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{200659BA-026F-4A82-B771-4694B21C951C}">
+	<AudioObjects>
+		<WorkUnit Name="FMMedium_Hurt" ID="{938E13D7-8C7D-41AF-95BA-61DF06BDAFFD}" OwnerID="{200659BA-026F-4A82-B771-4694B21C951C}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<RandomSequenceContainer Name="FMMedium_Hurt" ID="{B50C92C0-F3D0-4C36-8C09-2BA26EF112A2}" ShortID="609190796">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+						</Reference>
+					</ReferenceList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

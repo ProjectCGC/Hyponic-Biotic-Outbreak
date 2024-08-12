@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BBC41A83-D792-4746-83E4-4EC9B2157B9B}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{0D1EF124-60D9-41E2-A5C6-2689E13032D2}">
+	<AudioObjects>
+		<WorkUnit Name="PlantMonsterSmall" ID="{BBC41A83-D792-4746-83E4-4EC9B2157B9B}" OwnerID="{0D1EF124-60D9-41E2-A5C6-2689E13032D2}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="PMSmall_Locomotion" ID="{2631372C-19AF-4C0B-8F98-06AAB2BBF642}" PersistMode="Reference"/>
+				<WorkUnit Name="PMSmall_Attack" ID="{920B5DE3-07D3-49DF-AC2C-2323A41A3ED5}" PersistMode="Reference"/>
+				<WorkUnit Name="PMSmall_AttackHit" ID="{0EECF13E-1D86-4858-97D4-CE93064823AF}" PersistMode="Reference"/>
+				<WorkUnit Name="PMSmall_Idle" ID="{BA3BC94E-03FD-45B9-8CDE-EC0DF0BA4407}" PersistMode="Reference"/>
+				<WorkUnit Name="PMSmall_Alerted" ID="{6C49411C-FC50-43D0-99D6-D402E05DCE91}" PersistMode="Reference"/>
+				<WorkUnit Name="PMSmall_InitiateCombat" ID="{A4DE9FC5-D22E-44B5-B4C3-F98E03BEBF7A}" PersistMode="Reference"/>
+				<WorkUnit Name="PMSmall_Hurt" ID="{A5EC6B40-06EF-47D8-A7AE-AC5579EB05EE}" PersistMode="Reference"/>
+				<WorkUnit Name="PMSmall_Death" ID="{D1EC1BED-749B-4F74-AB6D-B03483EB6265}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

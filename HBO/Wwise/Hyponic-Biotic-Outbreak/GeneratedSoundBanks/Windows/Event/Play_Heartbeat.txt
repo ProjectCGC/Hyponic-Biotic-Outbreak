@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3765695918	Play_Heartbeat			\UX\Heartbeat\Play_Heartbeat	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1712352412	RTPC_HeartBeatIntensity			\Default Work Unit\RTPC_HeartBeatIntensity	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	412590375	Silence	Wwise Silence		\Actor-Mixer Hierarchy\SFX\UX\Heartbeat\Heartbeat_Mixer\Heartbeat_Blend\Heartbeat_Fast_Sequence\Silence_Out\Silence	
+	417801016	Silence	Wwise Silence		\Actor-Mixer Hierarchy\SFX\UX\Heartbeat\Heartbeat_Mixer\Heartbeat_Blend\Heartbeat_Slow_Sequence\Silence_Out\Silence	
+	505179182	Silence	Wwise Silence		\Actor-Mixer Hierarchy\SFX\UX\Heartbeat\Heartbeat_Mixer\Heartbeat_Blend\Heartbeat_Fast_Sequence\Silence_In\Silence	
+	738529732	Silence	Wwise Silence		\Actor-Mixer Hierarchy\SFX\UX\Heartbeat\Heartbeat_Mixer\Heartbeat_Blend\Heartbeat_Slow_Sequence\Silence_In\Silence	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	525125177	SFX_Heartbeat_Slow_In_00	E:\Studio\_SHOP\Outbreak\Projects\Unreal Projects\Hyponic-Biotic-Outbreak\HBO\Wwise\Hyponic-Biotic-Outbreak\.cache\Windows\SFX\UX\HeartBeat\SFX_HeartBeat_Slow_00_DA35BF95.wem	525125177.wem	\Actor-Mixer Hierarchy\SFX\UX\Heartbeat\Heartbeat_Mixer\Heartbeat_Blend\Heartbeat_Slow_Sequence\Heartbeat_Slow_In\SFX_Heartbeat_Slow_In_00	
+	1049002734	SFX_Heartbeat_Slow_Out_00	E:\Studio\_SHOP\Outbreak\Projects\Unreal Projects\Hyponic-Biotic-Outbreak\HBO\Wwise\Hyponic-Biotic-Outbreak\.cache\Windows\SFX\UX\HeartBeat\SFX_HeartBeat_Slow_00_4108D74F.wem	1049002734.wem	\Actor-Mixer Hierarchy\SFX\UX\Heartbeat\Heartbeat_Mixer\Heartbeat_Blend\Heartbeat_Slow_Sequence\Heartbeat_Slow_Out\SFX_Heartbeat_Slow_Out_00	
+

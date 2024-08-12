@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3633416828",
+    "Type": "Bus",
+    "GUID": "{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}",
+    "Language": "SFX",
+    "Hash": "{24BBE2EB-50A7-3B87-F518-D4E1294036EA}",
+    "ObjectPath": "Hall",
+    "ShortName": "Hall",
+    "Path": "Bus/Hall.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "3701691487",
+       "Name": "Hall_Large_Bright",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large_Bright",
+       "GUID": "{CB602948-2D1D-4977-A8D5-378184293E80}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "3633416828",
+      "Name": "Hall",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Master Mixers\\Master Audio Bus\\Reverbs\\Hall",
+      "GUID": "{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3701691487"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "3545700988",
+        "Name": "Reverbs",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Master Mixers\\Master Audio Bus\\Reverbs",
+        "GUID": "{2A108C4C-3A5B-4B31-B302-5713B48161E6}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D378E59E-1D3D-A859-AC1E-944FBD987C79}"
+ }
+}

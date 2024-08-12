@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E089A575-A44C-468D-8CBF-4730085CA050}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{7491D6A2-EB94-4AEF-A52B-4B894563237E}">
+	<AudioObjects>
+		<WorkUnit Name="Doors" ID="{E089A575-A44C-468D-8CBF-4730085CA050}" OwnerID="{7491D6A2-EB94-4AEF-A52B-4B894563237E}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="LabSlideDoor" ID="{290FD700-9EB8-4E56-8987-A9EC66C37279}" PersistMode="Reference"/>
+				<WorkUnit Name="OfficeWoodDoor" ID="{67CFECA5-DEF7-4FBF-9F1F-7CE1C219FA3F}" PersistMode="Reference"/>
+				<WorkUnit Name="VentGrating" ID="{CE895A18-FCAE-409A-83F3-54103CFA7BFE}" PersistMode="Reference"/>
+				<WorkUnit Name="LargeFloorDoor" ID="{15115D87-0D2B-41E0-86B1-930F60ACEFB6}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

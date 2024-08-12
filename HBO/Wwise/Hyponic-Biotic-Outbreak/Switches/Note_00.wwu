@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B70F8DEA-AC5E-4BEC-B8FE-80DD89CEB06E}" SchemaVersion="119" RootDocumentID="{76881CEC-96C6-46BC-8B8E-3672D55F30AC}" ParentDocumentID="{76881CEC-96C6-46BC-8B8E-3672D55F30AC}">
+	<Switches>
+		<WorkUnit Name="Note_00" ID="{B70F8DEA-AC5E-4BEC-B8FE-80DD89CEB06E}" OwnerID="{FBDD07E7-6166-4151-8A87-8118F6046CDA}" PersistMode="Nested">
+			<Comment>Don't put underscores in switch names!</Comment>
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+			</PropertyList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

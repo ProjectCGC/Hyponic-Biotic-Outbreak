@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A6CA92E8-42AA-4625-87EC-6FB87DB5D54E}" SchemaVersion="119" RootDocumentID="{9B4D9004-5F4F-4E52-B675-8DFE33CB99D0}" ParentDocumentID="{9B4D9004-5F4F-4E52-B675-8DFE33CB99D0}">
+	<Events>
+		<WorkUnit Name="PlayerLocomotion" ID="{A6CA92E8-42AA-4625-87EC-6FB87DB5D54E}" OwnerID="{9B4D9004-5F4F-4E52-B675-8DFE33CB99D0}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_PLYR_Footsteps" ID="{19FF983B-7744-4E47-989D-35EE3143C8A8}">
+					<ChildrenList>
+						<Action Name="" ID="{B18CBC3D-6309-482E-B856-22649F1EDC3C}" ShortID="272239648">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PLYR_Footsteps_SpeedSwitch" ID="{0E863EA7-20BD-4CE0-A364-2D8C5AE1A0A0}" WorkUnitID="{2292A955-6878-4631-BDB3-8E9BA5D50E02}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

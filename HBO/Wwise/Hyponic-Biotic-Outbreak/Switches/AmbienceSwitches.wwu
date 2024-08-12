@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7F701711-AAE6-4BB5-8CDF-7936799A6D62}" SchemaVersion="119">
+	<Switches>
+		<WorkUnit Name="AmbienceSwitches" ID="{7F701711-AAE6-4BB5-8CDF-7936799A6D62}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="AMB_MainSwitch" ID="{1AA60EDF-D288-43DC-A9FC-1127730BC6F2}">
+					<ChildrenList>
+						<Switch Name="SafeZone" ID="{02750213-4EDF-4200-ACE0-5D3F062010B5}"/>
+						<Switch Name="Facility_Main" ID="{BCCA41ED-AE70-4D7A-AA67-C340B2821E69}"/>
+						<Switch Name="Facilitty_Offices" ID="{9AD253AA-5150-40C5-8A56-71D7ED744B97}"/>
+						<Switch Name="Facility_CleanLab" ID="{49327402-FF50-4524-94D5-3DA4951DE914}"/>
+						<Switch Name="Facility_BadLab" ID="{2DACE892-EC74-4976-9E42-322A3119F2FA}"/>
+						<Switch Name="Facility_Sewers" ID="{A36220E0-181D-4098-8A10-75FEBB4D7D7F}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

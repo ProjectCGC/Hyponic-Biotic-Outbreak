@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="602546716" Type="Bus" GUID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}" Language="SFX" Hash="{6FCEBFF7-E947-0DE6-6E3F-3670EEF4BFDC}">
+			<ObjectPath>Room_Large</ObjectPath>
+			<ShortName>Room_Large</ShortName>
+			<Path>Bus/Room_Large.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="602546716" Name="Room_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Large" GUID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="602546716" Name="Room_Large" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Large" GUID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{426B4304-7082-9974-3D87-5D81D1163373}</FileHash>
+</SoundBanksInfo>

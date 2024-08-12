@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5307556F-0AA4-4097-980E-EA350AC1C4A7}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{F2C031A9-B898-48C0-8150-0F931D5D898E}">
+	<AudioObjects>
+		<WorkUnit Name="AirVent" ID="{5307556F-0AA4-4097-980E-EA350AC1C4A7}" OwnerID="{F2C031A9-B898-48C0-8150-0F931D5D898E}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

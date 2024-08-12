@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EFB9C350-B303-4875-B6EF-3A6E7BD5BA21}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{200659BA-026F-4A82-B771-4694B21C951C}">
+	<AudioObjects>
+		<WorkUnit Name="FMMedium_Locomotion" ID="{EFB9C350-B303-4875-B6EF-3A6E7BD5BA21}" OwnerID="{200659BA-026F-4A82-B771-4694B21C951C}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SwitchContainer Name="FMMedium_Foodtsteps_SpeedSwitch" ID="{2E01C988-5A51-4DB4-AE28-72D0D9F218E1}" ShortID="219142756">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="FMMedium_FootstepsWalkRun_MaterialSwitch" ID="{A4A37A59-D209-4712-97C4-BAE907676A90}" ShortID="103484034">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="9"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Concrete" ID="{00F2FAE2-A97F-4C00-84FB-08D64B9E9E62}" WorkUnitID="{76881CEC-96C6-46BC-8B8E-3672D55F30AC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="GroundMaterialSwitch" ID="{066EA853-E17A-4F6C-948B-D6F4CE0D2750}" WorkUnitID="{76881CEC-96C6-46BC-8B8E-3672D55F30AC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_BrokenGlass" ID="{03293359-2BCF-4A46-AB01-AEB4A5BC6EE8}" ShortID="397427484">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_Carpet" ID="{71497DF6-DEC1-4151-A0FB-1056F19E99D1}" ShortID="262725813">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_Concrete" ID="{C83F2083-31C9-4791-91AA-83F964CB00AB}" ShortID="914899722">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_ConcreteWet" ID="{653E04EC-E37A-4AC5-9520-D3DE528CA9B5}" ShortID="811501470">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_GlassFloor" ID="{956DC0D2-6D0E-4E8D-9D05-AAE6D472663F}" ShortID="361011553">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_Gravel" ID="{17790E34-1AFA-4AD4-9A7D-1E48C0013596}" ShortID="320755252">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_MetalGratng" ID="{B6A48485-B788-4050-B1C8-99C5C167A323}" ShortID="198661804">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_MetalMuted" ID="{9088E7B6-AD53-45A4-A127-157626FF7A55}" ShortID="906145316">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_MetalResonant" ID="{558CF690-2DD7-4823-AE91-26E792F37CF2}" ShortID="724236860">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_Tile" ID="{A508426F-4074-4121-A3B4-0799529BB981}" ShortID="605926160">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_WaterPuddleThick" ID="{A548A555-D033-4A1A-9EC2-E8AE8B1510ED}" ShortID="18646939">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_WaterPuddleThin" ID="{88D52A08-21EE-4CBD-85FD-6B06DF511593}" ShortID="377918373">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_Wood" ID="{815124AE-5104-47D3-86A0-D52566CF5A04}" ShortID="1059320526">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FMMedium_FootstepsWalkRun_WoodSpringy" ID="{DF356D1C-A97F-4D0D-A229-5D18617BBB4E}" ShortID="315456938">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="9"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_WaterPuddleThin" ID="{88D52A08-21EE-4CBD-85FD-6B06DF511593}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_WoodSpringy" ID="{DF356D1C-A97F-4D0D-A229-5D18617BBB4E}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_Gravel" ID="{17790E34-1AFA-4AD4-9A7D-1E48C0013596}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_WaterPuddleThick" ID="{A548A555-D033-4A1A-9EC2-E8AE8B1510ED}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_BrokenGlass" ID="{03293359-2BCF-4A46-AB01-AEB4A5BC6EE8}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_Tile" ID="{A508426F-4074-4121-A3B4-0799529BB981}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_Concrete" ID="{C83F2083-31C9-4791-91AA-83F964CB00AB}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_MetalGratng" ID="{B6A48485-B788-4050-B1C8-99C5C167A323}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_MetalResonant" ID="{558CF690-2DD7-4823-AE91-26E792F37CF2}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_Wood" ID="{815124AE-5104-47D3-86A0-D52566CF5A04}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_MetalMuted" ID="{9088E7B6-AD53-45A4-A127-157626FF7A55}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_GlassFloor" ID="{956DC0D2-6D0E-4E8D-9D05-AAE6D472663F}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_ConcreteWet" ID="{653E04EC-E37A-4AC5-9520-D3DE528CA9B5}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FMMedium_FootstepsWalkRun_Carpet" ID="{71497DF6-DEC1-4151-A0FB-1056F19E99D1}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Tile" ID="{05B6B31A-4BAA-43F4-93E1-60540BEFC4BD}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_Tile" ID="{A508426F-4074-4121-A3B4-0799529BB981}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="GlassFloor" ID="{07941529-FFCD-4AD0-80D5-AF11A476C332}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_GlassFloor" ID="{956DC0D2-6D0E-4E8D-9D05-AAE6D472663F}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="WoodSpringy" ID="{4ADC7C2A-FDEF-4EA9-9CC1-40B375769278}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_WoodSpringy" ID="{DF356D1C-A97F-4D0D-A229-5D18617BBB4E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="BrokenGlass" ID="{5C5CB338-E288-47D4-8EEA-1228D56FA791}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_BrokenGlass" ID="{03293359-2BCF-4A46-AB01-AEB4A5BC6EE8}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="MetalGrating" ID="{A0FB0643-B24B-4C4E-832B-24D4C35EE190}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_MetalGratng" ID="{B6A48485-B788-4050-B1C8-99C5C167A323}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="MetalResonant" ID="{7AFB8364-4280-47A1-985F-679630ED780E}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_MetalResonant" ID="{558CF690-2DD7-4823-AE91-26E792F37CF2}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Gravel" ID="{C5C5DF85-8A41-4DF0-BB2D-6FC0F9D114BB}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_Gravel" ID="{17790E34-1AFA-4AD4-9A7D-1E48C0013596}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="ConcreteWet" ID="{3048F786-38FD-41CB-B9F2-3CBD3C452B49}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_ConcreteWet" ID="{653E04EC-E37A-4AC5-9520-D3DE528CA9B5}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="WaterPuddleThick" ID="{9F9429A5-EE49-4913-B524-E33EC4E31609}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_WaterPuddleThick" ID="{A548A555-D033-4A1A-9EC2-E8AE8B1510ED}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Wood" ID="{7E9153B4-7739-48A4-B7A3-922AA224A66A}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_Wood" ID="{815124AE-5104-47D3-86A0-D52566CF5A04}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Concrete" ID="{00F2FAE2-A97F-4C00-84FB-08D64B9E9E62}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_Concrete" ID="{C83F2083-31C9-4791-91AA-83F964CB00AB}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="WaterPuddleThin" ID="{661451E9-266C-4663-A303-63D7BCDA59C2}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_WaterPuddleThin" ID="{88D52A08-21EE-4CBD-85FD-6B06DF511593}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Carpet" ID="{5D5CF7F0-933A-4ECB-AA90-FB1E37FE473E}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_Carpet" ID="{71497DF6-DEC1-4151-A0FB-1056F19E99D1}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="MetalMuted" ID="{4BCFC6FA-B9FF-41CD-95FE-41D0BD32BDE4}"/>
+										<ItemList>
+											<ItemRef Name="FMMedium_FootstepsWalkRun_MetalMuted" ID="{9088E7B6-AD53-45A4-A127-157626FF7A55}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="FMMedium_FootstepsWalkRun_MaterialSwitch" ID="{A4A37A59-D209-4712-97C4-BAE907676A90}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C5DC8366-C0E3-4B6F-B02E-F2E2606F4FF0}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Utility" ID="{C5DC8366-C0E3-4B6F-B02E-F2E2606F4FF0}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="7"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="UT_TestFiles" ID="{EDAE489C-5A47-4B80-A6D0-D1E7483E714E}" PersistMode="Reference"/>
+				<WorkUnit Name="UT_Debug" ID="{97D14839-DE52-463F-9112-B9DD4ED809BC}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

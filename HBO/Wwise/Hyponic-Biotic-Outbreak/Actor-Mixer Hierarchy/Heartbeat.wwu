@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4B328B2C-40DF-43A9-BDDF-BA5599F08C55}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{51266A75-DC3F-4B94-9250-BC5CB67727D0}">
+	<AudioObjects>
+		<WorkUnit Name="Heartbeat" ID="{4B328B2C-40DF-43A9-BDDF-BA5599F08C55}" OwnerID="{51266A75-DC3F-4B94-9250-BC5CB67727D0}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Heartbeat_Mixer" ID="{67F765AB-1781-49AB-9A35-3A09AE1A5095}" ShortID="549046746">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="UXMaster" ID="{A1BB24F3-0CCB-4B99-970E-E9E3A3251CB4}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Heartbeat_Blend" ID="{D4F213FA-7E50-445D-A2AE-A485FECB8E11}" ShortID="996068283">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Heartbeat_Fast_Sequence" ID="{F7EBED73-153B-4218-B1BD-A13414076C69}" ShortID="415323293">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Heartbeat_Fast_In" ID="{7D79B321-89BF-40B4-A11F-2AA8BE495E63}" ShortID="265583662">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="4"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Heartbeat_Fast_In_00" ID="{4E5B2AF5-F2D7-4C7C-BA7A-D8E50BFC012D}" ShortID="531613851">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Fast_00" ID="{6B8A91C8-401C-4B4D-A959-A03726A51783}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0855121617268042"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.2"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Fast_00.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="25639649"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Fast_00" ID="{6B8A91C8-401C-4B4D-A959-A03726A51783}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Heartbeat_Fast_In_01" ID="{51AB473A-FFC9-4015-841A-0701F5853089}" ShortID="436759717">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Fast_01" ID="{DF1DB527-FD0A-470F-BEC4-8F6E8C0E9BAD}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0855121617268041"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.2"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Fast_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1013231206"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Fast_01" ID="{DF1DB527-FD0A-470F-BEC4-8F6E8C0E9BAD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Heartbeat_Fast_In_02" ID="{BD2DA746-7BD3-4197-B372-8386021C1B38}" ShortID="34321953">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Fast_02" ID="{A1438E59-9D51-4E8A-B076-BCDEDAFD5E57}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0855121617268041"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.2"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Fast_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="660637747"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Fast_02" ID="{A1438E59-9D51-4E8A-B076-BCDEDAFD5E57}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Heartbeat_Fast_In_03" ID="{C2024010-C836-45CF-9F4D-D60420639C89}" ShortID="990245372">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Fast_03" ID="{F7374070-3B91-4061-9671-EA26AF3B1577}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0845292633161512"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.2"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Fast_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="397397205"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Fast_03" ID="{F7374070-3B91-4061-9671-EA26AF3B1577}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Silence_Out" ID="{688660E6-FEE6-45D0-AEE1-69818FBD7D08}" ShortID="748083584">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="4"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Silence" ID="{0C8C6C57-222D-4005-AD26-0B26E0365258}" ShortID="412590375" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="2"/>
+													</PropertyList>
+													<ObjectLists>
+														<ObjectList Name="RTPC">
+															<Reference>
+																<Local>
+																	<RTPC Name="" ID="{51556F16-9856-422E-A1B0-E6263449910D}" ShortID="707890895">
+																		<PropertyList>
+																			<Property Name="PropertyName" Type="string" Value="Length"/>
+																		</PropertyList>
+																		<ReferenceList>
+																			<Reference Name="ControlInput">
+																				<ObjectRef Name="RTPC_HeartBeatIntensity" ID="{D8D0E439-81A9-4E73-8A2C-E92E078EBA21}" WorkUnitID="{13569579-2336-40EA-B87F-4A7CA84EBA2E}"/>
+																			</Reference>
+																			<Reference Name="Curve">
+																				<Custom>
+																					<Curve Name="" ID="{423BFCB5-D403-470E-B86F-1D2D67E6AD59}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>1.5</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>100</XPos>
+																								<YPos>0.2</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</RTPC>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Silence" ID="{0C8C6C57-222D-4005-AD26-0B26E0365258}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Heartbeat_Fast_Out" ID="{E2C4446C-9806-426B-9A56-57B1F18EA5E1}" ShortID="923840179">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="4"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Heartbeat_Fast_Out_00" ID="{DA85A610-2E53-4595-AD72-31E0B91A9318}" ShortID="1071617141">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Fast_00" ID="{D269B7D6-6CD3-4270-9E0B-32BA154057A2}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00456177929937462"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0840957799145299"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.3"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.5"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Fast_00.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="129720186"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Fast_00" ID="{D269B7D6-6CD3-4270-9E0B-32BA154057A2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Heartbeat_Fast_Out_01" ID="{2637FA45-5AC3-4B18-88AE-31754617993F}" ShortID="636600524">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Fast_01" ID="{AB79978B-DE33-4479-891F-0128D95C3366}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00656668434179952"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0840957799145299"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.3"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.5"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Fast_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="485737275"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Fast_01" ID="{AB79978B-DE33-4479-891F-0128D95C3366}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Heartbeat_Fast_Out_02" ID="{5AD8540E-A666-4EE4-8769-14CA5FF06525}" ShortID="767043349">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Fast_02" ID="{37CC1868-1FD3-4428-860E-4B5DB7E39E86}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0065430889479452"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0840957799145299"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.3"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.5"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Fast_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="497857850"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Fast_02" ID="{37CC1868-1FD3-4428-860E-4B5DB7E39E86}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Heartbeat_Fast_Out_03" ID="{074090BB-EF15-455D-BE7F-223A632265C2}" ShortID="297641075">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Fast_03" ID="{A77CD4B2-8DB3-47E1-82BF-1F05079EEB0A}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00592383145789499"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0850736378205128"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.3"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.5"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Fast_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="843973477"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Fast_03" ID="{A77CD4B2-8DB3-47E1-82BF-1F05079EEB0A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Silence_In" ID="{7526094D-66FF-458E-B613-1A04C8764A51}" ShortID="627638532">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="4"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Silence" ID="{2450324A-65D8-43AF-A81E-692769D96168}" ShortID="505179182" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="2"/>
+													</PropertyList>
+													<ObjectLists>
+														<ObjectList Name="RTPC">
+															<Reference>
+																<Local>
+																	<RTPC Name="" ID="{5F2916A6-714F-4403-8D02-1755E620DF13}" ShortID="377892316">
+																		<PropertyList>
+																			<Property Name="PropertyName" Type="string" Value="Length"/>
+																		</PropertyList>
+																		<ReferenceList>
+																			<Reference Name="ControlInput">
+																				<ObjectRef Name="RTPC_HeartBeatIntensity" ID="{D8D0E439-81A9-4E73-8A2C-E92E078EBA21}" WorkUnitID="{13569579-2336-40EA-B87F-4A7CA84EBA2E}"/>
+																			</Reference>
+																			<Reference Name="Curve">
+																				<Custom>
+																					<Curve Name="" ID="{1929ABB7-F2C7-474D-829C-EB61C31D0F8E}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0.2</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>100</XPos>
+																								<YPos>0.001</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</RTPC>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Silence" ID="{2450324A-65D8-43AF-A81E-692769D96168}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Playlist">
+											<Reference>
+												<ObjectRef Name="Heartbeat_Fast_In" ID="{7D79B321-89BF-40B4-A11F-2AA8BE495E63}" WorkUnitID="{4B328B2C-40DF-43A9-BDDF-BA5599F08C55}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Silence_In" ID="{7526094D-66FF-458E-B613-1A04C8764A51}" WorkUnitID="{4B328B2C-40DF-43A9-BDDF-BA5599F08C55}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Heartbeat_Fast_Out" ID="{E2C4446C-9806-426B-9A56-57B1F18EA5E1}" WorkUnitID="{4B328B2C-40DF-43A9-BDDF-BA5599F08C55}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Silence_Out" ID="{688660E6-FEE6-45D0-AEE1-69818FBD7D08}" WorkUnitID="{4B328B2C-40DF-43A9-BDDF-BA5599F08C55}"/>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Heartbeat_Slow_Sequence" ID="{8611E81F-33E5-4334-83BA-08548AC87DDA}" ShortID="751590101">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Heartbeat_Slow_In" ID="{39F0AF6A-A9A3-471B-A445-F5696B0FED8D}" ShortID="306032852">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="4"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Heartbeat_Slow_In_00" ID="{33F40642-96D0-44A2-BAA4-EC7373B56CCC}" ShortID="282933814">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PreFetchLength" Type="int16">
+															<ValueList>
+																<Value>0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Slow_00" ID="{D4FD6DDE-CDB5-4112-BC67-54F2E66E0CCC}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0840957799145299"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.2"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Slow_00.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="525125177"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Slow_00" ID="{D4FD6DDE-CDB5-4112-BC67-54F2E66E0CCC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Heartbeat_Slow_In_01" ID="{3312A5D0-8250-4BBC-BEF0-2E3FA0FD1888}" ShortID="1066264072">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Slow_01" ID="{F5F918C7-595C-49F8-B637-6B457C66E3A3}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0850736378205128"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.2"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Slow_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="221140550"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Slow_01" ID="{F5F918C7-595C-49F8-B637-6B457C66E3A3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Heartbeat_Slow_In_02" ID="{A6A0D719-9C01-4B11-B95B-851EE4C05AE9}" ShortID="154213505">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Slow_02" ID="{579EC7C8-97F4-4C16-87FA-3E7B9793BBE8}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0850736378205128"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.2"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Slow_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="306894781"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Slow_02" ID="{579EC7C8-97F4-4C16-87FA-3E7B9793BBE8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Heartbeat_Slow_In_03" ID="{A045278C-D1B9-4AD0-AB44-E7127693711A}" ShortID="290753611">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Slow_03" ID="{1CABF85A-8769-4F69-B74C-4FE693EBA292}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0860514957264957"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.2"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Slow_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="767563228"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Slow_03" ID="{1CABF85A-8769-4F69-B74C-4FE693EBA292}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Silence_In" ID="{2FEE509C-E298-4FCB-AC4B-FB5CF2D46A51}" ShortID="146089400">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="4"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Silence" ID="{6299EB8C-DEF5-4F43-82E5-73F5C73229E9}" ShortID="738529732" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="2"/>
+													</PropertyList>
+													<ObjectLists>
+														<ObjectList Name="RTPC">
+															<Reference>
+																<Local>
+																	<RTPC Name="" ID="{EE760F1D-F25C-44E8-9AA1-D1CB6BF63973}" ShortID="121612935">
+																		<PropertyList>
+																			<Property Name="PropertyName" Type="string" Value="Length"/>
+																		</PropertyList>
+																		<ReferenceList>
+																			<Reference Name="ControlInput">
+																				<ObjectRef Name="RTPC_HeartBeatIntensity" ID="{D8D0E439-81A9-4E73-8A2C-E92E078EBA21}" WorkUnitID="{13569579-2336-40EA-B87F-4A7CA84EBA2E}"/>
+																			</Reference>
+																			<Reference Name="Curve">
+																				<Custom>
+																					<Curve Name="" ID="{88FF639A-2E4C-487B-82E6-17418D2ADBB2}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>0.2</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>100</XPos>
+																								<YPos>0.001</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</RTPC>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Silence" ID="{6299EB8C-DEF5-4F43-82E5-73F5C73229E9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Heartbeat_Slow_Out" ID="{1690F620-00FC-4F2F-83AF-F2018A79E25C}" ShortID="514532211">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="4"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_Heartbeat_Slow_Out_00" ID="{F8050CC1-6508-4222-9D88-14B3B5865AB3}" ShortID="934692534">
+													<PropertyList>
+														<Property Name="IsStreamingEnabled" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PreFetchLength" Type="int16">
+															<ValueList>
+																<Value>0</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Slow_00" ID="{E520029D-CADC-413B-8A13-C47FB3FEF8D0}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00651476388756456"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0850736378205129"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.3"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.5"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Slow_00.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1049002734"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Slow_00" ID="{E520029D-CADC-413B-8A13-C47FB3FEF8D0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Heartbeat_Slow_Out_01" ID="{95210859-D5AA-4B1A-B968-1CB4500CE0B9}" ShortID="276627611">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Slow_01" ID="{0F473EF5-254C-4A45-B56B-BED42CC94FFA}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00623151328375737"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0870293536324787"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.3"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.5"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Slow_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="754668207"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Slow_01" ID="{0F473EF5-254C-4A45-B56B-BED42CC94FFA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Heartbeat_Slow_Out_02" ID="{318F58CD-C92B-423E-BD7A-FBC47B63FE78}" ShortID="671753365">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Slow_02" ID="{6E18F948-19DA-4517-B031-0DE7CC4512B9}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00560836195538167"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0850736378205128"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.3"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.5"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Slow_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="517698330"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Slow_02" ID="{6E18F948-19DA-4517-B031-0DE7CC4512B9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_Heartbeat_Slow_Out_03" ID="{0B179DF1-175E-4163-9233-979C34C3A9A6}" ShortID="850090067">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_HeartBeat_Slow_03" ID="{76FA9FC2-23B6-4C29-9B8B-9A88E51599EA}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00633533025210758"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0821400641025641"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.3"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.5"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>UX\HeartBeat\SFX_HeartBeat_Slow_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="223017749"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_HeartBeat_Slow_03" ID="{76FA9FC2-23B6-4C29-9B8B-9A88E51599EA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Silence_Out" ID="{D97A6C31-AC86-424B-936A-1D6570888A19}" ShortID="881433965">
+											<PropertyList>
+												<Property Name="Color" Type="int16" Value="4"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D235BAA6-2336-40C9-B445-5D23BD4DE323}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5C821132-8607-46FD-BFA5-A3FA394541E1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Silence" ID="{059E8083-D095-42D1-B278-46C9581797AC}" ShortID="417801016" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="2"/>
+													</PropertyList>
+													<ObjectLists>
+														<ObjectList Name="RTPC">
+															<Reference>
+																<Local>
+																	<RTPC Name="" ID="{20B755E3-E092-4FA0-9601-3985F1D80E31}" ShortID="1045058007">
+																		<PropertyList>
+																			<Property Name="PropertyName" Type="string" Value="Length"/>
+																		</PropertyList>
+																		<ReferenceList>
+																			<Reference Name="ControlInput">
+																				<ObjectRef Name="RTPC_HeartBeatIntensity" ID="{D8D0E439-81A9-4E73-8A2C-E92E078EBA21}" WorkUnitID="{13569579-2336-40EA-B87F-4A7CA84EBA2E}"/>
+																			</Reference>
+																			<Reference Name="Curve">
+																				<Custom>
+																					<Curve Name="" ID="{AC056B89-5A61-4656-A32F-DAA26B96D3E3}">
+																						<PropertyList>
+																							<Property Name="Flags" Type="int32" Value="1"/>
+																						</PropertyList>
+																						<PointList>
+																							<Point>
+																								<XPos>0</XPos>
+																								<YPos>1.5</YPos>
+																								<Flags>5</Flags>
+																							</Point>
+																							<Point>
+																								<XPos>100</XPos>
+																								<YPos>0.2</YPos>
+																								<Flags>37</Flags>
+																							</Point>
+																						</PointList>
+																					</Curve>
+																				</Custom>
+																			</Reference>
+																		</ReferenceList>
+																	</RTPC>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Silence" ID="{059E8083-D095-42D1-B278-46C9581797AC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Playlist">
+											<Reference>
+												<ObjectRef Name="Heartbeat_Slow_In" ID="{39F0AF6A-A9A3-471B-A445-F5696B0FED8D}" WorkUnitID="{4B328B2C-40DF-43A9-BDDF-BA5599F08C55}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Silence_In" ID="{2FEE509C-E298-4FCB-AC4B-FB5CF2D46A51}" WorkUnitID="{4B328B2C-40DF-43A9-BDDF-BA5599F08C55}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Heartbeat_Slow_Out" ID="{1690F620-00FC-4F2F-83AF-F2018A79E25C}" WorkUnitID="{4B328B2C-40DF-43A9-BDDF-BA5599F08C55}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Silence_Out" ID="{D97A6C31-AC86-424B-936A-1D6570888A19}" WorkUnitID="{4B328B2C-40DF-43A9-BDDF-BA5599F08C55}"/>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="HeartBeatIntensity" ID="{4105BB73-1DA2-4142-94D2-4931B8AF89C7}" ShortID="80227043">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="RTPC_HeartBeatIntensity" ID="{D8D0E439-81A9-4E73-8A2C-E92E078EBA21}" WorkUnitID="{13569579-2336-40EA-B87F-4A7CA84EBA2E}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{D0415BB2-09C4-4AD8-854D-77905E651BC2}" ShortID="245037762">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="RTPC_HeartBeatIntensity" ID="{D8D0E439-81A9-4E73-8A2C-E92E078EBA21}" WorkUnitID="{13569579-2336-40EA-B87F-4A7CA84EBA2E}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{B9C71633-9F27-48D5-9785-B5740EA68F09}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Log1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{29BA2CC5-BADC-4F25-B29C-A5CE37D15E31}" ShortID="10417198">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Pitch"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="RTPC_HeartBeatIntensity" ID="{D8D0E439-81A9-4E73-8A2C-E92E078EBA21}" WorkUnitID="{13569579-2336-40EA-B87F-4A7CA84EBA2E}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{93C76015-0922-4330-A6A7-A2CA49F9B252}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="65537"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>100</XPos>
+																				<YPos>100</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Heartbeat_Slow_Sequence" ID="{8611E81F-33E5-4334-83BA-08548AC87DDA}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>99.9995</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Heartbeat_Fast_Sequence" ID="{F7EBED73-153B-4218-B1BD-A13414076C69}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0.0005</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

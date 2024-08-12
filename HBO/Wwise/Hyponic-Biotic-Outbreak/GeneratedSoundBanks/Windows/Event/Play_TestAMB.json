@@ -1,0 +1,118 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1563359746",
+    "Type": "Event",
+    "GUID": "{D3FCE60C-9BCB-4073-84BE-1EF04D94AE43}",
+    "Language": "SFX",
+    "Hash": "{D96815EB-31A4-FDB2-35B4-C91ECB7394E4}",
+    "ObjectPath": "Play_TestAMB",
+    "ShortName": "Play_TestAMB",
+    "Path": "Event/Play_TestAMB.bnk",
+    "Media": [
+     {
+      "Id": "267162241",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TestFiles\\TestAMB\\TestAMB_Facility.wav",
+      "Path": "Media/267162241.wem",
+      "CachePath": "SFX/TestFiles/TestAMB/TestAMB_Facility_FBC78EF0.wem"
+     },
+     {
+      "Id": "934628338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TestFiles\\TestAMB\\TestAMB_Jungle.wav",
+      "Path": "Media/934628338.wem",
+      "CachePath": "SFX/TestFiles/TestAMB/TestAMB_Jungle_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1563359746",
+      "Name": "Play_TestAMB",
+      "ObjectPath": "\\Events\\TestEvents\\Play_TestAMB",
+      "GUID": "{D3FCE60C-9BCB-4073-84BE-1EF04D94AE43}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2064552269",
+         "Id": "2331036614",
+         "GUID": "{D09CBBE3-BD9E-43FB-ACB8-BC14BECF89CE}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "267162241"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "2064552269",
+         "Id": "438105790",
+         "GUID": "{7AEAB277-FBA5-463D-8F3C-1A6C609256B5}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "934628338"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2064552269",
+      "Name": "AreaState",
+      "ObjectPath": "\\States\\Default Work Unit\\AreaState",
+      "GUID": "{8B1BC050-B444-44D5-B5E9-7410E732977B}",
+      "States": [
+       {
+        "Id": "438105790",
+        "Name": "Outside",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaState\\Outside",
+        "GUID": "{7AEAB277-FBA5-463D-8F3C-1A6C609256B5}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaState\\None",
+        "GUID": "{C1B588D3-80CE-4159-8E2E-7D55DEFED79E}"
+       },
+       {
+        "Id": "2331036614",
+        "Name": "Facility",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaState\\Facility",
+        "GUID": "{D09CBBE3-BD9E-43FB-ACB8-BC14BECF89CE}"
+       },
+       {
+        "Id": "3187728172",
+        "Name": "Safezone",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaState\\Safezone",
+        "GUID": "{599AA7B7-081D-412A-B07A-DE3FE30F3E70}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\AreaState\\MainMenu",
+        "GUID": "{DB424BB6-B433-4578-AC11-B9081527B401}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{40A95F67-BCAF-1DFF-4ED7-CE12D86F7D62}"
+ }
+}

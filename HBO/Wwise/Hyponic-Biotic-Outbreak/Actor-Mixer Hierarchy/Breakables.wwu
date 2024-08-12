@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{255952B6-B5CF-413F-982D-D559123ACB49}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{7491D6A2-EB94-4AEF-A52B-4B894563237E}">
+	<AudioObjects>
+		<WorkUnit Name="Breakables" ID="{255952B6-B5CF-413F-982D-D559123ACB49}" OwnerID="{7491D6A2-EB94-4AEF-A52B-4B894563237E}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Beaker_Break" ID="{62A21811-A26B-4CAF-A5F8-4328833E4F07}" PersistMode="Reference"/>
+				<WorkUnit Name="Glass_Break" ID="{155DFE5C-3BD2-428A-9F0C-1B756F4B1A6E}" PersistMode="Reference"/>
+				<WorkUnit Name="Window_Break" ID="{260E6827-B107-4B59-AA73-5B27FD1F004E}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

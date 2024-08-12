@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "858964037",
+    "Type": "Event",
+    "GUID": "{FEB8898A-E02F-4BFF-AC98-2CA1F8152788}",
+    "Language": "SFX",
+    "Hash": "{6A50D9D0-4627-3FD1-FF79-0C097371FDA0}",
+    "ObjectPath": "Play_TestBeep_lp",
+    "ShortName": "Play_TestBeep_lp",
+    "Path": "Event/Play_TestBeep_lp.bnk",
+    "Media": [
+     {
+      "Id": "919098022",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "TestFiles\\SFX_TestBeep_3000ms_lp.wav",
+      "Path": "Media/919098022.wem",
+      "CachePath": "SFX/TestFiles/SFX_TestBeep_3000ms_lp_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "858964037",
+      "Name": "Play_TestBeep_lp",
+      "ObjectPath": "\\Events\\TestEvents\\Play_TestBeep_lp",
+      "GUID": "{FEB8898A-E02F-4BFF-AC98-2CA1F8152788}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "919098022"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0C881389-CB79-E13C-E2DF-88995139AC39}"
+ }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{720EEC6F-E3FD-422A-B5B8-85A45A485888}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{51266A75-DC3F-4B94-9250-BC5CB67727D0}">
+	<AudioObjects>
+		<WorkUnit Name="UI_SFX" ID="{720EEC6F-E3FD-422A-B5B8-85A45A485888}" OwnerID="{51266A75-DC3F-4B94-9250-BC5CB67727D0}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Move" ID="{744B3BE2-0D7D-4199-A681-3B34A30C655C}" PersistMode="Reference"/>
+				<WorkUnit Name="Back" ID="{40E75722-9FD7-4BF9-85B2-E80294B40229}" PersistMode="Reference"/>
+				<WorkUnit Name="Select" ID="{B8C064B3-585B-4D19-97F0-4A8935A337C1}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

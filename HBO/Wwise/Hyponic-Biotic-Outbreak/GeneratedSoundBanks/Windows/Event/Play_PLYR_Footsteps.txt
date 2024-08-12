@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	673033979	Play_PLYR_Footsteps			\Player\PlayerLocomotion\Play_PLYR_Footsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1044534455	GroundMaterialSwitch			\Default Work Unit\GroundMaterialSwitch	
+	2051106367	PlayerSpeedSwitch			\PlayerSwitches\PlayerSpeedSwitch	
+
+Switch	ID	Name	Switch Group			Notes
+	652636434	WoodSpringy	GroundMaterialSwitch			
+	716459766	BrokenGlass	GroundMaterialSwitch			
+	841620460	Concrete	GroundMaterialSwitch			
+	1073209840	ConcreteWet	GroundMaterialSwitch			
+	1161560306	MetalResonant	GroundMaterialSwitch			
+	1648892519	GlassFloor	GroundMaterialSwitch			
+	2058049674	Wood	GroundMaterialSwitch			
+	2185786256	Gravel	GroundMaterialSwitch			
+	2412606308	Carpet	GroundMaterialSwitch			
+	2452192187	WaterPuddleThin	GroundMaterialSwitch			
+	2637588553	Tile	GroundMaterialSwitch			
+	3050954146	MetalGrating	GroundMaterialSwitch			
+	3444424681	WaterPuddleThick	GroundMaterialSwitch			
+	3753609311	MetalMuted	GroundMaterialSwitch			
+	1296465089	Sprint	PlayerSpeedSwitch			
+	2108779966	Walk	PlayerSpeedSwitch			
+	2655407367	Crouch	PlayerSpeedSwitch			
+	3115216662	Crawl	PlayerSpeedSwitch			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2653406601	RTPC_PlayerSpeed			\Default Work Unit\RTPC_PlayerSpeed	
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7D76A326-0DB7-4B61-AAD6-BCDE3E49264A}" SchemaVersion="119" RootDocumentID="{5E66C7F8-45F8-4EEC-B338-39D3F843B7D8}" ParentDocumentID="{2841D459-44B4-4635-8BE0-828CA2AAA604}">
+	<AudioObjects>
+		<WorkUnit Name="Water_SmallWaterfall" ID="{7D76A326-0DB7-4B61-AAD6-BCDE3E49264A}" OwnerID="{2841D459-44B4-4635-8BE0-828CA2AAA604}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

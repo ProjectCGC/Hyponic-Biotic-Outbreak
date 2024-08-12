@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5C821132-8607-46FD-BFA5-A3FA394541E1}" SchemaVersion="119">
+	<Busses>
+		<WorkUnit Name="Master Mixers" ID="{5C821132-8607-46FD-BFA5-A3FA394541E1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{040438BB-74B7-435C-B987-C6B07628C0CD}" WorkUnitID="{F068677F-C9D4-4403-9746-B4BF6C9863E8}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Reverbs" ID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}">
+							<ChildrenList>
+								<AuxBus Name="Room_Small" ID="{D3C6DF4C-791A-4FE6-9079-4DB0FDAD3986}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{55E912DE-8D62-4194-AFA8-3A98D8269F7A}" ShortID="500575329">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Room_Medium" ID="{53097CEC-C2C9-4E51-80D9-E5FA1932437F}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{CA032C25-5F58-4F5A-B210-260C6C2BAFC8}" ShortID="949893521">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Outdoor" ID="{A9F3F8AA-9FF8-44CD-82CD-7F73A55C8708}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{8D488BBD-5283-48BB-A566-6810DBAF9A50}" ShortID="390011875">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Room_Large" ID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{96BD0DB8-EAF9-4137-9E1B-2E4C02A85825}" ShortID="246880077">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="Hall" ID="{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{4F9BFE95-79B7-400D-B706-E726EDC4002E}" ShortID="648365202">
+														<ReferenceList>
+															<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<ObjectRef Name="Hall_Large_Bright" ID="{CB602948-2D1D-4977-A8D5-378184293E80}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+							</ChildrenList>
+						</AuxBus>
+						<Bus Name="MusicMaster" ID="{890DB9DE-7829-46FE-8A74-FCDB523F8526}"/>
+						<Bus Name="SFXMaster" ID="{54B97872-2E29-4985-B87F-C0ACCBE1364A}">
+							<ChildrenList>
+								<Bus Name="PlayerMaster" ID="{4B88219E-F9A2-4D79-A3E7-E167122E4999}"/>
+								<Bus Name="EnemyMaster" ID="{684F94C2-4FCB-4B00-8C42-D039594525E3}"/>
+								<Bus Name="ObjectMaster" ID="{C2DA53A0-C840-4AB4-9179-860D72C81F73}"/>
+								<Bus Name="UXMaster" ID="{A1BB24F3-0CCB-4B99-970E-E9E3A3251CB4}"/>
+								<Bus Name="2DAmbienceMaster" ID="{FA486B31-834E-4822-968A-902EAB164581}"/>
+								<Bus Name="3DAmbienceMaster" ID="{AE08AFFE-2266-4DD2-BEDC-99EB7120DB53}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

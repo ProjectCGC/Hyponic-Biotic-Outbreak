@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="29489552" Type="User" GUID="{DD59D58C-B049-47AA-BBCB-CF59A0BCC841}" Language="SFX" Hash="{FC7EC282-5812-FE90-E9A0-C4583B1D486B}">
+			<ObjectPath>\SoundBanks\Default Work Unit\Soundbank_Main</ObjectPath>
+			<ShortName>Soundbank_Main</ShortName>
+			<Path>Soundbank_Main.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="144697359" Type="Bus" GUID="{A9F3F8AA-9FF8-44CD-82CD-7F73A55C8708}" Language="SFX" Hash="{CF570769-F807-91BD-BC91-05168BF04D59}">
+			<ObjectPath>Outdoor</ObjectPath>
+			<ShortName>Outdoor</ShortName>
+			<Path>Bus/Outdoor.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" ObjectPath="\Effects\Factory Effects\RoomVerb\Exteriors\Have_U_Ever_Been_Outside" GUID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="144697359" Name="Outdoor" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Outdoor" GUID="{A9F3F8AA-9FF8-44CD-82CD-7F73A55C8708}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="161393517" Type="Event" GUID="{E24E7E39-445B-4EC6-89AC-584BA68A900D}" Language="SFX" Hash="{97D0BDEE-753E-6EAD-8823-0902F3DB1910}">
+			<ObjectPath>Play_TestBeep_lp_3D</ObjectPath>
+			<ShortName>Play_TestBeep_lp_3D</ShortName>
+			<Path>Event/Play_TestBeep_lp_3D.bnk</Path>
+			<Media>
+				<File Id="919098022" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TestFiles\SFX_TestBeep_3000ms_lp.wav</ShortName>
+					<Path>Media/919098022.wem</Path>
+					<CachePath>SFX/TestFiles/SFX_TestBeep_3000ms_lp_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="161393517" Name="Play_TestBeep_lp_3D" ObjectPath="\Events\TestEvents\Play_TestBeep_lp_3D" GUID="{E24E7E39-445B-4EC6-89AC-584BA68A900D}" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="919098022"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="602546716" Type="Bus" GUID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}" Language="SFX" Hash="{6FCEBFF7-E947-0DE6-6E3F-3670EEF4BFDC}">
+			<ObjectPath>Room_Large</ObjectPath>
+			<ShortName>Room_Large</ShortName>
+			<Path>Bus/Room_Large.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="602546716" Name="Room_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Large" GUID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="602546716" Name="Room_Large" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Large" GUID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="673033979" Type="Event" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" Language="SFX" Hash="{5F3C4D7D-645E-19AA-9522-56222A6B0C26}">
+			<ObjectPath>Play_PLYR_Footsteps</ObjectPath>
+			<ShortName>Play_PLYR_Footsteps</ShortName>
+			<Path>Event/Play_PLYR_Footsteps.bnk</Path>
+			<Media>
+				<File Id="14409489" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_06.wav</ShortName>
+					<Path>Media/14409489.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="23693002" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_03.wav</ShortName>
+					<Path>Media/23693002.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="36390279" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_17.wav</ShortName>
+					<Path>Media/36390279.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_17_818F3B66.wem</CachePath>
+				</File>
+				<File Id="36509832" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_08.wav</ShortName>
+					<Path>Media/36509832.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="39461310" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_16.wav</ShortName>
+					<Path>Media/39461310.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_16_818F3B66.wem</CachePath>
+				</File>
+				<File Id="39476126" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_10.wav</ShortName>
+					<Path>Media/39476126.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="40369614" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_03.wav</ShortName>
+					<Path>Media/40369614.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="61030657" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_08.wav</ShortName>
+					<Path>Media/61030657.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="64617611" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_10.wav</ShortName>
+					<Path>Media/64617611.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="64823487" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_00.wav</ShortName>
+					<Path>Media/64823487.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_00_818F3B66.wem</CachePath>
+				</File>
+				<File Id="78723833" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_03.wav</ShortName>
+					<Path>Media/78723833.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="84358905" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_11.wav</ShortName>
+					<Path>Media/84358905.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="97533727" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_17.wav</ShortName>
+					<Path>Media/97533727.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_17_818F3B66.wem</CachePath>
+				</File>
+				<File Id="106044092" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_15.wav</ShortName>
+					<Path>Media/106044092.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="114858070" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_00.wav</ShortName>
+					<Path>Media/114858070.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_00_818F3B66.wem</CachePath>
+				</File>
+				<File Id="121770112" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_08.wav</ShortName>
+					<Path>Media/121770112.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="123901656" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_01.wav</ShortName>
+					<Path>Media/123901656.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="125166916" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_13.wav</ShortName>
+					<Path>Media/125166916.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_13_818F3B66.wem</CachePath>
+				</File>
+				<File Id="127136084" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_06.wav</ShortName>
+					<Path>Media/127136084.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="132595752" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_15.wav</ShortName>
+					<Path>Media/132595752.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="141259970" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_12.wav</ShortName>
+					<Path>Media/141259970.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_12_818F3B66.wem</CachePath>
+				</File>
+				<File Id="143867878" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_08.wav</ShortName>
+					<Path>Media/143867878.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="151202815" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_00.wav</ShortName>
+					<Path>Media/151202815.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_00_818F3B66.wem</CachePath>
+				</File>
+				<File Id="160322324" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_05.wav</ShortName>
+					<Path>Media/160322324.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="170522117" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_03.wav</ShortName>
+					<Path>Media/170522117.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="173420751" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_07.wav</ShortName>
+					<Path>Media/173420751.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="176163286" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_02.wav</ShortName>
+					<Path>Media/176163286.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="178786975" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_16.wav</ShortName>
+					<Path>Media/178786975.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_16_818F3B66.wem</CachePath>
+				</File>
+				<File Id="186049582" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_09.wav</ShortName>
+					<Path>Media/186049582.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="189591526" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_13.wav</ShortName>
+					<Path>Media/189591526.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_13_818F3B66.wem</CachePath>
+				</File>
+				<File Id="216184984" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_05.wav</ShortName>
+					<Path>Media/216184984.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="221517275" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_09.wav</ShortName>
+					<Path>Media/221517275.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="271359279" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_04.wav</ShortName>
+					<Path>Media/271359279.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="283656704" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_12.wav</ShortName>
+					<Path>Media/283656704.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_12_818F3B66.wem</CachePath>
+				</File>
+				<File Id="291899356" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_10.wav</ShortName>
+					<Path>Media/291899356.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="298705018" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_06.wav</ShortName>
+					<Path>Media/298705018.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="309255877" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_17.wav</ShortName>
+					<Path>Media/309255877.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_17_818F3B66.wem</CachePath>
+				</File>
+				<File Id="322027591" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_13.wav</ShortName>
+					<Path>Media/322027591.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_13_818F3B66.wem</CachePath>
+				</File>
+				<File Id="326037619" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_14.wav</ShortName>
+					<Path>Media/326037619.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_14_818F3B66.wem</CachePath>
+				</File>
+				<File Id="330838448" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_00.wav</ShortName>
+					<Path>Media/330838448.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_00_818F3B66.wem</CachePath>
+				</File>
+				<File Id="341245828" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_01.wav</ShortName>
+					<Path>Media/341245828.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="347030833" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_09.wav</ShortName>
+					<Path>Media/347030833.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="348703384" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_09.wav</ShortName>
+					<Path>Media/348703384.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="392290623" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_15.wav</ShortName>
+					<Path>Media/392290623.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="400496619" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_06.wav</ShortName>
+					<Path>Media/400496619.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="409399588" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_02.wav</ShortName>
+					<Path>Media/409399588.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="411557201" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_02.wav</ShortName>
+					<Path>Media/411557201.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="425274984" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_07.wav</ShortName>
+					<Path>Media/425274984.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="440755773" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_06.wav</ShortName>
+					<Path>Media/440755773.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="446746915" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_11.wav</ShortName>
+					<Path>Media/446746915.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="459148727" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_13.wav</ShortName>
+					<Path>Media/459148727.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_13_818F3B66.wem</CachePath>
+				</File>
+				<File Id="476892107" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_12.wav</ShortName>
+					<Path>Media/476892107.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_12_818F3B66.wem</CachePath>
+				</File>
+				<File Id="479897243" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_08.wav</ShortName>
+					<Path>Media/479897243.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="502301215" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_04.wav</ShortName>
+					<Path>Media/502301215.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="508997859" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_15.wav</ShortName>
+					<Path>Media/508997859.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="515023825" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_15.wav</ShortName>
+					<Path>Media/515023825.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="533045402" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_10.wav</ShortName>
+					<Path>Media/533045402.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="536922379" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_13.wav</ShortName>
+					<Path>Media/536922379.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_13_818F3B66.wem</CachePath>
+				</File>
+				<File Id="541339949" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_01.wav</ShortName>
+					<Path>Media/541339949.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="545690522" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_09.wav</ShortName>
+					<Path>Media/545690522.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="573384933" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_05.wav</ShortName>
+					<Path>Media/573384933.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="590072086" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_15.wav</ShortName>
+					<Path>Media/590072086.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_15_818F3B66.wem</CachePath>
+				</File>
+				<File Id="613833998" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_02.wav</ShortName>
+					<Path>Media/613833998.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="615501769" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_07.wav</ShortName>
+					<Path>Media/615501769.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="619784431" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_07.wav</ShortName>
+					<Path>Media/619784431.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="632380670" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_01.wav</ShortName>
+					<Path>Media/632380670.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="644575123" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_07.wav</ShortName>
+					<Path>Media/644575123.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="653184192" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_06.wav</ShortName>
+					<Path>Media/653184192.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="654459044" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_11.wav</ShortName>
+					<Path>Media/654459044.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="655893773" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_02.wav</ShortName>
+					<Path>Media/655893773.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="658396330" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_12.wav</ShortName>
+					<Path>Media/658396330.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_12_818F3B66.wem</CachePath>
+				</File>
+				<File Id="662267093" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_03.wav</ShortName>
+					<Path>Media/662267093.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="668036388" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_12.wav</ShortName>
+					<Path>Media/668036388.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_12_818F3B66.wem</CachePath>
+				</File>
+				<File Id="674671579" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_01.wav</ShortName>
+					<Path>Media/674671579.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="678958010" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_01.wav</ShortName>
+					<Path>Media/678958010.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="684475800" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_17.wav</ShortName>
+					<Path>Media/684475800.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_17_818F3B66.wem</CachePath>
+				</File>
+				<File Id="699598133" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_14.wav</ShortName>
+					<Path>Media/699598133.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_14_818F3B66.wem</CachePath>
+				</File>
+				<File Id="706853131" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_14.wav</ShortName>
+					<Path>Media/706853131.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_14_818F3B66.wem</CachePath>
+				</File>
+				<File Id="710839625" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_14.wav</ShortName>
+					<Path>Media/710839625.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_14_818F3B66.wem</CachePath>
+				</File>
+				<File Id="711748128" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_16.wav</ShortName>
+					<Path>Media/711748128.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_16_818F3B66.wem</CachePath>
+				</File>
+				<File Id="725329214" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_00.wav</ShortName>
+					<Path>Media/725329214.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_00_818F3B66.wem</CachePath>
+				</File>
+				<File Id="730086247" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_05.wav</ShortName>
+					<Path>Media/730086247.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="731590295" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_10.wav</ShortName>
+					<Path>Media/731590295.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="742792466" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_17.wav</ShortName>
+					<Path>Media/742792466.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_17_818F3B66.wem</CachePath>
+				</File>
+				<File Id="744889674" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_11.wav</ShortName>
+					<Path>Media/744889674.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="746077077" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_16.wav</ShortName>
+					<Path>Media/746077077.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_16_818F3B66.wem</CachePath>
+				</File>
+				<File Id="750165781" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_05.wav</ShortName>
+					<Path>Media/750165781.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="763076355" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_10.wav</ShortName>
+					<Path>Media/763076355.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_10_818F3B66.wem</CachePath>
+				</File>
+				<File Id="804589593" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_04.wav</ShortName>
+					<Path>Media/804589593.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="816317780" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_14.wav</ShortName>
+					<Path>Media/816317780.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_14_818F3B66.wem</CachePath>
+				</File>
+				<File Id="851507886" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_08.wav</ShortName>
+					<Path>Media/851507886.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_08_818F3B66.wem</CachePath>
+				</File>
+				<File Id="875990450" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_04.wav</ShortName>
+					<Path>Media/875990450.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="886686763" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_11.wav</ShortName>
+					<Path>Media/886686763.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="894374845" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_16.wav</ShortName>
+					<Path>Media/894374845.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_16_818F3B66.wem</CachePath>
+				</File>
+				<File Id="910472328" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_04.wav</ShortName>
+					<Path>Media/910472328.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="911779640" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_12.wav</ShortName>
+					<Path>Media/911779640.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_12_818F3B66.wem</CachePath>
+				</File>
+				<File Id="914485880" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_16.wav</ShortName>
+					<Path>Media/914485880.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_16_818F3B66.wem</CachePath>
+				</File>
+				<File Id="924071004" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_11.wav</ShortName>
+					<Path>Media/924071004.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_11_818F3B66.wem</CachePath>
+				</File>
+				<File Id="946237793" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_04.wav</ShortName>
+					<Path>Media/946237793.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="947914543" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalResonant\MetalResonant_Run_02.wav</ShortName>
+					<Path>Media/947914543.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalResonant/MetalResonant_Run_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="958074928" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalMuted\MetalMuted_Walk_13.wav</ShortName>
+					<Path>Media/958074928.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_13_818F3B66.wem</CachePath>
+				</File>
+				<File Id="964335312" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_09.wav</ShortName>
+					<Path>Media/964335312.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_09_818F3B66.wem</CachePath>
+				</File>
+				<File Id="971943819" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_03.wav</ShortName>
+					<Path>Media/971943819.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1040644800" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_MetalResonant\MetalResonant_Walk_17.wav</ShortName>
+					<Path>Media/1040644800.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalResonant/MetalResonant_Walk_17_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1041447131" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_05.wav</ShortName>
+					<Path>Media/1041447131.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1043331473" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_CrouchWalk\Player_CrouchWalk_Concrete\Concrete_Walk_07.wav</ShortName>
+					<Path>Media/1043331473.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_Concrete/Concrete_Walk_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1047716118" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_Concrete\Concrete_Sprint_14.wav</ShortName>
+					<Path>Media/1047716118.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_Concrete/Concrete_Sprint_14_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1053925505" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Locomotion\Player_Footsteps\Player_Sprint\Player_Sprint_MetalMuted\MetalMuted_Sprint_00.wav</ShortName>
+					<Path>Media/1053925505.wem</Path>
+					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_00_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="673033979" Name="Play_PLYR_Footsteps" ObjectPath="\Events\Player\PlayerLocomotion\Play_PLYR_Footsteps" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" DurationType="OneShot" DurationMin="0" DurationMax="1.3714286">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2051106367" Id="1296465089" GUID="{22259802-6366-43C9-B7F2-C6277591AC94}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1044534455" Id="1161560306" GUID="{7AFB8364-4280-47A1-985F-679630ED780E}"/>
+									<MediaRefs>
+										<MediaRef Id="40369614"/>
+										<MediaRef Id="84358905"/>
+										<MediaRef Id="121770112"/>
+										<MediaRef Id="125166916"/>
+										<MediaRef Id="132595752"/>
+										<MediaRef Id="291899356"/>
+										<MediaRef Id="309255877"/>
+										<MediaRef Id="330838448"/>
+										<MediaRef Id="341245828"/>
+										<MediaRef Id="347030833"/>
+										<MediaRef Id="400496619"/>
+										<MediaRef Id="619784431"/>
+										<MediaRef Id="710839625"/>
+										<MediaRef Id="730086247"/>
+										<MediaRef Id="894374845"/>
+										<MediaRef Id="910472328"/>
+										<MediaRef Id="911779640"/>
+										<MediaRef Id="947914543"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1044534455" Id="841620460" GUID="{00F2FAE2-A97F-4C00-84FB-08D64B9E9E62}" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="14409489"/>
+										<MediaRef Id="39476126"/>
+										<MediaRef Id="78723833"/>
+										<MediaRef Id="106044092"/>
+										<MediaRef Id="143867878"/>
+										<MediaRef Id="151202815"/>
+										<MediaRef Id="173420751"/>
+										<MediaRef Id="271359279"/>
+										<MediaRef Id="283656704"/>
+										<MediaRef Id="409399588"/>
+										<MediaRef Id="446746915"/>
+										<MediaRef Id="459148727"/>
+										<MediaRef Id="674671579"/>
+										<MediaRef Id="742792466"/>
+										<MediaRef Id="750165781"/>
+										<MediaRef Id="914485880"/>
+										<MediaRef Id="964335312"/>
+										<MediaRef Id="1047716118"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1044534455" Id="3753609311" GUID="{4BCFC6FA-B9FF-41CD-95FE-41D0BD32BDE4}"/>
+									<MediaRefs>
+										<MediaRef Id="36390279"/>
+										<MediaRef Id="36509832"/>
+										<MediaRef Id="64617611"/>
+										<MediaRef Id="170522117"/>
+										<MediaRef Id="178786975"/>
+										<MediaRef Id="186049582"/>
+										<MediaRef Id="411557201"/>
+										<MediaRef Id="425274984"/>
+										<MediaRef Id="536922379"/>
+										<MediaRef Id="541339949"/>
+										<MediaRef Id="573384933"/>
+										<MediaRef Id="590072086"/>
+										<MediaRef Id="653184192"/>
+										<MediaRef Id="668036388"/>
+										<MediaRef Id="706853131"/>
+										<MediaRef Id="744889674"/>
+										<MediaRef Id="804589593"/>
+										<MediaRef Id="1053925505"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2051106367" Id="2655407367" GUID="{5FC18506-7403-429A-9C71-BC6677519487}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1044534455" Id="1161560306" GUID="{7AFB8364-4280-47A1-985F-679630ED780E}"/>
+									<MediaRefs>
+										<MediaRef Id="160322324"/>
+										<MediaRef Id="176163286"/>
+										<MediaRef Id="298705018"/>
+										<MediaRef Id="322027591"/>
+										<MediaRef Id="476892107"/>
+										<MediaRef Id="479897243"/>
+										<MediaRef Id="502301215"/>
+										<MediaRef Id="515023825"/>
+										<MediaRef Id="545690522"/>
+										<MediaRef Id="615501769"/>
+										<MediaRef Id="662267093"/>
+										<MediaRef Id="678958010"/>
+										<MediaRef Id="725329214"/>
+										<MediaRef Id="746077077"/>
+										<MediaRef Id="763076355"/>
+										<MediaRef Id="816317780"/>
+										<MediaRef Id="886686763"/>
+										<MediaRef Id="1040644800"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1044534455" Id="841620460" GUID="{00F2FAE2-A97F-4C00-84FB-08D64B9E9E62}" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="61030657"/>
+										<MediaRef Id="114858070"/>
+										<MediaRef Id="141259970"/>
+										<MediaRef Id="189591526"/>
+										<MediaRef Id="221517275"/>
+										<MediaRef Id="326037619"/>
+										<MediaRef Id="392290623"/>
+										<MediaRef Id="440755773"/>
+										<MediaRef Id="533045402"/>
+										<MediaRef Id="613833998"/>
+										<MediaRef Id="632380670"/>
+										<MediaRef Id="684475800"/>
+										<MediaRef Id="711748128"/>
+										<MediaRef Id="875990450"/>
+										<MediaRef Id="924071004"/>
+										<MediaRef Id="971943819"/>
+										<MediaRef Id="1041447131"/>
+										<MediaRef Id="1043331473"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1044534455" Id="3753609311" GUID="{4BCFC6FA-B9FF-41CD-95FE-41D0BD32BDE4}"/>
+									<MediaRefs>
+										<MediaRef Id="23693002"/>
+										<MediaRef Id="39461310"/>
+										<MediaRef Id="64823487"/>
+										<MediaRef Id="97533727"/>
+										<MediaRef Id="123901656"/>
+										<MediaRef Id="127136084"/>
+										<MediaRef Id="216184984"/>
+										<MediaRef Id="348703384"/>
+										<MediaRef Id="508997859"/>
+										<MediaRef Id="644575123"/>
+										<MediaRef Id="654459044"/>
+										<MediaRef Id="655893773"/>
+										<MediaRef Id="658396330"/>
+										<MediaRef Id="699598133"/>
+										<MediaRef Id="731590295"/>
+										<MediaRef Id="851507886"/>
+										<MediaRef Id="946237793"/>
+										<MediaRef Id="958074928"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2051106367" Id="2108779966" GUID="{EE3C7330-8D55-4A5F-909B-BB3435099C1C}" Default="true"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1044534455" Id="1161560306" GUID="{7AFB8364-4280-47A1-985F-679630ED780E}"/>
+									<MediaRefs>
+										<MediaRef Id="160322324"/>
+										<MediaRef Id="176163286"/>
+										<MediaRef Id="298705018"/>
+										<MediaRef Id="322027591"/>
+										<MediaRef Id="476892107"/>
+										<MediaRef Id="479897243"/>
+										<MediaRef Id="502301215"/>
+										<MediaRef Id="515023825"/>
+										<MediaRef Id="545690522"/>
+										<MediaRef Id="615501769"/>
+										<MediaRef Id="662267093"/>
+										<MediaRef Id="678958010"/>
+										<MediaRef Id="725329214"/>
+										<MediaRef Id="746077077"/>
+										<MediaRef Id="763076355"/>
+										<MediaRef Id="816317780"/>
+										<MediaRef Id="886686763"/>
+										<MediaRef Id="1040644800"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1044534455" Id="841620460" GUID="{00F2FAE2-A97F-4C00-84FB-08D64B9E9E62}" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="61030657"/>
+										<MediaRef Id="114858070"/>
+										<MediaRef Id="141259970"/>
+										<MediaRef Id="189591526"/>
+										<MediaRef Id="221517275"/>
+										<MediaRef Id="326037619"/>
+										<MediaRef Id="392290623"/>
+										<MediaRef Id="440755773"/>
+										<MediaRef Id="533045402"/>
+										<MediaRef Id="613833998"/>
+										<MediaRef Id="632380670"/>
+										<MediaRef Id="684475800"/>
+										<MediaRef Id="711748128"/>
+										<MediaRef Id="875990450"/>
+										<MediaRef Id="924071004"/>
+										<MediaRef Id="971943819"/>
+										<MediaRef Id="1041447131"/>
+										<MediaRef Id="1043331473"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="1044534455" Id="3753609311" GUID="{4BCFC6FA-B9FF-41CD-95FE-41D0BD32BDE4}"/>
+									<MediaRefs>
+										<MediaRef Id="23693002"/>
+										<MediaRef Id="39461310"/>
+										<MediaRef Id="64823487"/>
+										<MediaRef Id="97533727"/>
+										<MediaRef Id="123901656"/>
+										<MediaRef Id="127136084"/>
+										<MediaRef Id="216184984"/>
+										<MediaRef Id="348703384"/>
+										<MediaRef Id="508997859"/>
+										<MediaRef Id="644575123"/>
+										<MediaRef Id="654459044"/>
+										<MediaRef Id="655893773"/>
+										<MediaRef Id="658396330"/>
+										<MediaRef Id="699598133"/>
+										<MediaRef Id="731590295"/>
+										<MediaRef Id="851507886"/>
+										<MediaRef Id="946237793"/>
+										<MediaRef Id="958074928"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="2051106367" Id="3115216662" GUID="{D1832164-DEDF-434D-A5D1-C8A5ABF3C53E}"/>
+							<Children/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="2653406601" Name="RTPC_PlayerSpeed" ObjectPath="\Game Parameters\Default Work Unit\RTPC_PlayerSpeed" GUID="{A17D166A-ED56-4D79-AB8D-108FC972632F}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1044534455" Name="GroundMaterialSwitch" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch" GUID="{066EA853-E17A-4F6C-948B-D6F4CE0D2750}">
+					<Switches>
+						<Switch Id="652636434" Name="WoodSpringy" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\WoodSpringy" GUID="{4ADC7C2A-FDEF-4EA9-9CC1-40B375769278}"/>
+						<Switch Id="716459766" Name="BrokenGlass" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\BrokenGlass" GUID="{5C5CB338-E288-47D4-8EEA-1228D56FA791}"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\Concrete" GUID="{00F2FAE2-A97F-4C00-84FB-08D64B9E9E62}"/>
+						<Switch Id="1073209840" Name="ConcreteWet" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\ConcreteWet" GUID="{3048F786-38FD-41CB-B9F2-3CBD3C452B49}"/>
+						<Switch Id="1161560306" Name="MetalResonant" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\MetalResonant" GUID="{7AFB8364-4280-47A1-985F-679630ED780E}"/>
+						<Switch Id="1648892519" Name="GlassFloor" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\GlassFloor" GUID="{07941529-FFCD-4AD0-80D5-AF11A476C332}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\Wood" GUID="{7E9153B4-7739-48A4-B7A3-922AA224A66A}"/>
+						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\Gravel" GUID="{C5C5DF85-8A41-4DF0-BB2D-6FC0F9D114BB}"/>
+						<Switch Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\Carpet" GUID="{5D5CF7F0-933A-4ECB-AA90-FB1E37FE473E}"/>
+						<Switch Id="2452192187" Name="WaterPuddleThin" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\WaterPuddleThin" GUID="{661451E9-266C-4663-A303-63D7BCDA59C2}"/>
+						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\Tile" GUID="{05B6B31A-4BAA-43F4-93E1-60540BEFC4BD}"/>
+						<Switch Id="3050954146" Name="MetalGrating" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\MetalGrating" GUID="{A0FB0643-B24B-4C4E-832B-24D4C35EE190}"/>
+						<Switch Id="3444424681" Name="WaterPuddleThick" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\WaterPuddleThick" GUID="{9F9429A5-EE49-4913-B524-E33EC4E31609}"/>
+						<Switch Id="3753609311" Name="MetalMuted" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\MetalMuted" GUID="{4BCFC6FA-B9FF-41CD-95FE-41D0BD32BDE4}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2051106367" Name="PlayerSpeedSwitch" ObjectPath="\Switches\PlayerSwitches\PlayerSpeedSwitch" GUID="{4E53B07C-97B5-4B5E-AD7F-25C93128E6D2}">
+					<GameParameterRef Id="2653406601"/>
+					<Switches>
+						<Switch Id="1296465089" Name="Sprint" ObjectPath="\Switches\PlayerSwitches\PlayerSpeedSwitch\Sprint" GUID="{22259802-6366-43C9-B7F2-C6277591AC94}"/>
+						<Switch Id="2108779966" Name="Walk" ObjectPath="\Switches\PlayerSwitches\PlayerSpeedSwitch\Walk" GUID="{EE3C7330-8D55-4A5F-909B-BB3435099C1C}"/>
+						<Switch Id="2655407367" Name="Crouch" ObjectPath="\Switches\PlayerSwitches\PlayerSpeedSwitch\Crouch" GUID="{5FC18506-7403-429A-9C71-BC6677519487}"/>
+						<Switch Id="3115216662" Name="Crawl" ObjectPath="\Switches\PlayerSwitches\PlayerSpeedSwitch\Crawl" GUID="{D1832164-DEDF-434D-A5D1-C8A5ABF3C53E}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="774311979" Type="Event" GUID="{4926F842-97EE-4F2E-A6E2-DD0E68984186}" Language="SFX" Hash="{B1E39104-D34B-E015-5CFB-4A21FBD89B6B}">
+			<ObjectPath>Play_Stop_Heartbeat</ObjectPath>
+			<ShortName>Play_Stop_Heartbeat</ShortName>
+			<Path>Event/Play_Stop_Heartbeat.bnk</Path>
+			<Events>
+				<Event Id="774311979" Name="Play_Stop_Heartbeat" ObjectPath="\Events\UX\Heartbeat\Play_Stop_Heartbeat" GUID="{4926F842-97EE-4F2E-A6E2-DD0E68984186}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="858964037" Type="Event" GUID="{FEB8898A-E02F-4BFF-AC98-2CA1F8152788}" Language="SFX" Hash="{6A50D9D0-4627-3FD1-FF79-0C097371FDA0}">
+			<ObjectPath>Play_TestBeep_lp</ObjectPath>
+			<ShortName>Play_TestBeep_lp</ShortName>
+			<Path>Event/Play_TestBeep_lp.bnk</Path>
+			<Media>
+				<File Id="919098022" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TestFiles\SFX_TestBeep_3000ms_lp.wav</ShortName>
+					<Path>Media/919098022.wem</Path>
+					<CachePath>SFX/TestFiles/SFX_TestBeep_3000ms_lp_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="858964037" Name="Play_TestBeep_lp" ObjectPath="\Events\TestEvents\Play_TestBeep_lp" GUID="{FEB8898A-E02F-4BFF-AC98-2CA1F8152788}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="919098022"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1315362221" Type="Event" GUID="{E7DD8C78-6469-4B67-9446-D51331E58E8E}" Language="SFX" Hash="{57149156-6815-E120-3B12-81C113330B82}">
+			<ObjectPath>Play_ButtonPush_Accept</ObjectPath>
+			<ShortName>Play_ButtonPush_Accept</ShortName>
+			<Path>Event/Play_ButtonPush_Accept.bnk</Path>
+			<Media>
+				<File Id="249192235" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Object\Button\ButtonPush_Accept.wav</ShortName>
+					<Path>Media/249192235.wem</Path>
+					<CachePath>SFX/Object/Button/ButtonPush_Accept_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1315362221" Name="Play_ButtonPush_Accept" ObjectPath="\Events\Object\Button\Play_ButtonPush_Accept" GUID="{E7DD8C78-6469-4B67-9446-D51331E58E8E}" DurationType="OneShot" DurationMin="0.76272917" DurationMax="0.76272917">
+					<MediaRefs>
+						<MediaRef Id="249192235"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1318177482" Type="Event" GUID="{5C954A8F-0989-493F-899F-026E44E9FA13}" Language="SFX" Hash="{D0EA4D02-F0F1-6CC6-E49F-C2B63A69BC5F}">
+			<ObjectPath>Play_ButtonPush</ObjectPath>
+			<ShortName>Play_ButtonPush</ShortName>
+			<Path>Event/Play_ButtonPush.bnk</Path>
+			<Media>
+				<File Id="613885203" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Object\Button\ButtonPush.wav</ShortName>
+					<Path>Media/613885203.wem</Path>
+					<CachePath>SFX/Object/Button/ButtonPush_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1318177482" Name="Play_ButtonPush" ObjectPath="\Events\Object\Button\Play_ButtonPush" GUID="{5C954A8F-0989-493F-899F-026E44E9FA13}" DurationType="OneShot" DurationMin="0.63560414" DurationMax="0.63560414">
+					<MediaRefs>
+						<MediaRef Id="613885203"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{E87B3610-46DD-7343-C838-989517858609}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" ObjectPath="\Effects\Factory Effects\RoomVerb\Exteriors\Have_U_Ever_Been_Outside" GUID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="602546716" Name="Room_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Large" GUID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="3701691487" Name="Hall_Large_Bright" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Large_Bright" GUID="{CB602948-2D1D-4977-A8D5-378184293E80}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{57AEF53A-871F-40EA-91AC-C9662CACA6E8}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{040438BB-74B7-435C-B987-C6B07628C0CD}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="525166210" Name="3DAmbienceMaster" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\SFXMaster\3DAmbienceMaster" GUID="{AE08AFFE-2266-4DD2-BEDC-99EB7120DB53}"/>
+				<Bus Id="1681633080" Name="SFXMaster" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\SFXMaster" GUID="{54B97872-2E29-4985-B87F-C0ACCBE1364A}"/>
+				<Bus Id="2355068365" Name="2DAmbienceMaster" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\SFXMaster\2DAmbienceMaster" GUID="{FA486B31-834E-4822-968A-902EAB164581}"/>
+				<Bus Id="3199789248" Name="MusicMaster" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\MusicMaster" GUID="{890DB9DE-7829-46FE-8A74-FCDB523F8526}"/>
+				<Bus Id="3408775801" Name="EnemyMaster" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\SFXMaster\EnemyMaster" GUID="{684F94C2-4FCB-4B00-8C42-D039594525E3}"/>
+				<Bus Id="3538689948" Name="PlayerMaster" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\SFXMaster\PlayerMaster" GUID="{4B88219E-F9A2-4D79-A3E7-E167122E4999}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3804284798" Name="ObjectMaster" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\SFXMaster\ObjectMaster" GUID="{C2DA53A0-C840-4AB4-9179-860D72C81F73}"/>
+				<Bus Id="3873283120" Name="UXMaster" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\SFXMaster\UXMaster" GUID="{A1BB24F3-0CCB-4B99-970E-E9E3A3251CB4}"/>
+			</Busses>
+			<AuxBusses>
+				<AuxBus Id="144697359" Name="Outdoor" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Outdoor" GUID="{A9F3F8AA-9FF8-44CD-82CD-7F73A55C8708}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="48620415"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="602546716" Name="Room_Large" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Large" GUID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="1990128658" Name="Room_Medium" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Medium" GUID="{53097CEC-C2C9-4E51-80D9-E5FA1932437F}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1990128658"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="2995775460" Name="Room_Small" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Small" GUID="{D3C6DF4C-791A-4FE6-9079-4DB0FDAD3986}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2995775460"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+				<AuxBus Id="3633416828" Name="Hall" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Hall" GUID="{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3701691487"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
+			<GameParameters>
+				<GameParameter Id="262290038" Name="RTPC_Distance" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Distance" GUID="{4F6A9E01-4EDC-4EE5-8991-C5839F1C8A8D}"/>
+				<GameParameter Id="1712352412" Name="RTPC_HeartBeatIntensity" ObjectPath="\Game Parameters\Default Work Unit\RTPC_HeartBeatIntensity" GUID="{D8D0E439-81A9-4E73-8A2C-E92E078EBA21}"/>
+				<GameParameter Id="2653406601" Name="RTPC_PlayerSpeed" ObjectPath="\Game Parameters\Default Work Unit\RTPC_PlayerSpeed" GUID="{A17D166A-ED56-4D79-AB8D-108FC972632F}"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1021618141" Name="MusicState" ObjectPath="\States\Default Work Unit\MusicState" GUID="{C99C7064-20C6-4D8C-B4E0-8C3C5D23BD2B}">
+					<States>
+						<State Id="77978275" Name="Ambient" ObjectPath="\States\Default Work Unit\MusicState\Ambient" GUID="{2C8357A7-E646-4E05-986C-4088976A187C}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicState\None" GUID="{FF61A9A6-CA82-48BE-B4CB-0A112FE35E86}"/>
+						<State Id="2764240573" Name="Combat" ObjectPath="\States\Default Work Unit\MusicState\Combat" GUID="{037B2FBE-0ED5-4F6D-A688-24D03CD0780E}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1045871717" Name="GameStatus" ObjectPath="\States\Default Work Unit\GameStatus" GUID="{8A5EB6E4-341D-4D77-97CC-C7A183E97987}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\GameStatus\None" GUID="{7B2739A2-7FAB-4BE0-9331-83DC775FE147}"/>
+						<State Id="984691642" Name="InGame" ObjectPath="\States\Default Work Unit\GameStatus\InGame" GUID="{FF88CE93-A80E-49CC-8155-E2B705EEF167}"/>
+						<State Id="3374585465" Name="InMenu" ObjectPath="\States\Default Work Unit\GameStatus\InMenu" GUID="{746843B6-0109-4D3E-89B4-22E3F2C24AA6}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1071758680" Name="CombatState" ObjectPath="\States\Default Work Unit\CombatState" GUID="{F4DACC7C-6402-4E92-93DE-252B7CCC7528}">
+					<States>
+						<State Id="721787521" Name="Alert" ObjectPath="\States\Default Work Unit\CombatState\Alert" GUID="{CE109CCE-1DFA-4570-B7BA-64590CC6996F}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\CombatState\None" GUID="{E2BB76FD-F2BF-457F-83FE-BCDBF6D13666}"/>
+						<State Id="2996603896" Name="Engaged" ObjectPath="\States\Default Work Unit\CombatState\Engaged" GUID="{7E0CAE06-0EF7-4E9E-876D-6C7587FD2895}"/>
+						<State Id="3130232582" Name="Panic" ObjectPath="\States\Default Work Unit\CombatState\Panic" GUID="{546876E2-1653-4DD2-B72C-55DFD6BEC337}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2064552269" Name="AreaState" ObjectPath="\States\Default Work Unit\AreaState" GUID="{8B1BC050-B444-44D5-B5E9-7410E732977B}">
+					<States>
+						<State Id="438105790" Name="Outside" ObjectPath="\States\Default Work Unit\AreaState\Outside" GUID="{7AEAB277-FBA5-463D-8F3C-1A6C609256B5}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\AreaState\None" GUID="{C1B588D3-80CE-4159-8E2E-7D55DEFED79E}"/>
+						<State Id="2331036614" Name="Facility" ObjectPath="\States\Default Work Unit\AreaState\Facility" GUID="{D09CBBE3-BD9E-43FB-ACB8-BC14BECF89CE}"/>
+						<State Id="3187728172" Name="Safezone" ObjectPath="\States\Default Work Unit\AreaState\Safezone" GUID="{599AA7B7-081D-412A-B07A-DE3FE30F3E70}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\AreaState\MainMenu" GUID="{DB424BB6-B433-4578-AC11-B9081527B401}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3285234865" Name="PlayerState" ObjectPath="\States\Default Work Unit\PlayerState" GUID="{4688673C-565C-40AE-AB4D-DE1B2A2375C0}">
+					<States>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\PlayerState\Alive" GUID="{BB179001-A18F-4C09-8307-739A50152BDD}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\PlayerState\None" GUID="{5BAC1070-0EDB-4A32-A1A2-6A53AFD0F79D}"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\PlayerState\Dead" GUID="{2E6F601F-1E0F-41BA-958C-147397558291}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="206614296" Name="PlayerHealthSwitch" ObjectPath="\Switches\PlayerSwitches\PlayerHealthSwitch" GUID="{467442B7-3B99-4656-92C9-94BBA2D2D243}">
+					<Switches>
+						<Switch Id="898449699" Name="NearDeath" ObjectPath="\Switches\PlayerSwitches\PlayerHealthSwitch\NearDeath" GUID="{321C2432-05CB-4637-B424-7373A9EC8402}"/>
+						<Switch Id="1017222595" Name="LowHealth" ObjectPath="\Switches\PlayerSwitches\PlayerHealthSwitch\LowHealth" GUID="{B2644900-3561-4DFF-8E23-7E9075A1AEEB}"/>
+						<Switch Id="2429688720" Name="FullHealth" ObjectPath="\Switches\PlayerSwitches\PlayerHealthSwitch\FullHealth" GUID="{512E2610-82DC-4B4E-9DE8-D2AB552F9C21}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1044534455" Name="GroundMaterialSwitch" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch" GUID="{066EA853-E17A-4F6C-948B-D6F4CE0D2750}">
+					<Switches>
+						<Switch Id="652636434" Name="WoodSpringy" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\WoodSpringy" GUID="{4ADC7C2A-FDEF-4EA9-9CC1-40B375769278}"/>
+						<Switch Id="716459766" Name="BrokenGlass" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\BrokenGlass" GUID="{5C5CB338-E288-47D4-8EEA-1228D56FA791}"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\Concrete" GUID="{00F2FAE2-A97F-4C00-84FB-08D64B9E9E62}"/>
+						<Switch Id="1073209840" Name="ConcreteWet" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\ConcreteWet" GUID="{3048F786-38FD-41CB-B9F2-3CBD3C452B49}"/>
+						<Switch Id="1161560306" Name="MetalResonant" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\MetalResonant" GUID="{7AFB8364-4280-47A1-985F-679630ED780E}"/>
+						<Switch Id="1648892519" Name="GlassFloor" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\GlassFloor" GUID="{07941529-FFCD-4AD0-80D5-AF11A476C332}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\Wood" GUID="{7E9153B4-7739-48A4-B7A3-922AA224A66A}"/>
+						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\Gravel" GUID="{C5C5DF85-8A41-4DF0-BB2D-6FC0F9D114BB}"/>
+						<Switch Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\Carpet" GUID="{5D5CF7F0-933A-4ECB-AA90-FB1E37FE473E}"/>
+						<Switch Id="2452192187" Name="WaterPuddleThin" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\WaterPuddleThin" GUID="{661451E9-266C-4663-A303-63D7BCDA59C2}"/>
+						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\Tile" GUID="{05B6B31A-4BAA-43F4-93E1-60540BEFC4BD}"/>
+						<Switch Id="3050954146" Name="MetalGrating" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\MetalGrating" GUID="{A0FB0643-B24B-4C4E-832B-24D4C35EE190}"/>
+						<Switch Id="3444424681" Name="WaterPuddleThick" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\WaterPuddleThick" GUID="{9F9429A5-EE49-4913-B524-E33EC4E31609}"/>
+						<Switch Id="3753609311" Name="MetalMuted" ObjectPath="\Switches\Default Work Unit\GroundMaterialSwitch\MetalMuted" GUID="{4BCFC6FA-B9FF-41CD-95FE-41D0BD32BDE4}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1806830997" Name="FoliageMaterialSwitch" ObjectPath="\Switches\Default Work Unit\FoliageMaterialSwitch" GUID="{CEC3DAFC-7779-492B-BAFA-870D25B61B0F}">
+					<Switches>
+						<Switch Id="1427625975" Name="Bush" ObjectPath="\Switches\Default Work Unit\FoliageMaterialSwitch\Bush" GUID="{223A62D2-9F1D-4203-8281-39D195939F13}"/>
+						<Switch Id="3319842909" Name="Vine" ObjectPath="\Switches\Default Work Unit\FoliageMaterialSwitch\Vine" GUID="{1AEE4EA2-5984-4F78-9853-EA67FE5BCA4D}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2051106367" Name="PlayerSpeedSwitch" ObjectPath="\Switches\PlayerSwitches\PlayerSpeedSwitch" GUID="{4E53B07C-97B5-4B5E-AD7F-25C93128E6D2}">
+					<GameParameterRef Id="2653406601"/>
+					<Switches>
+						<Switch Id="1296465089" Name="Sprint" ObjectPath="\Switches\PlayerSwitches\PlayerSpeedSwitch\Sprint" GUID="{22259802-6366-43C9-B7F2-C6277591AC94}"/>
+						<Switch Id="2108779966" Name="Walk" ObjectPath="\Switches\PlayerSwitches\PlayerSpeedSwitch\Walk" GUID="{EE3C7330-8D55-4A5F-909B-BB3435099C1C}"/>
+						<Switch Id="2655407367" Name="Crouch" ObjectPath="\Switches\PlayerSwitches\PlayerSpeedSwitch\Crouch" GUID="{5FC18506-7403-429A-9C71-BC6677519487}"/>
+						<Switch Id="3115216662" Name="Crawl" ObjectPath="\Switches\PlayerSwitches\PlayerSpeedSwitch\Crawl" GUID="{D1832164-DEDF-434D-A5D1-C8A5ABF3C53E}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2080869319" Name="HitMaterialSwitch" ObjectPath="\Switches\Default Work Unit\HitMaterialSwitch" GUID="{F5FE924B-31F4-4FA0-9ED0-970514823F57}">
+					<Switches>
+						<Switch Id="114672780" Name="Plant" ObjectPath="\Switches\Default Work Unit\HitMaterialSwitch\Plant" GUID="{E04746E8-FA22-4C80-B2ED-68020B2FBD50}"/>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\HitMaterialSwitch\Concrete" GUID="{3957127A-57E9-4B53-A408-D4CFA73E33FD}"/>
+						<Switch Id="1153642577" Name="Flesh" ObjectPath="\Switches\Default Work Unit\HitMaterialSwitch\Flesh" GUID="{883B88E0-BCCA-4E2B-9C21-54B49EBC6B74}"/>
+						<Switch Id="1161560306" Name="MetalResonant" ObjectPath="\Switches\Default Work Unit\HitMaterialSwitch\MetalResonant" GUID="{B22C93EB-8F42-4543-8FD9-87ED184A6DD8}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\HitMaterialSwitch\Wood" GUID="{E6B848A5-B423-460D-BC48-860A549CF784}"/>
+						<Switch Id="2143551030" Name="WaterPuddle" ObjectPath="\Switches\Default Work Unit\HitMaterialSwitch\WaterPuddle" GUID="{A053D71A-2F9B-422B-A792-F9771F38B270}"/>
+						<Switch Id="2185786256" Name="Gravel" ObjectPath="\Switches\Default Work Unit\HitMaterialSwitch\Gravel" GUID="{2B729712-1587-424A-A7CD-77805309A8F1}"/>
+						<Switch Id="2412606308" Name="Carpet" ObjectPath="\Switches\Default Work Unit\HitMaterialSwitch\Carpet" GUID="{4B942DFE-963B-4F0D-B4A0-107179A4577C}"/>
+						<Switch Id="2637588553" Name="Tile" ObjectPath="\Switches\Default Work Unit\HitMaterialSwitch\Tile" GUID="{E1651478-A7D2-47EB-9471-EDFBC1CB8CD3}"/>
+						<Switch Id="3753609311" Name="MetalMuted" ObjectPath="\Switches\Default Work Unit\HitMaterialSwitch\MetalMuted" GUID="{04B8F192-62C1-45F5-8378-18CD86CF9019}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3113274120" Name="PlayerDeathSwitch" ObjectPath="\Switches\PlayerSwitches\PlayerDeathSwitch" GUID="{E14D3771-05D7-40A4-917A-1DFB443A34E4}">
+					<Switches>
+						<Switch Id="1410848354" Name="Burn" ObjectPath="\Switches\PlayerSwitches\PlayerDeathSwitch\Burn" GUID="{BCE38D10-7F62-4DB3-9E32-601BA11CBA17}"/>
+						<Switch Id="2209414560" Name="Gasping" ObjectPath="\Switches\PlayerSwitches\PlayerDeathSwitch\Gasping" GUID="{93AF2C29-C7CE-42D3-A09E-B3343721383A}"/>
+						<Switch Id="3599694366" Name="Physical" ObjectPath="\Switches\PlayerSwitches\PlayerDeathSwitch\Physical" GUID="{93D7CB9E-8CFC-4BE1-8C5E-E12D56E8A769}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3655687181" Name="AMB_MainSwitch" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch" GUID="{1AA60EDF-D288-43DC-A9FC-1127730BC6F2}">
+					<Switches>
+						<Switch Id="283584880" Name="Facility_Sewers" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch\Facility_Sewers" GUID="{A36220E0-181D-4098-8A10-75FEBB4D7D7F}"/>
+						<Switch Id="822919650" Name="Facilitty_Offices" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch\Facilitty_Offices" GUID="{9AD253AA-5150-40C5-8A56-71D7ED744B97}"/>
+						<Switch Id="1181123665" Name="Facility_CleanLab" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch\Facility_CleanLab" GUID="{49327402-FF50-4524-94D5-3DA4951DE914}"/>
+						<Switch Id="1500844811" Name="Facility_BadLab" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch\Facility_BadLab" GUID="{2DACE892-EC74-4976-9E42-322A3119F2FA}"/>
+						<Switch Id="3187728172" Name="SafeZone" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch\SafeZone" GUID="{02750213-4EDF-4200-ACE0-5D3F062010B5}"/>
+						<Switch Id="4218652370" Name="Facility_Main" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch\Facility_Main" GUID="{BCCA41ED-AE70-4D7A-AA67-C340B2821E69}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3876910369" Name="PMSmall_SpeedSwitch" ObjectPath="\Switches\EnemySwitches\PMSmall_SpeedSwitch" GUID="{98B98C37-6C18-465E-84B6-3EDB0A4A1DA9}">
+					<Switches>
+						<Switch Id="1296465089" Name="Sprint" ObjectPath="\Switches\EnemySwitches\PMSmall_SpeedSwitch\Sprint" GUID="{625090FD-3EF6-4E8D-82B5-1C64E284F1BA}"/>
+						<Switch Id="2108779966" Name="Walk" ObjectPath="\Switches\EnemySwitches\PMSmall_SpeedSwitch\Walk" GUID="{BDD1AC93-1EF1-4241-A9BC-BFF167CFDBF6}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1563359746" Type="Event" GUID="{D3FCE60C-9BCB-4073-84BE-1EF04D94AE43}" Language="SFX" Hash="{D96815EB-31A4-FDB2-35B4-C91ECB7394E4}">
+			<ObjectPath>Play_TestAMB</ObjectPath>
+			<ShortName>Play_TestAMB</ShortName>
+			<Path>Event/Play_TestAMB.bnk</Path>
+			<Media>
+				<File Id="267162241" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TestFiles\TestAMB\TestAMB_Facility.wav</ShortName>
+					<Path>Media/267162241.wem</Path>
+					<CachePath>SFX/TestFiles/TestAMB/TestAMB_Facility_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="934628338" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TestFiles\TestAMB\TestAMB_Jungle.wav</ShortName>
+					<Path>Media/934628338.wem</Path>
+					<CachePath>SFX/TestFiles/TestAMB/TestAMB_Jungle_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1563359746" Name="Play_TestAMB" ObjectPath="\Events\TestEvents\Play_TestAMB" GUID="{D3FCE60C-9BCB-4073-84BE-1EF04D94AE43}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2064552269" Id="2331036614" GUID="{D09CBBE3-BD9E-43FB-ACB8-BC14BECF89CE}"/>
+							<MediaRefs>
+								<MediaRef Id="267162241"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2064552269" Id="438105790" GUID="{7AEAB277-FBA5-463D-8F3C-1A6C609256B5}"/>
+							<MediaRefs>
+								<MediaRef Id="934628338"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="2064552269" Name="AreaState" ObjectPath="\States\Default Work Unit\AreaState" GUID="{8B1BC050-B444-44D5-B5E9-7410E732977B}">
+					<States>
+						<State Id="438105790" Name="Outside" ObjectPath="\States\Default Work Unit\AreaState\Outside" GUID="{7AEAB277-FBA5-463D-8F3C-1A6C609256B5}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\AreaState\None" GUID="{C1B588D3-80CE-4159-8E2E-7D55DEFED79E}"/>
+						<State Id="2331036614" Name="Facility" ObjectPath="\States\Default Work Unit\AreaState\Facility" GUID="{D09CBBE3-BD9E-43FB-ACB8-BC14BECF89CE}"/>
+						<State Id="3187728172" Name="Safezone" ObjectPath="\States\Default Work Unit\AreaState\Safezone" GUID="{599AA7B7-081D-412A-B07A-DE3FE30F3E70}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\AreaState\MainMenu" GUID="{DB424BB6-B433-4578-AC11-B9081527B401}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1619838726" Type="Event" GUID="{78576089-2271-4206-904B-BE338B644F5B}" Language="SFX" Hash="{7FFA2A8E-279F-50C9-00F2-1208FA742BA8}">
+			<ObjectPath>Play_Stop_TestBeep_lp_3D</ObjectPath>
+			<ShortName>Play_Stop_TestBeep_lp_3D</ShortName>
+			<Path>Event/Play_Stop_TestBeep_lp_3D.bnk</Path>
+			<Events>
+				<Event Id="1619838726" Name="Play_Stop_TestBeep_lp_3D" ObjectPath="\Events\TestEvents\Play_Stop_TestBeep_lp_3D" GUID="{78576089-2271-4206-904B-BE338B644F5B}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1641378436" Type="Event" GUID="{5FACC5C0-EBC3-491E-B2FF-847FCE128CBD}" Language="SFX" Hash="{F59182AA-3A02-3538-5305-7C84F659826A}">
+			<ObjectPath>Play_2DAMB_MainSwitch</ObjectPath>
+			<ShortName>Play_2DAMB_MainSwitch</ShortName>
+			<Path>Event/Play_2DAMB_MainSwitch.bnk</Path>
+			<Media>
+				<File Id="938028341" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>2D_Ambience\2DAMB_Facility_Main.wav</ShortName>
+					<Path>Media/938028341.wem</Path>
+					<CachePath>SFX/2D_Ambience/2DAMB_Facility_Main_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1641378436" Name="Play_2DAMB_MainSwitch" ObjectPath="\Events\2DAmbience\Play_2DAMB_MainSwitch" GUID="{5FACC5C0-EBC3-491E-B2FF-847FCE128CBD}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3655687181" Id="4218652370" GUID="{BCCA41ED-AE70-4D7A-AA67-C340B2821E69}"/>
+							<MediaRefs>
+								<MediaRef Id="938028341"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3655687181" Name="AMB_MainSwitch" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch" GUID="{1AA60EDF-D288-43DC-A9FC-1127730BC6F2}">
+					<Switches>
+						<Switch Id="283584880" Name="Facility_Sewers" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch\Facility_Sewers" GUID="{A36220E0-181D-4098-8A10-75FEBB4D7D7F}"/>
+						<Switch Id="822919650" Name="Facilitty_Offices" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch\Facilitty_Offices" GUID="{9AD253AA-5150-40C5-8A56-71D7ED744B97}"/>
+						<Switch Id="1181123665" Name="Facility_CleanLab" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch\Facility_CleanLab" GUID="{49327402-FF50-4524-94D5-3DA4951DE914}"/>
+						<Switch Id="1500844811" Name="Facility_BadLab" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch\Facility_BadLab" GUID="{2DACE892-EC74-4976-9E42-322A3119F2FA}"/>
+						<Switch Id="3187728172" Name="SafeZone" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch\SafeZone" GUID="{02750213-4EDF-4200-ACE0-5D3F062010B5}"/>
+						<Switch Id="4218652370" Name="Facility_Main" ObjectPath="\Switches\AmbienceSwitches\AMB_MainSwitch\Facility_Main" GUID="{BCCA41ED-AE70-4D7A-AA67-C340B2821E69}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1681067324" Type="Event" GUID="{059F532D-162F-41CB-85C9-8D2A3D4A8F50}" Language="SFX" Hash="{3B4F0023-A871-1D08-DC6F-B8058A9F6BD5}">
+			<ObjectPath>Play_TestBeep_3D</ObjectPath>
+			<ShortName>Play_TestBeep_3D</ShortName>
+			<Path>Event/Play_TestBeep_3D.bnk</Path>
+			<Media>
+				<File Id="913365373" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TestFiles\SFX_TestBeep_100ms.wav</ShortName>
+					<Path>Media/913365373.wem</Path>
+					<CachePath>SFX/TestFiles/SFX_TestBeep_100ms_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1681067324" Name="Play_TestBeep_3D" ObjectPath="\Events\TestEvents\Play_TestBeep_3D" GUID="{059F532D-162F-41CB-85C9-8D2A3D4A8F50}" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+					<MediaRefs>
+						<MediaRef Id="913365373"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1955951874" Type="Event" GUID="{EA636519-77E9-49E9-9F5D-3031D078ED63}" Language="SFX" Hash="{C07F7C2B-3960-5005-9BC1-AF4F84625968}">
+			<ObjectPath>Play_TestBeep</ObjectPath>
+			<ShortName>Play_TestBeep</ShortName>
+			<Path>Event/Play_TestBeep.bnk</Path>
+			<Media>
+				<File Id="913365373" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TestFiles\SFX_TestBeep_100ms.wav</ShortName>
+					<Path>Media/913365373.wem</Path>
+					<CachePath>SFX/TestFiles/SFX_TestBeep_100ms_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1955951874" Name="Play_TestBeep" ObjectPath="\Events\TestEvents\Play_TestBeep" GUID="{EA636519-77E9-49E9-9F5D-3031D078ED63}" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+					<MediaRefs>
+						<MediaRef Id="913365373"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1990128658" Type="Bus" GUID="{53097CEC-C2C9-4E51-80D9-E5FA1932437F}" Language="SFX" Hash="{4080E2B3-B5ED-0B9A-FC9B-DE1405AA5BE3}">
+			<ObjectPath>Room_Medium</ObjectPath>
+			<ShortName>Room_Medium</ShortName>
+			<Path>Bus/Room_Medium.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="1990128658" Name="Room_Medium" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Medium" GUID="{53097CEC-C2C9-4E51-80D9-E5FA1932437F}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="1990128658"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="2020633341" Type="Event" GUID="{7C739D53-7AEB-4288-AF58-EC80CA306EC7}" Language="SFX" Hash="{9B51CAFA-8C4A-84E6-9874-7CC9CEC2AD0D}">
+			<ObjectPath>Play_3DAMB_JungleAMB</ObjectPath>
+			<ShortName>Play_3DAMB_JungleAMB</ShortName>
+			<Path>Event/Play_3DAMB_JungleAMB.bnk</Path>
+			<Media>
+				<File Id="721655021" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>3D_Ambience\3DAMB_JungleAMB_00.wav</ShortName>
+					<Path>Media/721655021.wem</Path>
+					<CachePath>SFX/3D_Ambience/3DAMB_JungleAMB_00_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2020633341" Name="Play_3DAMB_JungleAMB" ObjectPath="\Events\3DAmbience\Play_3DAMB_JungleAMB" GUID="{7C739D53-7AEB-4288-AF58-EC80CA306EC7}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="721655021"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2963813288" Type="Event" GUID="{A2038F62-D3A4-49D1-843B-8F247AE31551}" Language="SFX" Hash="{46E3C2AE-70B4-42E3-1EF2-4E369BB3452E}">
+			<ObjectPath>Play_Stop_TestBeep_lp</ObjectPath>
+			<ShortName>Play_Stop_TestBeep_lp</ShortName>
+			<Path>Event/Play_Stop_TestBeep_lp.bnk</Path>
+			<Events>
+				<Event Id="2963813288" Name="Play_Stop_TestBeep_lp" ObjectPath="\Events\TestEvents\Play_Stop_TestBeep_lp" GUID="{A2038F62-D3A4-49D1-843B-8F247AE31551}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="2995775460" Type="Bus" GUID="{D3C6DF4C-791A-4FE6-9079-4DB0FDAD3986}" Language="SFX" Hash="{92F60CCE-21CE-5083-75B4-0AFD05E3C48C}">
+			<ObjectPath>Room_Small</ObjectPath>
+			<ShortName>Room_Small</ShortName>
+			<Path>Bus/Room_Small.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="2995775460" Name="Room_Small" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Small" GUID="{D3C6DF4C-791A-4FE6-9079-4DB0FDAD3986}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="2995775460"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="3545700988" Type="Bus" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}" Language="SFX" Hash="{DAF474CB-8206-E72B-E993-5774F90134F2}">
+			<ObjectPath>Reverbs</ObjectPath>
+			<ShortName>Reverbs</ShortName>
+			<Path>Bus/Reverbs.bnk</Path>
+			<AuxBusses>
+				<AuxBus Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="3633416828" Type="Bus" GUID="{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}" Language="SFX" Hash="{24BBE2EB-50A7-3B87-F518-D4E1294036EA}">
+			<ObjectPath>Hall</ObjectPath>
+			<ShortName>Hall</ShortName>
+			<Path>Bus/Hall.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="3701691487" Name="Hall_Large_Bright" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Large_Bright" GUID="{CB602948-2D1D-4977-A8D5-378184293E80}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="3633416828" Name="Hall" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Hall" GUID="{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="3701691487"/>
+						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+		<SoundBank Id="3765695918" Type="Event" GUID="{4BB15019-4BDE-4EB3-B20E-2543BAB8CF77}" Language="SFX" Hash="{3EF5CCAA-7F53-09FA-E30C-CD6766E4FBE6}">
+			<ObjectPath>Play_Heartbeat</ObjectPath>
+			<ShortName>Play_Heartbeat</ShortName>
+			<Path>Event/Play_Heartbeat.bnk</Path>
+			<Media>
+				<File Id="25639649" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Fast_00.wav</ShortName>
+					<Path>Media/25639649.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Fast_00_C93AF181.wem</CachePath>
+				</File>
+				<File Id="129720186" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Fast_00.wav</ShortName>
+					<Path>Media/129720186.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Fast_00_CDE68026.wem</CachePath>
+				</File>
+				<File Id="221140550" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Slow_01.wav</ShortName>
+					<Path>Media/221140550.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Slow_01_F627DC95.wem</CachePath>
+				</File>
+				<File Id="223017749" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Slow_03.wav</ShortName>
+					<Path>Media/223017749.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Slow_03_789FDA2D.wem</CachePath>
+				</File>
+				<File Id="306894781" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Slow_02.wav</ShortName>
+					<Path>Media/306894781.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Slow_02_F627DC95.wem</CachePath>
+				</File>
+				<File Id="397397205" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Fast_03.wav</ShortName>
+					<Path>Media/397397205.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Fast_03_0DA3E36E.wem</CachePath>
+				</File>
+				<File Id="485737275" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Fast_01.wav</ShortName>
+					<Path>Media/485737275.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Fast_01_0D7FF9BF.wem</CachePath>
+				</File>
+				<File Id="497857850" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Fast_02.wav</ShortName>
+					<Path>Media/497857850.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Fast_02_CBF4C2CD.wem</CachePath>
+				</File>
+				<File Id="517698330" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Slow_02.wav</ShortName>
+					<Path>Media/517698330.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Slow_02_0ABED354.wem</CachePath>
+				</File>
+				<File Id="525125177" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Slow_00.wav</ShortName>
+					<Path>Media/525125177.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Slow_00_DA35BF95.wem</CachePath>
+				</File>
+				<File Id="660637747" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Fast_02.wav</ShortName>
+					<Path>Media/660637747.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Fast_02_19F5664E.wem</CachePath>
+				</File>
+				<File Id="754668207" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Slow_01.wav</ShortName>
+					<Path>Media/754668207.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Slow_01_56430563.wem</CachePath>
+				</File>
+				<File Id="767563228" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Slow_03.wav</ShortName>
+					<Path>Media/767563228.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Slow_03_77B3B836.wem</CachePath>
+				</File>
+				<File Id="843973477" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Fast_03.wav</ShortName>
+					<Path>Media/843973477.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Fast_03_B012E52B.wem</CachePath>
+				</File>
+				<File Id="1013231206" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Fast_01.wav</ShortName>
+					<Path>Media/1013231206.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Fast_01_19F5664E.wem</CachePath>
+				</File>
+				<File Id="1049002734" Language="SFX" Streaming="true" Location="Loose">
+					<ShortName>UX\HeartBeat\SFX_HeartBeat_Slow_00.wav</ShortName>
+					<Path>Media/1049002734.wem</Path>
+					<CachePath>SFX/UX/HeartBeat/SFX_HeartBeat_Slow_00_4108D74F.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="412590375" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\SFX\UX\Heartbeat\Heartbeat_Mixer\Heartbeat_Blend\Heartbeat_Fast_Sequence\Silence_Out\Silence" GUID="{0C8C6C57-222D-4005-AD26-0B26E0365258}" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="417801016" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\SFX\UX\Heartbeat\Heartbeat_Mixer\Heartbeat_Blend\Heartbeat_Slow_Sequence\Silence_Out\Silence" GUID="{059E8083-D095-42D1-B278-46C9581797AC}" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="505179182" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\SFX\UX\Heartbeat\Heartbeat_Mixer\Heartbeat_Blend\Heartbeat_Fast_Sequence\Silence_In\Silence" GUID="{2450324A-65D8-43AF-A81E-692769D96168}" LibName="Wwise Silence" LibId="6619138"/>
+					<Plugin Id="738529732" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\SFX\UX\Heartbeat\Heartbeat_Mixer\Heartbeat_Blend\Heartbeat_Slow_Sequence\Silence_In\Silence" GUID="{6299EB8C-DEF5-4F43-82E5-73F5C73229E9}" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="3765695918" Name="Play_Heartbeat" ObjectPath="\Events\UX\Heartbeat\Play_Heartbeat" GUID="{4BB15019-4BDE-4EB3-B20E-2543BAB8CF77}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="25639649"/>
+						<MediaRef Id="129720186"/>
+						<MediaRef Id="221140550"/>
+						<MediaRef Id="223017749"/>
+						<MediaRef Id="306894781"/>
+						<MediaRef Id="397397205"/>
+						<MediaRef Id="485737275"/>
+						<MediaRef Id="497857850"/>
+						<MediaRef Id="517698330"/>
+						<MediaRef Id="525125177"/>
+						<MediaRef Id="660637747"/>
+						<MediaRef Id="754668207"/>
+						<MediaRef Id="767563228"/>
+						<MediaRef Id="843973477"/>
+						<MediaRef Id="1013231206"/>
+						<MediaRef Id="1049002734"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="412590375"/>
+							<PluginRef Id="417801016"/>
+							<PluginRef Id="505179182"/>
+							<PluginRef Id="738529732"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="1712352412" Name="RTPC_HeartBeatIntensity" ObjectPath="\Game Parameters\Default Work Unit\RTPC_HeartBeatIntensity" GUID="{D8D0E439-81A9-4E73-8A2C-E92E078EBA21}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3965059671" Type="Event" GUID="{BE3AAB44-520B-472A-984A-E0D9C809709B}" Language="SFX" Hash="{D6173637-0500-48A9-572F-BCB873F5187E}">
+			<ObjectPath>Play_ButtonPush_Declined</ObjectPath>
+			<ShortName>Play_ButtonPush_Declined</ShortName>
+			<Path>Event/Play_ButtonPush_Declined.bnk</Path>
+			<Media>
+				<File Id="995594364" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Object\Button\ButtonPush_Declined.wav</ShortName>
+					<Path>Media/995594364.wem</Path>
+					<CachePath>SFX/Object/Button/ButtonPush_Declined_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3965059671" Name="Play_ButtonPush_Declined" ObjectPath="\Events\Object\Button\Play_ButtonPush_Declined" GUID="{BE3AAB44-520B-472A-984A-E0D9C809709B}" DurationType="OneShot" DurationMin="0.76272917" DurationMax="0.76272917">
+					<MediaRefs>
+						<MediaRef Id="995594364"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="4214353269" Type="Event" GUID="{6AF88303-CAC2-436C-8973-E0B9E7C882AF}" Language="SFX" Hash="{BAAD35B9-1908-12DC-AAF1-83A86A6BC589}">
+			<ObjectPath>Play_MUS_MainSwitch</ObjectPath>
+			<ShortName>Play_MUS_MainSwitch</ShortName>
+			<Path>Event/Play_MUS_MainSwitch.bnk</Path>
+			<Media>
+				<File Id="510584091" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Music\CombatDemo_Alert.wav</ShortName>
+					<Path>Media/510584091.wem</Path>
+					<CachePath>SFX/Music/CombatDemo_Alert_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="564024834" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Music\CombatDemo_Panic.wav</ShortName>
+					<Path>Media/564024834.wem</Path>
+					<CachePath>SFX/Music/CombatDemo_Panic_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="600704304" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Music\CombatDemo_Tense.wav</ShortName>
+					<Path>Media/600704304.wem</Path>
+					<CachePath>SFX/Music/CombatDemo_Tense_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4214353269" Name="Play_MUS_MainSwitch" ObjectPath="\Events\Music\Play_MUS_MainSwitch" GUID="{6AF88303-CAC2-436C-8973-E0B9E7C882AF}" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2064552269" Id="2331036614" GUID="{D09CBBE3-BD9E-43FB-ACB8-BC14BECF89CE}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="2764240573" GUID="{037B2FBE-0ED5-4F6D-A688-24D03CD0780E}"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="1071758680" Id="721787521" GUID="{CE109CCE-1DFA-4570-B7BA-64590CC6996F}"/>
+											<MediaRefs>
+												<MediaRef Id="600704304"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2064552269" Id="2331036614" GUID="{D09CBBE3-BD9E-43FB-ACB8-BC14BECF89CE}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="2764240573" GUID="{037B2FBE-0ED5-4F6D-A688-24D03CD0780E}"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="1071758680" Id="2996603896" GUID="{7E0CAE06-0EF7-4E9E-876D-6C7587FD2895}"/>
+											<MediaRefs>
+												<MediaRef Id="510584091"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2064552269" Id="2331036614" GUID="{D09CBBE3-BD9E-43FB-ACB8-BC14BECF89CE}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="2764240573" GUID="{037B2FBE-0ED5-4F6D-A688-24D03CD0780E}"/>
+									<Children>
+										<SwitchContainer>
+											<SwitchValue GroupType="State" GroupId="1071758680" Id="3130232582" GUID="{546876E2-1653-4DD2-B72C-55DFD6BEC337}"/>
+											<MediaRefs>
+												<MediaRef Id="564024834"/>
+											</MediaRefs>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2064552269" Id="2331036614" GUID="{D09CBBE3-BD9E-43FB-ACB8-BC14BECF89CE}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="77978275" GUID="{2C8357A7-E646-4E05-986C-4088976A187C}"/>
+									<Children/>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2064552269" Id="3187728172" GUID="{599AA7B7-081D-412A-B07A-DE3FE30F3E70}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="77978275" GUID="{2C8357A7-E646-4E05-986C-4088976A187C}"/>
+									<Children/>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2064552269" Id="3604647259" GUID="{DB424BB6-B433-4578-AC11-B9081527B401}"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="State" GroupId="1021618141" Id="748895195" GUID="{FF61A9A6-CA82-48BE-B4CB-0A112FE35E86}"/>
+									<Children/>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="1021618141" Name="MusicState" ObjectPath="\States\Default Work Unit\MusicState" GUID="{C99C7064-20C6-4D8C-B4E0-8C3C5D23BD2B}">
+					<States>
+						<State Id="77978275" Name="Ambient" ObjectPath="\States\Default Work Unit\MusicState\Ambient" GUID="{2C8357A7-E646-4E05-986C-4088976A187C}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\MusicState\None" GUID="{FF61A9A6-CA82-48BE-B4CB-0A112FE35E86}"/>
+						<State Id="2764240573" Name="Combat" ObjectPath="\States\Default Work Unit\MusicState\Combat" GUID="{037B2FBE-0ED5-4F6D-A688-24D03CD0780E}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="1071758680" Name="CombatState" ObjectPath="\States\Default Work Unit\CombatState" GUID="{F4DACC7C-6402-4E92-93DE-252B7CCC7528}">
+					<States>
+						<State Id="721787521" Name="Alert" ObjectPath="\States\Default Work Unit\CombatState\Alert" GUID="{CE109CCE-1DFA-4570-B7BA-64590CC6996F}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\CombatState\None" GUID="{E2BB76FD-F2BF-457F-83FE-BCDBF6D13666}"/>
+						<State Id="2996603896" Name="Engaged" ObjectPath="\States\Default Work Unit\CombatState\Engaged" GUID="{7E0CAE06-0EF7-4E9E-876D-6C7587FD2895}"/>
+						<State Id="3130232582" Name="Panic" ObjectPath="\States\Default Work Unit\CombatState\Panic" GUID="{546876E2-1653-4DD2-B72C-55DFD6BEC337}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2064552269" Name="AreaState" ObjectPath="\States\Default Work Unit\AreaState" GUID="{8B1BC050-B444-44D5-B5E9-7410E732977B}">
+					<States>
+						<State Id="438105790" Name="Outside" ObjectPath="\States\Default Work Unit\AreaState\Outside" GUID="{7AEAB277-FBA5-463D-8F3C-1A6C609256B5}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\AreaState\None" GUID="{C1B588D3-80CE-4159-8E2E-7D55DEFED79E}"/>
+						<State Id="2331036614" Name="Facility" ObjectPath="\States\Default Work Unit\AreaState\Facility" GUID="{D09CBBE3-BD9E-43FB-ACB8-BC14BECF89CE}"/>
+						<State Id="3187728172" Name="Safezone" ObjectPath="\States\Default Work Unit\AreaState\Safezone" GUID="{599AA7B7-081D-412A-B07A-DE3FE30F3E70}"/>
+						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\AreaState\MainMenu" GUID="{DB424BB6-B433-4578-AC11-B9081527B401}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{33CA9774-9711-A6E4-5809-77734ED7B716}</FileHash>
+</SoundBanksInfo>

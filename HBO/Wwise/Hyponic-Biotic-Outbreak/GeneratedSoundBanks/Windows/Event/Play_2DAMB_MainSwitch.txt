@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1641378436	Play_2DAMB_MainSwitch			\2DAmbience\Play_2DAMB_MainSwitch	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3655687181	AMB_MainSwitch			\AmbienceSwitches\AMB_MainSwitch	
+
+Switch	ID	Name	Switch Group			Notes
+	283584880	Facility_Sewers	AMB_MainSwitch			
+	822919650	Facilitty_Offices	AMB_MainSwitch			
+	1181123665	Facility_CleanLab	AMB_MainSwitch			
+	1500844811	Facility_BadLab	AMB_MainSwitch			
+	3187728172	SafeZone	AMB_MainSwitch			
+	4218652370	Facility_Main	AMB_MainSwitch			
+

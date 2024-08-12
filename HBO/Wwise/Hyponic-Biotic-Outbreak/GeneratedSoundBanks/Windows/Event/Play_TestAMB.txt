@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1563359746	Play_TestAMB			\TestEvents\Play_TestAMB	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2064552269	AreaState			\Default Work Unit\AreaState	
+
+State	ID	Name	State Group			Notes
+	438105790	Outside	AreaState			
+	748895195	None	AreaState			
+	2331036614	Facility	AreaState			
+	3187728172	Safezone	AreaState			
+	3604647259	MainMenu	AreaState			
+

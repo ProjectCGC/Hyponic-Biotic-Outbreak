@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1318177482" Type="Event" GUID="{5C954A8F-0989-493F-899F-026E44E9FA13}" Language="SFX" Hash="{D0EA4D02-F0F1-6CC6-E49F-C2B63A69BC5F}">
+			<ObjectPath>Play_ButtonPush</ObjectPath>
+			<ShortName>Play_ButtonPush</ShortName>
+			<Path>Event/Play_ButtonPush.bnk</Path>
+			<Media>
+				<File Id="613885203" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Object\Button\ButtonPush.wav</ShortName>
+					<Path>Media/613885203.wem</Path>
+					<CachePath>SFX/Object/Button/ButtonPush_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1318177482" Name="Play_ButtonPush" ObjectPath="\Events\Object\Button\Play_ButtonPush" GUID="{5C954A8F-0989-493F-899F-026E44E9FA13}" DurationType="OneShot" DurationMin="0.63560414" DurationMax="0.63560414">
+					<MediaRefs>
+						<MediaRef Id="613885203"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B2AA91EF-1A87-0840-2A85-6AA8D12A766A}</FileHash>
+</SoundBanksInfo>
