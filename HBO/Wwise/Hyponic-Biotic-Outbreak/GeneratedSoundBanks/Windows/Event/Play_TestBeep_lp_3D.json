@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E24E7E39-445B-4EC6-89AC-584BA68A900D}",
     "Language": "SFX",
-    "Hash": "{97D0BDEE-753E-6EAD-8823-0902F3DB1910}",
+    "Hash": "{BF71394D-0798-8609-AAFF-F3CE849D6A5A}",
     "ObjectPath": "Play_TestBeep_lp_3D",
     "ShortName": "Play_TestBeep_lp_3D",
     "Path": "Event/Play_TestBeep_lp_3D.bnk",
@@ -31,7 +31,7 @@
       "Name": "Play_TestBeep_lp_3D",
       "ObjectPath": "\\Events\\TestEvents\\Play_TestBeep_lp_3D",
       "GUID": "{E24E7E39-445B-4EC6-89AC-584BA68A900D}",
-      "MaxAttenuation": "50",
+      "MaxAttenuation": "500",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{FEA65E87-7E80-27B7-1591-EF6A9375463E}"
+  "FileHash": "{885094A9-4C03-2392-B4E7-DD002839C254}"
  }
 }

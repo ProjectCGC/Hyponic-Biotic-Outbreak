@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1681067324" Type="Event" GUID="{059F532D-162F-41CB-85C9-8D2A3D4A8F50}" Language="SFX" Hash="{3B4F0023-A871-1D08-DC6F-B8058A9F6BD5}">
+		<SoundBank Id="1681067324" Type="Event" GUID="{059F532D-162F-41CB-85C9-8D2A3D4A8F50}" Language="SFX" Hash="{400ADCA5-69E1-98BB-E426-091300C6588A}">
 			<ObjectPath>Play_TestBeep_3D</ObjectPath>
 			<ShortName>Play_TestBeep_3D</ShortName>
 			<Path>Event/Play_TestBeep_3D.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1681067324" Name="Play_TestBeep_3D" ObjectPath="\Events\TestEvents\Play_TestBeep_3D" GUID="{059F532D-162F-41CB-85C9-8D2A3D4A8F50}" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+				<Event Id="1681067324" Name="Play_TestBeep_3D" ObjectPath="\Events\TestEvents\Play_TestBeep_3D" GUID="{059F532D-162F-41CB-85C9-8D2A3D4A8F50}" MaxAttenuation="500" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
 					<MediaRefs>
 						<MediaRef Id="913365373"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{6A92F4A4-C970-1F7C-93CC-128095D08CC6}</FileHash>
+	<FileHash>{4AFD5ADD-7CE7-E0C9-866E-2182EF808F75}</FileHash>
 </SoundBanksInfo>

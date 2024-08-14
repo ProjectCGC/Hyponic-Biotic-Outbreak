@@ -75,17 +75,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_TestAMB" ID="{D3FCE60C-9BCB-4073-84BE-1EF04D94AE43}">
-					<ChildrenList>
-						<Action Name="" ID="{23D7D7E9-CA0D-4927-9C70-683308BEEF29}" ShortID="550008180">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="TestAMB_Switch" ID="{3B78BCA1-03BB-4E9F-AD8E-3352E2A51DE6}" WorkUnitID="{32F45C75-D77F-4EA1-B5D9-E418B88F0C5E}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

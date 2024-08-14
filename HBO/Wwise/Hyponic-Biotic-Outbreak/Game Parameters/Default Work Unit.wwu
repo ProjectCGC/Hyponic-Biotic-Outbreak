@@ -12,8 +12,9 @@
 				</GameParameter>
 				<GameParameter Name="RTPC_PlayerSpeed" ID="{A17D166A-ED56-4D79-AB8D-108FC972632F}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="2"/>
-						<Property Name="Max" Type="Real64" Value="4"/>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="RTPC_HeartBeatIntensity" ID="{D8D0E439-81A9-4E73-8A2C-E92E078EBA21}">

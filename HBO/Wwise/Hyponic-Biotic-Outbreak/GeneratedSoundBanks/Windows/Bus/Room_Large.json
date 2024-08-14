@@ -10,19 +10,19 @@
     "Type": "Bus",
     "GUID": "{2E0CC0AE-E303-406F-8C17-6796BF32B63B}",
     "Language": "SFX",
-    "Hash": "{6FCEBFF7-E947-0DE6-6E3F-3670EEF4BFDC}",
+    "Hash": "{95F782E7-9F99-6477-B637-CA6257C23184}",
     "ObjectPath": "Room_Large",
     "ShortName": "Room_Large",
     "Path": "Bus/Room_Large.bnk",
     "Plugins": {
      "ShareSets": [
       {
-       "Id": "602546716",
-       "Name": "Room_Large",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Large",
-       "GUID": "{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}",
-       "LibName": "Wwise RoomVerb",
-       "LibId": "7733251"
+       "Id": "3673681183",
+       "Name": "Large_Bright_Chamber1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Large_Bright_Chamber1",
+       "GUID": "{0BFA2291-5716-4759-AC24-F59D29E8F2E4}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
       }
      ]
     },
@@ -35,7 +35,7 @@
       "PluginRefs": {
        "ShareSets": [
         {
-         "Id": "602546716"
+         "Id": "3673681183"
         }
        ]
       },
@@ -51,6 +51,6 @@
     ]
    }
   ],
-  "FileHash": "{59526E31-6F35-8772-838C-D8DE6B95E66B}"
+  "FileHash": "{379F4BB1-880A-D872-FADC-464DC0933323}"
  }
 }

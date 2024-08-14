@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3965059671" Type="Event" GUID="{BE3AAB44-520B-472A-984A-E0D9C809709B}" Language="SFX" Hash="{D6173637-0500-48A9-572F-BCB873F5187E}">
+		<SoundBank Id="3965059671" Type="Event" GUID="{BE3AAB44-520B-472A-984A-E0D9C809709B}" Language="SFX" Hash="{D8D7C6F9-D4C6-8D88-DBDB-C8A7EA5126F5}">
 			<ObjectPath>Play_ButtonPush_Declined</ObjectPath>
 			<ShortName>Play_ButtonPush_Declined</ShortName>
 			<Path>Event/Play_ButtonPush_Declined.bnk</Path>
@@ -9,11 +9,11 @@
 				<File Id="995594364" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Object\Button\ButtonPush_Declined.wav</ShortName>
 					<Path>Media/995594364.wem</Path>
-					<CachePath>SFX/Object/Button/ButtonPush_Declined_818F3B66.wem</CachePath>
+					<CachePath>SFX/Object/Button/ButtonPush_Declined_AF151FCB.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3965059671" Name="Play_ButtonPush_Declined" ObjectPath="\Events\Object\Button\Play_ButtonPush_Declined" GUID="{BE3AAB44-520B-472A-984A-E0D9C809709B}" DurationType="OneShot" DurationMin="0.76272917" DurationMax="0.76272917">
+				<Event Id="3965059671" Name="Play_ButtonPush_Declined" ObjectPath="\Events\Object\Button\Play_ButtonPush_Declined" GUID="{BE3AAB44-520B-472A-984A-E0D9C809709B}" MaxAttenuation="500" DurationType="OneShot" DurationMin="0.42893898" DurationMax="0.42893898">
 					<MediaRefs>
 						<MediaRef Id="995594364"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{213013DE-C790-523A-9D42-F575571232A6}</FileHash>
+	<FileHash>{03CC76C7-7EAD-26E9-D9E8-AE60160BB357}</FileHash>
 </SoundBanksInfo>

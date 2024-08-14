@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1420995418	Play_PLYR_Pickup			\Player\PlayerInteraction\Play_PLYR_Pickup	
+

@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1641378436" Type="Event" GUID="{5FACC5C0-EBC3-491E-B2FF-847FCE128CBD}" Language="SFX" Hash="{F59182AA-3A02-3538-5305-7C84F659826A}">
+		<SoundBank Id="1641378436" Type="Event" GUID="{5FACC5C0-EBC3-491E-B2FF-847FCE128CBD}" Language="SFX" Hash="{A6BC1728-5C17-AF3F-56FC-A85759804A3E}">
 			<ObjectPath>Play_2DAMB_MainSwitch</ObjectPath>
 			<ShortName>Play_2DAMB_MainSwitch</ShortName>
 			<Path>Event/Play_2DAMB_MainSwitch.bnk</Path>
 			<Media>
+				<File Id="193350215" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TestFiles\TestSilence\Silence_10sec.wav</ShortName>
+					<Path>Media/193350215.wem</Path>
+					<CachePath>SFX/TestFiles/TestSilence/Silence_10sec_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="938028341" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>2D_Ambience\2DAMB_Facility_Main.wav</ShortName>
 					<Path>Media/938028341.wem</Path>
@@ -19,6 +24,12 @@
 							<SwitchValue GroupType="Switch" GroupId="3655687181" Id="4218652370" GUID="{BCCA41ED-AE70-4D7A-AA67-C340B2821E69}"/>
 							<MediaRefs>
 								<MediaRef Id="938028341"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3655687181" Id="3187728172" GUID="{02750213-4EDF-4200-ACE0-5D3F062010B5}"/>
+							<MediaRefs>
+								<MediaRef Id="193350215"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -38,5 +49,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DA903325-EB84-D4CF-B5A2-CFDB0981EC31}</FileHash>
+	<FileHash>{DB7A8571-A07D-0084-AA5F-EC7BBA800C9D}</FileHash>
 </SoundBanksInfo>

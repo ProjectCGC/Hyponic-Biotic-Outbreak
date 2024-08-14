@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3633416828" Type="Bus" GUID="{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}" Language="SFX" Hash="{24BBE2EB-50A7-3B87-F518-D4E1294036EA}">
+		<SoundBank Id="3633416828" Type="Bus" GUID="{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}" Language="SFX" Hash="{BFD430CF-05BA-9B7E-EA23-8C0E753D3289}">
 			<ObjectPath>Hall</ObjectPath>
 			<ShortName>Hall</ShortName>
 			<Path>Bus/Hall.bnk</Path>
 			<Plugins>
 				<ShareSets>
-					<Plugin Id="3701691487" Name="Hall_Large_Bright" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Large_Bright" GUID="{CB602948-2D1D-4977-A8D5-378184293E80}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2662085913" Name="Large_Church1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Large_Church1" GUID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 				</ShareSets>
 			</Plugins>
 			<AuxBusses>
 				<AuxBus Id="3633416828" Name="Hall" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Hall" GUID="{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="3701691487"/>
+							<PluginRef Id="2662085913"/>
 						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
@@ -24,5 +24,5 @@
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{BF136BAA-193C-DA2F-9D68-33D422380AF5}</FileHash>
+	<FileHash>{0606BFC8-3287-258B-84AA-E569DF046549}</FileHash>
 </SoundBanksInfo>

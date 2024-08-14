@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{BE3AAB44-520B-472A-984A-E0D9C809709B}",
     "Language": "SFX",
-    "Hash": "{D6173637-0500-48A9-572F-BCB873F5187E}",
+    "Hash": "{D8D7C6F9-D4C6-8D88-DBDB-C8A7EA5126F5}",
     "ObjectPath": "Play_ButtonPush_Declined",
     "ShortName": "Play_ButtonPush_Declined",
     "Path": "Event/Play_ButtonPush_Declined.bnk",
@@ -22,7 +22,7 @@
       "Location": "Loose",
       "ShortName": "Object\\Button\\ButtonPush_Declined.wav",
       "Path": "Media/995594364.wem",
-      "CachePath": "SFX/Object/Button/ButtonPush_Declined_818F3B66.wem"
+      "CachePath": "SFX/Object/Button/ButtonPush_Declined_AF151FCB.wem"
      }
     ],
     "Events": [
@@ -31,9 +31,10 @@
       "Name": "Play_ButtonPush_Declined",
       "ObjectPath": "\\Events\\Object\\Button\\Play_ButtonPush_Declined",
       "GUID": "{BE3AAB44-520B-472A-984A-E0D9C809709B}",
+      "MaxAttenuation": "500",
       "DurationType": "OneShot",
-      "DurationMin": "0.76272917",
-      "DurationMax": "0.76272917",
+      "DurationMin": "0.42893898",
+      "DurationMax": "0.42893898",
       "MediaRefs": [
        {
         "Id": "995594364"
@@ -43,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{11EC7EDA-B51F-BC6B-0154-B6BD08F5A350}"
+  "FileHash": "{C72DB110-EB54-AA75-D18F-760334C9B49B}"
  }
 }

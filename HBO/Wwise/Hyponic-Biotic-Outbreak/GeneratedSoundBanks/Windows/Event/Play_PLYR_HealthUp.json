@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "510643231",
+    "Type": "Event",
+    "GUID": "{B4CA80B7-306C-4DCB-956B-ECB4D4695F5E}",
+    "Language": "SFX",
+    "Hash": "{03AD587C-8508-074A-74ED-64E07D94EE0E}",
+    "ObjectPath": "Play_PLYR_HealthUp",
+    "ShortName": "Play_PLYR_HealthUp",
+    "Path": "Event/Play_PLYR_HealthUp.bnk",
+    "Media": [
+     {
+      "Id": "651391489",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Player\\Player_Interaction\\Player_HealthUp\\HealthUp_01.wav",
+      "Path": "Media/651391489.wem",
+      "CachePath": "SFX/Player/Player_Interaction/Player_HealthUp/HealthUp_01_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "510643231",
+      "Name": "Play_PLYR_HealthUp",
+      "ObjectPath": "\\Events\\Player\\PlayerInteraction\\Play_PLYR_HealthUp",
+      "GUID": "{B4CA80B7-306C-4DCB-956B-ECB4D4695F5E}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2719792",
+      "DurationMax": "1.2719792",
+      "MediaRefs": [
+       {
+        "Id": "651391489"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{44A13AA2-2620-5551-0076-966C362A30EC}"
+ }
+}

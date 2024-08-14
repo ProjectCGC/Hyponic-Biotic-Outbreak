@@ -10,19 +10,19 @@
     "Type": "Bus",
     "GUID": "{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}",
     "Language": "SFX",
-    "Hash": "{24BBE2EB-50A7-3B87-F518-D4E1294036EA}",
+    "Hash": "{BFD430CF-05BA-9B7E-EA23-8C0E753D3289}",
     "ObjectPath": "Hall",
     "ShortName": "Hall",
     "Path": "Bus/Hall.bnk",
     "Plugins": {
      "ShareSets": [
       {
-       "Id": "3701691487",
-       "Name": "Hall_Large_Bright",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large_Bright",
-       "GUID": "{CB602948-2D1D-4977-A8D5-378184293E80}",
-       "LibName": "Wwise RoomVerb",
-       "LibId": "7733251"
+       "Id": "2662085913",
+       "Name": "Large_Church1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Large_Church1",
+       "GUID": "{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
       }
      ]
     },
@@ -35,7 +35,7 @@
       "PluginRefs": {
        "ShareSets": [
         {
-         "Id": "3701691487"
+         "Id": "2662085913"
         }
        ]
       },
@@ -51,6 +51,6 @@
     ]
    }
   ],
-  "FileHash": "{D378E59E-1D3D-A859-AC1E-944FBD987C79}"
+  "FileHash": "{E06A0A89-A7B3-4253-0541-25093950B018}"
  }
 }

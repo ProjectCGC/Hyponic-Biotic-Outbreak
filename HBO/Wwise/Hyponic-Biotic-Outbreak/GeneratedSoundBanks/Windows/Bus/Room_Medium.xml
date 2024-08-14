@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1990128658" Type="Bus" GUID="{53097CEC-C2C9-4E51-80D9-E5FA1932437F}" Language="SFX" Hash="{4080E2B3-B5ED-0B9A-FC9B-DE1405AA5BE3}">
+		<SoundBank Id="1990128658" Type="Bus" GUID="{53097CEC-C2C9-4E51-80D9-E5FA1932437F}" Language="SFX" Hash="{ED7E617B-6712-DF37-1CBF-C497F5B38B8E}">
 			<ObjectPath>Room_Medium</ObjectPath>
 			<ShortName>Room_Medium</ShortName>
 			<Path>Bus/Room_Medium.bnk</Path>
 			<Plugins>
 				<ShareSets>
-					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1919828840" Name="Room_Med1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Room_Med1" GUID="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 				</ShareSets>
 			</Plugins>
 			<AuxBusses>
 				<AuxBus Id="1990128658" Name="Room_Medium" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Medium" GUID="{53097CEC-C2C9-4E51-80D9-E5FA1932437F}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="1990128658"/>
+							<PluginRef Id="1919828840"/>
 						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
@@ -24,5 +24,5 @@
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F8F40491-F855-349D-7FAA-4D3BC3D27DA8}</FileHash>
+	<FileHash>{261A3C44-65AF-5616-4A67-A741D6AF4287}</FileHash>
 </SoundBanksInfo>

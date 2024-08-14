@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{E87B3610-46DD-7343-C838-989517858609}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{50F2A035-3ECF-1B3C-D115-210877BD7EE0}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="488030007" Name="Matrix Reverb (Custom)" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\AirDuct\[Effect Slot [0]: (Matrix Reverb)]\Matrix Reverb (Custom)" GUID="{4B72BADE-0C23-455C-9547-D059F81C4DDC}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="862898182" Name="Matrix Reverb (Custom)" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Outdoor\[Effect Slot [0]: (Matrix Reverb)]\Matrix Reverb (Custom)" GUID="{ADDA7BEC-00C5-4630-9350-DB47C1B44794}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</Custom>
 				<ShareSets>
-					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" ObjectPath="\Effects\Factory Effects\RoomVerb\Exteriors\Have_U_Ever_Been_Outside" GUID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
-					<Plugin Id="602546716" Name="Room_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Large" GUID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" LibName="Wwise RoomVerb" LibId="7733251"/>
-					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
-					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
-					<Plugin Id="3701691487" Name="Hall_Large_Bright" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Large_Bright" GUID="{CB602948-2D1D-4977-A8D5-378184293E80}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="992902880" Name="Small_Tiled_Room1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Small_Tiled_Room1" GUID="{41EEE722-3009-4B3F-8820-F414623783E3}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="1919828840" Name="Room_Med1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Room_Med1" GUID="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="2662085913" Name="Large_Church1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Large_Church1" GUID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="3673681183" Name="Large_Bright_Chamber1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Large_Bright_Chamber1" GUID="{0BFA2291-5716-4759-AC24-F59D29E8F2E4}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{57AEF53A-871F-40EA-91AC-C9662CACA6E8}" LibName="No Output" LibId="11862023"/>
@@ -32,9 +35,9 @@
 			<AuxBusses>
 				<AuxBus Id="144697359" Name="Outdoor" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Outdoor" GUID="{A9F3F8AA-9FF8-44CD-82CD-7F73A55C8708}">
 					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="48620415"/>
-						</ShareSets>
+						<Custom>
+							<PluginRef Id="862898182"/>
+						</Custom>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
@@ -43,7 +46,7 @@
 				<AuxBus Id="602546716" Name="Room_Large" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Large" GUID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="602546716"/>
+							<PluginRef Id="3673681183"/>
 						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
@@ -53,8 +56,18 @@
 				<AuxBus Id="1990128658" Name="Room_Medium" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Medium" GUID="{53097CEC-C2C9-4E51-80D9-E5FA1932437F}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="1990128658"/>
+							<PluginRef Id="1919828840"/>
 						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="2847862451" Name="AirDuct" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\AirDuct" GUID="{33C8EF5A-59D5-4A8F-8CD4-2BFFC587CAB2}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="488030007"/>
+						</Custom>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
@@ -63,7 +76,7 @@
 				<AuxBus Id="2995775460" Name="Room_Small" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Small" GUID="{D3C6DF4C-791A-4FE6-9079-4DB0FDAD3986}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="2995775460"/>
+							<PluginRef Id="992902880"/>
 						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
@@ -74,7 +87,7 @@
 				<AuxBus Id="3633416828" Name="Hall" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Hall" GUID="{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="3701691487"/>
+							<PluginRef Id="2662085913"/>
 						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
@@ -208,5 +221,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DD8156B4-6367-3C79-C60B-935558D12D48}</FileHash>
+	<FileHash>{4306FB5A-08B5-3E9D-70BE-92B18BF70088}</FileHash>
 </SoundBanksInfo>

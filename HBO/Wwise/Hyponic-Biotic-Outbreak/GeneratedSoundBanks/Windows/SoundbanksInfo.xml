@@ -14,21 +14,21 @@
 			<ShortName>Soundbank_Main</ShortName>
 			<Path>Soundbank_Main.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="144697359" Type="Bus" GUID="{A9F3F8AA-9FF8-44CD-82CD-7F73A55C8708}" Language="SFX" Hash="{CF570769-F807-91BD-BC91-05168BF04D59}">
+		<SoundBank Id="144697359" Type="Bus" GUID="{A9F3F8AA-9FF8-44CD-82CD-7F73A55C8708}" Language="SFX" Hash="{B7781F7A-F7AB-AC19-BE87-C96CCF656A84}">
 			<ObjectPath>Outdoor</ObjectPath>
 			<ShortName>Outdoor</ShortName>
 			<Path>Bus/Outdoor.bnk</Path>
 			<Plugins>
-				<ShareSets>
-					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" ObjectPath="\Effects\Factory Effects\RoomVerb\Exteriors\Have_U_Ever_Been_Outside" GUID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
-				</ShareSets>
+				<Custom>
+					<Plugin Id="862898182" Name="Matrix Reverb (Custom)" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Outdoor\[Effect Slot [0]: (Matrix Reverb)]\Matrix Reverb (Custom)" GUID="{ADDA7BEC-00C5-4630-9350-DB47C1B44794}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</Custom>
 			</Plugins>
 			<AuxBusses>
 				<AuxBus Id="144697359" Name="Outdoor" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Outdoor" GUID="{A9F3F8AA-9FF8-44CD-82CD-7F73A55C8708}">
 					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="48620415"/>
-						</ShareSets>
+						<Custom>
+							<PluginRef Id="862898182"/>
+						</Custom>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
@@ -36,7 +36,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="161393517" Type="Event" GUID="{E24E7E39-445B-4EC6-89AC-584BA68A900D}" Language="SFX" Hash="{97D0BDEE-753E-6EAD-8823-0902F3DB1910}">
+		<SoundBank Id="161393517" Type="Event" GUID="{E24E7E39-445B-4EC6-89AC-584BA68A900D}" Language="SFX" Hash="{BF71394D-0798-8609-AAFF-F3CE849D6A5A}">
 			<ObjectPath>Play_TestBeep_lp_3D</ObjectPath>
 			<ShortName>Play_TestBeep_lp_3D</ShortName>
 			<Path>Event/Play_TestBeep_lp_3D.bnk</Path>
@@ -48,27 +48,46 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="161393517" Name="Play_TestBeep_lp_3D" ObjectPath="\Events\TestEvents\Play_TestBeep_lp_3D" GUID="{E24E7E39-445B-4EC6-89AC-584BA68A900D}" MaxAttenuation="50" DurationType="Infinite">
+				<Event Id="161393517" Name="Play_TestBeep_lp_3D" ObjectPath="\Events\TestEvents\Play_TestBeep_lp_3D" GUID="{E24E7E39-445B-4EC6-89AC-584BA68A900D}" MaxAttenuation="500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="919098022"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="602546716" Type="Bus" GUID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}" Language="SFX" Hash="{6FCEBFF7-E947-0DE6-6E3F-3670EEF4BFDC}">
+		<SoundBank Id="510643231" Type="Event" GUID="{B4CA80B7-306C-4DCB-956B-ECB4D4695F5E}" Language="SFX" Hash="{03AD587C-8508-074A-74ED-64E07D94EE0E}">
+			<ObjectPath>Play_PLYR_HealthUp</ObjectPath>
+			<ShortName>Play_PLYR_HealthUp</ShortName>
+			<Path>Event/Play_PLYR_HealthUp.bnk</Path>
+			<Media>
+				<File Id="651391489" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Interaction\Player_HealthUp\HealthUp_01.wav</ShortName>
+					<Path>Media/651391489.wem</Path>
+					<CachePath>SFX/Player/Player_Interaction/Player_HealthUp/HealthUp_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="510643231" Name="Play_PLYR_HealthUp" ObjectPath="\Events\Player\PlayerInteraction\Play_PLYR_HealthUp" GUID="{B4CA80B7-306C-4DCB-956B-ECB4D4695F5E}" DurationType="OneShot" DurationMin="1.2719792" DurationMax="1.2719792">
+					<MediaRefs>
+						<MediaRef Id="651391489"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="602546716" Type="Bus" GUID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}" Language="SFX" Hash="{95F782E7-9F99-6477-B637-CA6257C23184}">
 			<ObjectPath>Room_Large</ObjectPath>
 			<ShortName>Room_Large</ShortName>
 			<Path>Bus/Room_Large.bnk</Path>
 			<Plugins>
 				<ShareSets>
-					<Plugin Id="602546716" Name="Room_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Large" GUID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="3673681183" Name="Large_Bright_Chamber1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Large_Bright_Chamber1" GUID="{0BFA2291-5716-4759-AC24-F59D29E8F2E4}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 				</ShareSets>
 			</Plugins>
 			<AuxBusses>
 				<AuxBus Id="602546716" Name="Room_Large" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Large" GUID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="602546716"/>
+							<PluginRef Id="3673681183"/>
 						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
@@ -77,7 +96,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="673033979" Type="Event" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" Language="SFX" Hash="{5F3C4D7D-645E-19AA-9522-56222A6B0C26}">
+		<SoundBank Id="673033979" Type="Event" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" Language="SFX" Hash="{C2F3FA87-7DEB-BB6F-B328-9A5E06BADF1B}">
 			<ObjectPath>Play_PLYR_Footsteps</ObjectPath>
 			<ShortName>Play_PLYR_Footsteps</ShortName>
 			<Path>Event/Play_PLYR_Footsteps.bnk</Path>
@@ -623,8 +642,18 @@
 					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_00_818F3B66.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="170609086" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\SFX\SFX_Player\PlayerLocomotion\PlayerLocomotion_Mixer\Player_Footsteps_Loop\Silence\Silence" GUID="{9F50187E-FC13-4BD1-9985-5CC3292E202B}" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
 			<Events>
-				<Event Id="673033979" Name="Play_PLYR_Footsteps" ObjectPath="\Events\Player\PlayerLocomotion\Play_PLYR_Footsteps" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" DurationType="OneShot" DurationMin="0" DurationMax="1.3714286">
+				<Event Id="673033979" Name="Play_PLYR_Footsteps" ObjectPath="\Events\Player\PlayerLocomotion\Play_PLYR_Footsteps" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" MaxAttenuation="500" DurationType="Infinite">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="170609086"/>
+						</Custom>
+					</PluginRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2051106367" Id="1296465089" GUID="{22259802-6366-43C9-B7F2-C6277591AC94}"/>
@@ -896,6 +925,14 @@
 				<Event Id="774311979" Name="Play_Stop_Heartbeat" ObjectPath="\Events\UX\Heartbeat\Play_Stop_Heartbeat" GUID="{4926F842-97EE-4F2E-A6E2-DD0E68984186}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="824917672" Type="Event" GUID="{54C80889-7574-4AB3-87DA-7C8BF185BDD3}" Language="SFX" Hash="{88FD84B4-3A53-5662-8735-BE1A40FBB4BF}">
+			<ObjectPath>Play_Stop_PLYR_Footsteps</ObjectPath>
+			<ShortName>Play_Stop_PLYR_Footsteps</ShortName>
+			<Path>Event/Play_Stop_PLYR_Footsteps.bnk</Path>
+			<Events>
+				<Event Id="824917672" Name="Play_Stop_PLYR_Footsteps" ObjectPath="\Events\Player\PlayerLocomotion\Play_Stop_PLYR_Footsteps" GUID="{54C80889-7574-4AB3-87DA-7C8BF185BDD3}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="858964037" Type="Event" GUID="{FEB8898A-E02F-4BFF-AC98-2CA1F8152788}" Language="SFX" Hash="{6A50D9D0-4627-3FD1-FF79-0C097371FDA0}">
 			<ObjectPath>Play_TestBeep_lp</ObjectPath>
 			<ShortName>Play_TestBeep_lp</ShortName>
@@ -915,7 +952,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1315362221" Type="Event" GUID="{E7DD8C78-6469-4B67-9446-D51331E58E8E}" Language="SFX" Hash="{57149156-6815-E120-3B12-81C113330B82}">
+		<SoundBank Id="1315362221" Type="Event" GUID="{E7DD8C78-6469-4B67-9446-D51331E58E8E}" Language="SFX" Hash="{148BEBA6-DE15-33C5-84D4-EC59EAC8FF5E}">
 			<ObjectPath>Play_ButtonPush_Accept</ObjectPath>
 			<ShortName>Play_ButtonPush_Accept</ShortName>
 			<Path>Event/Play_ButtonPush_Accept.bnk</Path>
@@ -923,18 +960,18 @@
 				<File Id="249192235" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Object\Button\ButtonPush_Accept.wav</ShortName>
 					<Path>Media/249192235.wem</Path>
-					<CachePath>SFX/Object/Button/ButtonPush_Accept_818F3B66.wem</CachePath>
+					<CachePath>SFX/Object/Button/ButtonPush_Accept_855B717C.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1315362221" Name="Play_ButtonPush_Accept" ObjectPath="\Events\Object\Button\Play_ButtonPush_Accept" GUID="{E7DD8C78-6469-4B67-9446-D51331E58E8E}" DurationType="OneShot" DurationMin="0.76272917" DurationMax="0.76272917">
+				<Event Id="1315362221" Name="Play_ButtonPush_Accept" ObjectPath="\Events\Object\Button\Play_ButtonPush_Accept" GUID="{E7DD8C78-6469-4B67-9446-D51331E58E8E}" MaxAttenuation="500" DurationType="OneShot" DurationMin="0.43093172" DurationMax="0.43093172">
 					<MediaRefs>
 						<MediaRef Id="249192235"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1318177482" Type="Event" GUID="{5C954A8F-0989-493F-899F-026E44E9FA13}" Language="SFX" Hash="{D0EA4D02-F0F1-6CC6-E49F-C2B63A69BC5F}">
+		<SoundBank Id="1318177482" Type="Event" GUID="{5C954A8F-0989-493F-899F-026E44E9FA13}" Language="SFX" Hash="{80961C82-8269-3C05-A2F3-D8C889668892}">
 			<ObjectPath>Play_ButtonPush</ObjectPath>
 			<ShortName>Play_ButtonPush</ShortName>
 			<Path>Event/Play_ButtonPush.bnk</Path>
@@ -946,24 +983,27 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1318177482" Name="Play_ButtonPush" ObjectPath="\Events\Object\Button\Play_ButtonPush" GUID="{5C954A8F-0989-493F-899F-026E44E9FA13}" DurationType="OneShot" DurationMin="0.63560414" DurationMax="0.63560414">
+				<Event Id="1318177482" Name="Play_ButtonPush" ObjectPath="\Events\Object\Button\Play_ButtonPush" GUID="{5C954A8F-0989-493F-899F-026E44E9FA13}" MaxAttenuation="500" DurationType="OneShot" DurationMin="0.63560414" DurationMax="0.63560414">
 					<MediaRefs>
 						<MediaRef Id="613885203"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{E87B3610-46DD-7343-C838-989517858609}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{50F2A035-3ECF-1B3C-D115-210877BD7EE0}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
+				<Custom>
+					<Plugin Id="488030007" Name="Matrix Reverb (Custom)" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\AirDuct\[Effect Slot [0]: (Matrix Reverb)]\Matrix Reverb (Custom)" GUID="{4B72BADE-0C23-455C-9547-D059F81C4DDC}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="862898182" Name="Matrix Reverb (Custom)" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Outdoor\[Effect Slot [0]: (Matrix Reverb)]\Matrix Reverb (Custom)" GUID="{ADDA7BEC-00C5-4630-9350-DB47C1B44794}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</Custom>
 				<ShareSets>
-					<Plugin Id="48620415" Name="Have_U_Ever_Been_Outside" ObjectPath="\Effects\Factory Effects\RoomVerb\Exteriors\Have_U_Ever_Been_Outside" GUID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" LibName="Wwise RoomVerb" LibId="7733251"/>
-					<Plugin Id="602546716" Name="Room_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Large" GUID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" LibName="Wwise RoomVerb" LibId="7733251"/>
-					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
-					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
-					<Plugin Id="3701691487" Name="Hall_Large_Bright" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Large_Bright" GUID="{CB602948-2D1D-4977-A8D5-378184293E80}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="992902880" Name="Small_Tiled_Room1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Small_Tiled_Room1" GUID="{41EEE722-3009-4B3F-8820-F414623783E3}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="1919828840" Name="Room_Med1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Room_Med1" GUID="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="2662085913" Name="Large_Church1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Large_Church1" GUID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="3673681183" Name="Large_Bright_Chamber1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Large_Bright_Chamber1" GUID="{0BFA2291-5716-4759-AC24-F59D29E8F2E4}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 				</ShareSets>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{57AEF53A-871F-40EA-91AC-C9662CACA6E8}" LibName="No Output" LibId="11862023"/>
@@ -984,9 +1024,9 @@
 			<AuxBusses>
 				<AuxBus Id="144697359" Name="Outdoor" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Outdoor" GUID="{A9F3F8AA-9FF8-44CD-82CD-7F73A55C8708}">
 					<PluginRefs>
-						<ShareSets>
-							<PluginRef Id="48620415"/>
-						</ShareSets>
+						<Custom>
+							<PluginRef Id="862898182"/>
+						</Custom>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
@@ -995,7 +1035,7 @@
 				<AuxBus Id="602546716" Name="Room_Large" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Large" GUID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="602546716"/>
+							<PluginRef Id="3673681183"/>
 						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
@@ -1005,8 +1045,18 @@
 				<AuxBus Id="1990128658" Name="Room_Medium" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Medium" GUID="{53097CEC-C2C9-4E51-80D9-E5FA1932437F}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="1990128658"/>
+							<PluginRef Id="1919828840"/>
 						</ShareSets>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+				<AuxBus Id="2847862451" Name="AirDuct" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\AirDuct" GUID="{33C8EF5A-59D5-4A8F-8CD4-2BFFC587CAB2}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="488030007"/>
+						</Custom>
 					</PluginRefs>
 					<AuxBusRefs>
 						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
@@ -1015,7 +1065,7 @@
 				<AuxBus Id="2995775460" Name="Room_Small" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Small" GUID="{D3C6DF4C-791A-4FE6-9079-4DB0FDAD3986}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="2995775460"/>
+							<PluginRef Id="992902880"/>
 						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
@@ -1026,7 +1076,7 @@
 				<AuxBus Id="3633416828" Name="Hall" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Hall" GUID="{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="3701691487"/>
+							<PluginRef Id="2662085913"/>
 						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
@@ -1159,51 +1209,61 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1563359746" Type="Event" GUID="{D3FCE60C-9BCB-4073-84BE-1EF04D94AE43}" Language="SFX" Hash="{D96815EB-31A4-FDB2-35B4-C91ECB7394E4}">
-			<ObjectPath>Play_TestAMB</ObjectPath>
-			<ShortName>Play_TestAMB</ShortName>
-			<Path>Event/Play_TestAMB.bnk</Path>
+		<SoundBank Id="1420995418" Type="Event" GUID="{DA9F54C6-9C5E-405B-BF49-3686D6FB7EE4}" Language="SFX" Hash="{D9CE98F6-E67F-19F4-08BB-6B3438290009}">
+			<ObjectPath>Play_PLYR_Pickup</ObjectPath>
+			<ShortName>Play_PLYR_Pickup</ShortName>
+			<Path>Event/Play_PLYR_Pickup.bnk</Path>
 			<Media>
-				<File Id="267162241" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>TestFiles\TestAMB\TestAMB_Facility.wav</ShortName>
-					<Path>Media/267162241.wem</Path>
-					<CachePath>SFX/TestFiles/TestAMB/TestAMB_Facility_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="934628338" Language="SFX" Streaming="false" Location="Loose">
-					<ShortName>TestFiles\TestAMB\TestAMB_Jungle.wav</ShortName>
-					<Path>Media/934628338.wem</Path>
-					<CachePath>SFX/TestFiles/TestAMB/TestAMB_Jungle_FBC78EF0.wem</CachePath>
+				<File Id="915346414" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Player\Player_Interaction\Player_Pickup\Pickup.wav</ShortName>
+					<Path>Media/915346414.wem</Path>
+					<CachePath>SFX/Player/Player_Interaction/Player_Pickup/Pickup_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1563359746" Name="Play_TestAMB" ObjectPath="\Events\TestEvents\Play_TestAMB" GUID="{D3FCE60C-9BCB-4073-84BE-1EF04D94AE43}" DurationType="Infinite">
-					<SwitchContainers>
-						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="2064552269" Id="2331036614" GUID="{D09CBBE3-BD9E-43FB-ACB8-BC14BECF89CE}"/>
-							<MediaRefs>
-								<MediaRef Id="267162241"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="2064552269" Id="438105790" GUID="{7AEAB277-FBA5-463D-8F3C-1A6C609256B5}"/>
-							<MediaRefs>
-								<MediaRef Id="934628338"/>
-							</MediaRefs>
-						</SwitchContainer>
-					</SwitchContainers>
+				<Event Id="1420995418" Name="Play_PLYR_Pickup" ObjectPath="\Events\Player\PlayerInteraction\Play_PLYR_Pickup" GUID="{DA9F54C6-9C5E-405B-BF49-3686D6FB7EE4}" DurationType="OneShot" DurationMin="0.5084792" DurationMax="0.5084792">
+					<MediaRefs>
+						<MediaRef Id="915346414"/>
+					</MediaRefs>
 				</Event>
 			</Events>
-			<StateGroups>
-				<StateGroup Id="2064552269" Name="AreaState" ObjectPath="\States\Default Work Unit\AreaState" GUID="{8B1BC050-B444-44D5-B5E9-7410E732977B}">
-					<States>
-						<State Id="438105790" Name="Outside" ObjectPath="\States\Default Work Unit\AreaState\Outside" GUID="{7AEAB277-FBA5-463D-8F3C-1A6C609256B5}"/>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\AreaState\None" GUID="{C1B588D3-80CE-4159-8E2E-7D55DEFED79E}"/>
-						<State Id="2331036614" Name="Facility" ObjectPath="\States\Default Work Unit\AreaState\Facility" GUID="{D09CBBE3-BD9E-43FB-ACB8-BC14BECF89CE}"/>
-						<State Id="3187728172" Name="Safezone" ObjectPath="\States\Default Work Unit\AreaState\Safezone" GUID="{599AA7B7-081D-412A-B07A-DE3FE30F3E70}"/>
-						<State Id="3604647259" Name="MainMenu" ObjectPath="\States\Default Work Unit\AreaState\MainMenu" GUID="{DB424BB6-B433-4578-AC11-B9081527B401}"/>
-					</States>
-				</StateGroup>
-			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="1549120219" Type="Event" GUID="{CF7B0F8B-EB81-4831-BBFE-048074746E8D}" Language="SFX" Hash="{25E5241B-AA22-9A6D-E245-B960B0A1F447}">
+			<ObjectPath>Play_LabSlideDoor_OpenClose</ObjectPath>
+			<ShortName>Play_LabSlideDoor_OpenClose</ShortName>
+			<Path>Event/Play_LabSlideDoor_OpenClose.bnk</Path>
+			<Media>
+				<File Id="352386838" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Object\Door\LabSlideDoor\SlideyLabDoor_02.wav</ShortName>
+					<Path>Media/352386838.wem</Path>
+					<CachePath>SFX/Object/Door/LabSlideDoor/SlideyLabDoor_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="693090102" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Object\Door\LabSlideDoor\SlideyLabDoor_03.wav</ShortName>
+					<Path>Media/693090102.wem</Path>
+					<CachePath>SFX/Object/Door/LabSlideDoor/SlideyLabDoor_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="821931353" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Object\Door\LabSlideDoor\SlideyLabDoor_00.wav</ShortName>
+					<Path>Media/821931353.wem</Path>
+					<CachePath>SFX/Object/Door/LabSlideDoor/SlideyLabDoor_00_818F3B66.wem</CachePath>
+				</File>
+				<File Id="848483009" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Object\Door\LabSlideDoor\SlideyLabDoor_01.wav</ShortName>
+					<Path>Media/848483009.wem</Path>
+					<CachePath>SFX/Object/Door/LabSlideDoor/SlideyLabDoor_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1549120219" Name="Play_LabSlideDoor_OpenClose" ObjectPath="\Events\Object\Door\LabSlideDoor\Play_LabSlideDoor_OpenClose" GUID="{CF7B0F8B-EB81-4831-BBFE-048074746E8D}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="2.0339167" DurationMax="2.0339167">
+					<MediaRefs>
+						<MediaRef Id="352386838"/>
+						<MediaRef Id="693090102"/>
+						<MediaRef Id="821931353"/>
+						<MediaRef Id="848483009"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="1619838726" Type="Event" GUID="{78576089-2271-4206-904B-BE338B644F5B}" Language="SFX" Hash="{7FFA2A8E-279F-50C9-00F2-1208FA742BA8}">
 			<ObjectPath>Play_Stop_TestBeep_lp_3D</ObjectPath>
@@ -1213,11 +1273,16 @@
 				<Event Id="1619838726" Name="Play_Stop_TestBeep_lp_3D" ObjectPath="\Events\TestEvents\Play_Stop_TestBeep_lp_3D" GUID="{78576089-2271-4206-904B-BE338B644F5B}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1641378436" Type="Event" GUID="{5FACC5C0-EBC3-491E-B2FF-847FCE128CBD}" Language="SFX" Hash="{F59182AA-3A02-3538-5305-7C84F659826A}">
+		<SoundBank Id="1641378436" Type="Event" GUID="{5FACC5C0-EBC3-491E-B2FF-847FCE128CBD}" Language="SFX" Hash="{A6BC1728-5C17-AF3F-56FC-A85759804A3E}">
 			<ObjectPath>Play_2DAMB_MainSwitch</ObjectPath>
 			<ShortName>Play_2DAMB_MainSwitch</ShortName>
 			<Path>Event/Play_2DAMB_MainSwitch.bnk</Path>
 			<Media>
+				<File Id="193350215" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>TestFiles\TestSilence\Silence_10sec.wav</ShortName>
+					<Path>Media/193350215.wem</Path>
+					<CachePath>SFX/TestFiles/TestSilence/Silence_10sec_FBC78EF0.wem</CachePath>
+				</File>
 				<File Id="938028341" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>2D_Ambience\2DAMB_Facility_Main.wav</ShortName>
 					<Path>Media/938028341.wem</Path>
@@ -1231,6 +1296,12 @@
 							<SwitchValue GroupType="Switch" GroupId="3655687181" Id="4218652370" GUID="{BCCA41ED-AE70-4D7A-AA67-C340B2821E69}"/>
 							<MediaRefs>
 								<MediaRef Id="938028341"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3655687181" Id="3187728172" GUID="{02750213-4EDF-4200-ACE0-5D3F062010B5}"/>
+							<MediaRefs>
+								<MediaRef Id="193350215"/>
 							</MediaRefs>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -1249,7 +1320,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1681067324" Type="Event" GUID="{059F532D-162F-41CB-85C9-8D2A3D4A8F50}" Language="SFX" Hash="{3B4F0023-A871-1D08-DC6F-B8058A9F6BD5}">
+		<SoundBank Id="1681067324" Type="Event" GUID="{059F532D-162F-41CB-85C9-8D2A3D4A8F50}" Language="SFX" Hash="{400ADCA5-69E1-98BB-E426-091300C6588A}">
 			<ObjectPath>Play_TestBeep_3D</ObjectPath>
 			<ShortName>Play_TestBeep_3D</ShortName>
 			<Path>Event/Play_TestBeep_3D.bnk</Path>
@@ -1261,7 +1332,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1681067324" Name="Play_TestBeep_3D" ObjectPath="\Events\TestEvents\Play_TestBeep_3D" GUID="{059F532D-162F-41CB-85C9-8D2A3D4A8F50}" MaxAttenuation="50" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+				<Event Id="1681067324" Name="Play_TestBeep_3D" ObjectPath="\Events\TestEvents\Play_TestBeep_3D" GUID="{059F532D-162F-41CB-85C9-8D2A3D4A8F50}" MaxAttenuation="500" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
 					<MediaRefs>
 						<MediaRef Id="913365373"/>
 					</MediaRefs>
@@ -1287,20 +1358,20 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1990128658" Type="Bus" GUID="{53097CEC-C2C9-4E51-80D9-E5FA1932437F}" Language="SFX" Hash="{4080E2B3-B5ED-0B9A-FC9B-DE1405AA5BE3}">
+		<SoundBank Id="1990128658" Type="Bus" GUID="{53097CEC-C2C9-4E51-80D9-E5FA1932437F}" Language="SFX" Hash="{ED7E617B-6712-DF37-1CBF-C497F5B38B8E}">
 			<ObjectPath>Room_Medium</ObjectPath>
 			<ShortName>Room_Medium</ShortName>
 			<Path>Bus/Room_Medium.bnk</Path>
 			<Plugins>
 				<ShareSets>
-					<Plugin Id="1990128658" Name="Room_Medium" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Medium" GUID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="1919828840" Name="Room_Med1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Room_Med1" GUID="{71B802A7-03E2-4998-B241-B2B84FE9DDFF}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 				</ShareSets>
 			</Plugins>
 			<AuxBusses>
 				<AuxBus Id="1990128658" Name="Room_Medium" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Medium" GUID="{53097CEC-C2C9-4E51-80D9-E5FA1932437F}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="1990128658"/>
+							<PluginRef Id="1919828840"/>
 						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
@@ -1309,7 +1380,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="2020633341" Type="Event" GUID="{7C739D53-7AEB-4288-AF58-EC80CA306EC7}" Language="SFX" Hash="{9B51CAFA-8C4A-84E6-9874-7CC9CEC2AD0D}">
+		<SoundBank Id="2020633341" Type="Event" GUID="{7C739D53-7AEB-4288-AF58-EC80CA306EC7}" Language="SFX" Hash="{A241085D-26C7-9532-D00A-5C05213305B1}">
 			<ObjectPath>Play_3DAMB_JungleAMB</ObjectPath>
 			<ShortName>Play_3DAMB_JungleAMB</ShortName>
 			<Path>Event/Play_3DAMB_JungleAMB.bnk</Path>
@@ -1321,12 +1392,34 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2020633341" Name="Play_3DAMB_JungleAMB" ObjectPath="\Events\3DAmbience\Play_3DAMB_JungleAMB" GUID="{7C739D53-7AEB-4288-AF58-EC80CA306EC7}" DurationType="Infinite">
+				<Event Id="2020633341" Name="Play_3DAMB_JungleAMB" ObjectPath="\Events\3DAmbience\Play_3DAMB_JungleAMB" GUID="{7C739D53-7AEB-4288-AF58-EC80CA306EC7}" MaxAttenuation="2500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="721655021"/>
 					</MediaRefs>
 				</Event>
 			</Events>
+		</SoundBank>
+		<SoundBank Id="2847862451" Type="Bus" GUID="{33C8EF5A-59D5-4A8F-8CD4-2BFFC587CAB2}" Language="SFX" Hash="{6AF28EF9-0109-77EF-88F0-0880179C80C3}">
+			<ObjectPath>AirDuct</ObjectPath>
+			<ShortName>AirDuct</ShortName>
+			<Path>Bus/AirDuct.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="488030007" Name="Matrix Reverb (Custom)" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\AirDuct\[Effect Slot [0]: (Matrix Reverb)]\Matrix Reverb (Custom)" GUID="{4B72BADE-0C23-455C-9547-D059F81C4DDC}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+				</Custom>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="2847862451" Name="AirDuct" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\AirDuct" GUID="{33C8EF5A-59D5-4A8F-8CD4-2BFFC587CAB2}">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="488030007"/>
+						</Custom>
+					</PluginRefs>
+					<AuxBusRefs>
+						<AuxBusRef Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
+					</AuxBusRefs>
+				</AuxBus>
+			</AuxBusses>
 		</SoundBank>
 		<SoundBank Id="2963813288" Type="Event" GUID="{A2038F62-D3A4-49D1-843B-8F247AE31551}" Language="SFX" Hash="{46E3C2AE-70B4-42E3-1EF2-4E369BB3452E}">
 			<ObjectPath>Play_Stop_TestBeep_lp</ObjectPath>
@@ -1336,20 +1429,20 @@
 				<Event Id="2963813288" Name="Play_Stop_TestBeep_lp" ObjectPath="\Events\TestEvents\Play_Stop_TestBeep_lp" GUID="{A2038F62-D3A4-49D1-843B-8F247AE31551}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="2995775460" Type="Bus" GUID="{D3C6DF4C-791A-4FE6-9079-4DB0FDAD3986}" Language="SFX" Hash="{92F60CCE-21CE-5083-75B4-0AFD05E3C48C}">
+		<SoundBank Id="2995775460" Type="Bus" GUID="{D3C6DF4C-791A-4FE6-9079-4DB0FDAD3986}" Language="SFX" Hash="{BB4BA0DB-A9C5-021F-41E7-35F421D4D3AE}">
 			<ObjectPath>Room_Small</ObjectPath>
 			<ShortName>Room_Small</ShortName>
 			<Path>Bus/Room_Small.bnk</Path>
 			<Plugins>
 				<ShareSets>
-					<Plugin Id="2995775460" Name="Room_Small" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Small" GUID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="992902880" Name="Small_Tiled_Room1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Small_Tiled_Room1" GUID="{41EEE722-3009-4B3F-8820-F414623783E3}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 				</ShareSets>
 			</Plugins>
 			<AuxBusses>
 				<AuxBus Id="2995775460" Name="Room_Small" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Small" GUID="{D3C6DF4C-791A-4FE6-9079-4DB0FDAD3986}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="2995775460"/>
+							<PluginRef Id="992902880"/>
 						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
@@ -1366,20 +1459,20 @@
 				<AuxBus Id="3545700988" Name="Reverbs" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs" GUID="{2A108C4C-3A5B-4B31-B302-5713B48161E6}"/>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="3633416828" Type="Bus" GUID="{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}" Language="SFX" Hash="{24BBE2EB-50A7-3B87-F518-D4E1294036EA}">
+		<SoundBank Id="3633416828" Type="Bus" GUID="{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}" Language="SFX" Hash="{BFD430CF-05BA-9B7E-EA23-8C0E753D3289}">
 			<ObjectPath>Hall</ObjectPath>
 			<ShortName>Hall</ShortName>
 			<Path>Bus/Hall.bnk</Path>
 			<Plugins>
 				<ShareSets>
-					<Plugin Id="3701691487" Name="Hall_Large_Bright" ObjectPath="\Effects\Factory Effects\RoomVerb\Halls\Hall_Large_Bright" GUID="{CB602948-2D1D-4977-A8D5-378184293E80}" LibName="Wwise RoomVerb" LibId="7733251"/>
+					<Plugin Id="2662085913" Name="Large_Church1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Large_Church1" GUID="{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 				</ShareSets>
 			</Plugins>
 			<AuxBusses>
 				<AuxBus Id="3633416828" Name="Hall" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Hall" GUID="{4C9CE8C6-321C-46DB-9AEB-3FDF0833FD3F}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="3701691487"/>
+							<PluginRef Id="2662085913"/>
 						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
@@ -1516,7 +1609,7 @@
 				<GameParameter Id="1712352412" Name="RTPC_HeartBeatIntensity" ObjectPath="\Game Parameters\Default Work Unit\RTPC_HeartBeatIntensity" GUID="{D8D0E439-81A9-4E73-8A2C-E92E078EBA21}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3965059671" Type="Event" GUID="{BE3AAB44-520B-472A-984A-E0D9C809709B}" Language="SFX" Hash="{D6173637-0500-48A9-572F-BCB873F5187E}">
+		<SoundBank Id="3965059671" Type="Event" GUID="{BE3AAB44-520B-472A-984A-E0D9C809709B}" Language="SFX" Hash="{D8D7C6F9-D4C6-8D88-DBDB-C8A7EA5126F5}">
 			<ObjectPath>Play_ButtonPush_Declined</ObjectPath>
 			<ShortName>Play_ButtonPush_Declined</ShortName>
 			<Path>Event/Play_ButtonPush_Declined.bnk</Path>
@@ -1524,11 +1617,11 @@
 				<File Id="995594364" Language="SFX" Streaming="false" Location="Loose">
 					<ShortName>Object\Button\ButtonPush_Declined.wav</ShortName>
 					<Path>Media/995594364.wem</Path>
-					<CachePath>SFX/Object/Button/ButtonPush_Declined_818F3B66.wem</CachePath>
+					<CachePath>SFX/Object/Button/ButtonPush_Declined_AF151FCB.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3965059671" Name="Play_ButtonPush_Declined" ObjectPath="\Events\Object\Button\Play_ButtonPush_Declined" GUID="{BE3AAB44-520B-472A-984A-E0D9C809709B}" DurationType="OneShot" DurationMin="0.76272917" DurationMax="0.76272917">
+				<Event Id="3965059671" Name="Play_ButtonPush_Declined" ObjectPath="\Events\Object\Button\Play_ButtonPush_Declined" GUID="{BE3AAB44-520B-472A-984A-E0D9C809709B}" MaxAttenuation="500" DurationType="OneShot" DurationMin="0.42893898" DurationMax="0.42893898">
 					<MediaRefs>
 						<MediaRef Id="995594364"/>
 					</MediaRefs>
@@ -1665,5 +1758,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{33CA9774-9711-A6E4-5809-77734ED7B716}</FileHash>
+	<FileHash>{935C0340-E752-B54E-9790-9304E8A70D13}</FileHash>
 </SoundBanksInfo>
