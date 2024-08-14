@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5C954A8F-0989-493F-899F-026E44E9FA13}",
     "Language": "SFX",
-    "Hash": "{D0EA4D02-F0F1-6CC6-E49F-C2B63A69BC5F}",
+    "Hash": "{80961C82-8269-3C05-A2F3-D8C889668892}",
     "ObjectPath": "Play_ButtonPush",
     "ShortName": "Play_ButtonPush",
     "Path": "Event/Play_ButtonPush.bnk",
@@ -31,6 +31,7 @@
       "Name": "Play_ButtonPush",
       "ObjectPath": "\\Events\\Object\\Button\\Play_ButtonPush",
       "GUID": "{5C954A8F-0989-493F-899F-026E44E9FA13}",
+      "MaxAttenuation": "500",
       "DurationType": "OneShot",
       "DurationMin": "0.63560414",
       "DurationMax": "0.63560414",
@@ -43,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{0A68F458-05FB-C656-8CD1-CEDD674171A1}"
+  "FileHash": "{4E8B5A41-F0FB-3621-042B-112636BE1559}"
  }
 }

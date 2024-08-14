@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1549120219" Type="Event" GUID="{CF7B0F8B-EB81-4831-BBFE-048074746E8D}" Language="SFX" Hash="{25E5241B-AA22-9A6D-E245-B960B0A1F447}">
+			<ObjectPath>Play_LabSlideDoor_OpenClose</ObjectPath>
+			<ShortName>Play_LabSlideDoor_OpenClose</ShortName>
+			<Path>Event/Play_LabSlideDoor_OpenClose.bnk</Path>
+			<Media>
+				<File Id="352386838" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Object\Door\LabSlideDoor\SlideyLabDoor_02.wav</ShortName>
+					<Path>Media/352386838.wem</Path>
+					<CachePath>SFX/Object/Door/LabSlideDoor/SlideyLabDoor_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="693090102" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Object\Door\LabSlideDoor\SlideyLabDoor_03.wav</ShortName>
+					<Path>Media/693090102.wem</Path>
+					<CachePath>SFX/Object/Door/LabSlideDoor/SlideyLabDoor_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="821931353" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Object\Door\LabSlideDoor\SlideyLabDoor_00.wav</ShortName>
+					<Path>Media/821931353.wem</Path>
+					<CachePath>SFX/Object/Door/LabSlideDoor/SlideyLabDoor_00_818F3B66.wem</CachePath>
+				</File>
+				<File Id="848483009" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Object\Door\LabSlideDoor\SlideyLabDoor_01.wav</ShortName>
+					<Path>Media/848483009.wem</Path>
+					<CachePath>SFX/Object/Door/LabSlideDoor/SlideyLabDoor_01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1549120219" Name="Play_LabSlideDoor_OpenClose" ObjectPath="\Events\Object\Door\LabSlideDoor\Play_LabSlideDoor_OpenClose" GUID="{CF7B0F8B-EB81-4831-BBFE-048074746E8D}" MaxAttenuation="1000" DurationType="OneShot" DurationMin="2.0339167" DurationMax="2.0339167">
+					<MediaRefs>
+						<MediaRef Id="352386838"/>
+						<MediaRef Id="693090102"/>
+						<MediaRef Id="821931353"/>
+						<MediaRef Id="848483009"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{51DC0097-5105-0DEA-3C63-93112CADF731}</FileHash>
+</SoundBanksInfo>

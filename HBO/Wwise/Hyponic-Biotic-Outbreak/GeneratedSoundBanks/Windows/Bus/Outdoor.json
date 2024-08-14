@@ -10,19 +10,19 @@
     "Type": "Bus",
     "GUID": "{A9F3F8AA-9FF8-44CD-82CD-7F73A55C8708}",
     "Language": "SFX",
-    "Hash": "{CF570769-F807-91BD-BC91-05168BF04D59}",
+    "Hash": "{B7781F7A-F7AB-AC19-BE87-C96CCF656A84}",
     "ObjectPath": "Outdoor",
     "ShortName": "Outdoor",
     "Path": "Bus/Outdoor.bnk",
     "Plugins": {
-     "ShareSets": [
+     "Custom": [
       {
-       "Id": "48620415",
-       "Name": "Have_U_Ever_Been_Outside",
-       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
-       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
-       "LibName": "Wwise RoomVerb",
-       "LibId": "7733251"
+       "Id": "862898182",
+       "Name": "Matrix Reverb (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Master Mixers\\Master Audio Bus\\Reverbs\\Outdoor\\[Effect Slot [0]: (Matrix Reverb)]\\Matrix Reverb (Custom)",
+       "GUID": "{ADDA7BEC-00C5-4630-9350-DB47C1B44794}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
       }
      ]
     },
@@ -33,9 +33,9 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Master Mixers\\Master Audio Bus\\Reverbs\\Outdoor",
       "GUID": "{A9F3F8AA-9FF8-44CD-82CD-7F73A55C8708}",
       "PluginRefs": {
-       "ShareSets": [
+       "Custom": [
         {
-         "Id": "48620415"
+         "Id": "862898182"
         }
        ]
       },
@@ -51,6 +51,6 @@
     ]
    }
   ],
-  "FileHash": "{EA88AC2D-0BF4-5CB9-7E7B-F3D68BD1194B}"
+  "FileHash": "{50A2F673-B926-423A-534A-B17D7EAD2709}"
  }
 }

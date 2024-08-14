@@ -4,6 +4,7 @@
 		<WorkUnit Name="Object" ID="{97D48442-4373-4ED3-99C0-0946AF74AA82}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="Button" ID="{F750588C-95E6-413A-B2C4-8F1D36B7A10D}" PersistMode="Reference"/>
+				<WorkUnit Name="Door" ID="{A6395714-84BB-4DD9-A122-0799F2BAA3B9}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

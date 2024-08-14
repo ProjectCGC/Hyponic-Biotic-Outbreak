@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Doors" ID="{E089A575-A44C-468D-8CBF-4730085CA050}" OwnerID="{7491D6A2-EB94-4AEF-A52B-4B894563237E}" PersistMode="Nested">
 			<PropertyList>
-				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="Color" Type="int16" Value="7"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>

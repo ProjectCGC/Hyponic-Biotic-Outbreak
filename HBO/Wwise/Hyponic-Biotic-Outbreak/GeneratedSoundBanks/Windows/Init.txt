@@ -49,16 +49,18 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	144697359	Outdoor			\Master Mixers\Master Audio Bus\Reverbs\Outdoor	
 	602546716	Room_Large			\Master Mixers\Master Audio Bus\Reverbs\Room_Large	
 	1990128658	Room_Medium			\Master Mixers\Master Audio Bus\Reverbs\Room_Medium	
+	2847862451	AirDuct			\Master Mixers\Master Audio Bus\Reverbs\AirDuct	
 	2995775460	Room_Small			\Master Mixers\Master Audio Bus\Reverbs\Room_Small	
 	3545700988	Reverbs			\Master Mixers\Master Audio Bus\Reverbs	
 	3633416828	Hall			\Master Mixers\Master Audio Bus\Reverbs\Hall	
 
 Effect plug-ins	ID	Name	Type				Notes
-	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
-	602546716	Room_Large	Wwise RoomVerb			
-	1990128658	Room_Medium	Wwise RoomVerb			
-	2995775460	Room_Small	Wwise RoomVerb			
-	3701691487	Hall_Large_Bright	Wwise RoomVerb			
+	488030007	Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	862898182	Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	992902880	Small_Tiled_Room1	Wwise Matrix Reverb			
+	1919828840	Room_Med1	Wwise Matrix Reverb			
+	2662085913	Large_Church1	Wwise Matrix Reverb			
+	3673681183	Large_Bright_Chamber1	Wwise Matrix Reverb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

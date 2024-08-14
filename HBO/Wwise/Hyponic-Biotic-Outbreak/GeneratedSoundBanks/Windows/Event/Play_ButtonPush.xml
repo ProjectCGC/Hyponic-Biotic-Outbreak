@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1318177482" Type="Event" GUID="{5C954A8F-0989-493F-899F-026E44E9FA13}" Language="SFX" Hash="{D0EA4D02-F0F1-6CC6-E49F-C2B63A69BC5F}">
+		<SoundBank Id="1318177482" Type="Event" GUID="{5C954A8F-0989-493F-899F-026E44E9FA13}" Language="SFX" Hash="{80961C82-8269-3C05-A2F3-D8C889668892}">
 			<ObjectPath>Play_ButtonPush</ObjectPath>
 			<ShortName>Play_ButtonPush</ShortName>
 			<Path>Event/Play_ButtonPush.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1318177482" Name="Play_ButtonPush" ObjectPath="\Events\Object\Button\Play_ButtonPush" GUID="{5C954A8F-0989-493F-899F-026E44E9FA13}" DurationType="OneShot" DurationMin="0.63560414" DurationMax="0.63560414">
+				<Event Id="1318177482" Name="Play_ButtonPush" ObjectPath="\Events\Object\Button\Play_ButtonPush" GUID="{5C954A8F-0989-493F-899F-026E44E9FA13}" MaxAttenuation="500" DurationType="OneShot" DurationMin="0.63560414" DurationMax="0.63560414">
 					<MediaRefs>
 						<MediaRef Id="613885203"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B2AA91EF-1A87-0840-2A85-6AA8D12A766A}</FileHash>
+	<FileHash>{7329CA34-54D7-395B-6CDC-5634DC511AA7}</FileHash>
 </SoundBanksInfo>

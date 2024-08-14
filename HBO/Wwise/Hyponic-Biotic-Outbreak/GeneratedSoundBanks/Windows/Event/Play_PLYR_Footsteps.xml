@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="673033979" Type="Event" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" Language="SFX" Hash="{5F3C4D7D-645E-19AA-9522-56222A6B0C26}">
+		<SoundBank Id="673033979" Type="Event" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" Language="SFX" Hash="{C2F3FA87-7DEB-BB6F-B328-9A5E06BADF1B}">
 			<ObjectPath>Play_PLYR_Footsteps</ObjectPath>
 			<ShortName>Play_PLYR_Footsteps</ShortName>
 			<Path>Event/Play_PLYR_Footsteps.bnk</Path>
@@ -547,8 +547,18 @@
 					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_00_818F3B66.wem</CachePath>
 				</File>
 			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="170609086" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\SFX\SFX_Player\PlayerLocomotion\PlayerLocomotion_Mixer\Player_Footsteps_Loop\Silence\Silence" GUID="{9F50187E-FC13-4BD1-9985-5CC3292E202B}" LibName="Wwise Silence" LibId="6619138"/>
+				</Custom>
+			</Plugins>
 			<Events>
-				<Event Id="673033979" Name="Play_PLYR_Footsteps" ObjectPath="\Events\Player\PlayerLocomotion\Play_PLYR_Footsteps" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" DurationType="OneShot" DurationMin="0" DurationMax="1.3714286">
+				<Event Id="673033979" Name="Play_PLYR_Footsteps" ObjectPath="\Events\Player\PlayerLocomotion\Play_PLYR_Footsteps" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" MaxAttenuation="500" DurationType="Infinite">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="170609086"/>
+						</Custom>
+					</PluginRefs>
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2051106367" Id="1296465089" GUID="{22259802-6366-43C9-B7F2-C6277591AC94}"/>
@@ -813,5 +823,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{39EFCB92-BAF7-8FDD-E28B-E59B98D2AA45}</FileHash>
+	<FileHash>{29E1E8B4-239A-9138-E51F-462132FF1435}</FileHash>
 </SoundBanksInfo>

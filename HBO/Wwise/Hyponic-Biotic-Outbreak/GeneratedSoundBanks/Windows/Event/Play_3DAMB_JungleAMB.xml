@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2020633341" Type="Event" GUID="{7C739D53-7AEB-4288-AF58-EC80CA306EC7}" Language="SFX" Hash="{9B51CAFA-8C4A-84E6-9874-7CC9CEC2AD0D}">
+		<SoundBank Id="2020633341" Type="Event" GUID="{7C739D53-7AEB-4288-AF58-EC80CA306EC7}" Language="SFX" Hash="{A241085D-26C7-9532-D00A-5C05213305B1}">
 			<ObjectPath>Play_3DAMB_JungleAMB</ObjectPath>
 			<ShortName>Play_3DAMB_JungleAMB</ShortName>
 			<Path>Event/Play_3DAMB_JungleAMB.bnk</Path>
@@ -13,7 +13,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2020633341" Name="Play_3DAMB_JungleAMB" ObjectPath="\Events\3DAmbience\Play_3DAMB_JungleAMB" GUID="{7C739D53-7AEB-4288-AF58-EC80CA306EC7}" DurationType="Infinite">
+				<Event Id="2020633341" Name="Play_3DAMB_JungleAMB" ObjectPath="\Events\3DAmbience\Play_3DAMB_JungleAMB" GUID="{7C739D53-7AEB-4288-AF58-EC80CA306EC7}" MaxAttenuation="2500" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="721655021"/>
 					</MediaRefs>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{967D5063-7743-71AB-E021-9B1E44D70C91}</FileHash>
+	<FileHash>{6615DCA2-A186-15E5-1F4A-FEAB3B131FB3}</FileHash>
 </SoundBanksInfo>

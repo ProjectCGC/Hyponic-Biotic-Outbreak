@@ -1,7 +1,7 @@
 {
  "ProjectInfo": {
   "Project": {
-   "Name": "UnrealTestProject_00",
+   "Name": "Hyponic-Biotic-Outbreak",
    "GUID": "{BF6017BD-B13C-4908-A0A2-3573E54CE864}",
    "Generator": "2023.1.5.8522"
   },
@@ -24,6 +24,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{B7644816-1205-C764-B056-B5045FBBFF57}"
+  "FileHash": "{A3C31D8E-FA3A-A4EA-9796-7444080ACA20}"
  }
 }
