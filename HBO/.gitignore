@@ -49,6 +49,10 @@ SourceArt/**/*.tga
 Binaries/*
 Plugins/*/Binaries/*
 
+# Wwise Whitelist
+!Plugins/Wwise/Binaries/*
+!Plugins/WwiseNiagara/Binaries/*
+
 # Builds
 Build/*
 

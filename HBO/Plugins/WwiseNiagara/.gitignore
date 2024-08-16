@@ -1,0 +1,6 @@
+# PDBs
+*.pdb
+
+# Whitelist
+!*.dll
+!*.lib
