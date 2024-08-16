@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="602546716" Type="Bus" GUID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}" Language="SFX" Hash="{95F782E7-9F99-6477-B637-CA6257C23184}">
+		<SoundBank Id="602546716" Type="Bus" GUID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}" Language="SFX" Hash="{2E1D003E-0C2C-89BA-0AD0-C977C9553136}">
 			<ObjectPath>Room_Large</ObjectPath>
 			<ShortName>Room_Large</ShortName>
 			<Path>Bus/Room_Large.bnk</Path>
 			<Plugins>
 				<ShareSets>
-					<Plugin Id="3673681183" Name="Large_Bright_Chamber1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Large_Bright_Chamber1" GUID="{0BFA2291-5716-4759-AC24-F59D29E8F2E4}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
+					<Plugin Id="2777920037" Name="Room_Large1" ObjectPath="\Effects\Factory Effects\Matrix Reverb\Room_Large1" GUID="{270959EA-9E0C-4E40-84D5-59207BF74AB8}" LibName="Wwise Matrix Reverb" LibId="7536643"/>
 				</ShareSets>
 			</Plugins>
 			<AuxBusses>
 				<AuxBus Id="602546716" Name="Room_Large" ObjectPath="\Master-Mixer Hierarchy\Master Mixers\Master Audio Bus\Reverbs\Room_Large" GUID="{2E0CC0AE-E303-406F-8C17-6796BF32B63B}">
 					<PluginRefs>
 						<ShareSets>
-							<PluginRef Id="3673681183"/>
+							<PluginRef Id="2777920037"/>
 						</ShareSets>
 					</PluginRefs>
 					<AuxBusRefs>
@@ -24,5 +24,5 @@
 			</AuxBusses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C1AD8283-4655-4267-FADB-FCA2641601FF}</FileHash>
+	<FileHash>{AC6C9C9B-BFE7-25B0-D468-9D279A23EFF4}</FileHash>
 </SoundBanksInfo>

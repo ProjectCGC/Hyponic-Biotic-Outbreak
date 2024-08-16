@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{E7DD8C78-6469-4B67-9446-D51331E58E8E}",
     "Language": "SFX",
-    "Hash": "{148BEBA6-DE15-33C5-84D4-EC59EAC8FF5E}",
+    "Hash": "{22FD9BA7-9823-AA9D-C204-C109BDCD3458}",
     "ObjectPath": "Play_ButtonPush_Accept",
     "ShortName": "Play_ButtonPush_Accept",
     "Path": "Event/Play_ButtonPush_Accept.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{7EE37D23-6902-B5A2-D09D-023CE1FAB4CB}"
+  "FileHash": "{C1719678-DBE3-52E0-AA76-A22F23C42A86}"
  }
 }

@@ -60,7 +60,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	992902880	Small_Tiled_Room1	Wwise Matrix Reverb			
 	1919828840	Room_Med1	Wwise Matrix Reverb			
 	2662085913	Large_Church1	Wwise Matrix Reverb			
-	3673681183	Large_Bright_Chamber1	Wwise Matrix Reverb			
+	2777920037	Room_Large1	Wwise Matrix Reverb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

@@ -18,6 +18,9 @@
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="AreaState" ID="{8B1BC050-B444-44D5-B5E9-7410E732977B}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="3"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{C1B588D3-80CE-4159-8E2E-7D55DEFED79E}"/>
 						<State Name="Outside" ID="{7AEAB277-FBA5-463D-8F3C-1A6C609256B5}"/>
@@ -25,14 +28,6 @@
 						<State Name="Safezone" ID="{599AA7B7-081D-412A-B07A-DE3FE30F3E70}"/>
 						<State Name="MainMenu" ID="{DB424BB6-B433-4578-AC11-B9081527B401}"/>
 					</ChildrenList>
-					<TransitionList>
-						<Transition>
-							<StartState Name="Outside" ID="{7AEAB277-FBA5-463D-8F3C-1A6C609256B5}"/>
-							<EndState Name="Facility" ID="{D09CBBE3-BD9E-43FB-ACB8-BC14BECF89CE}"/>
-							<Time>3</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="MusicState" ID="{C99C7064-20C6-4D8C-B4E0-8C3C5D23BD2B}">
 					<ChildrenList>
