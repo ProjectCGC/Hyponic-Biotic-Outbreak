@@ -79,7 +79,7 @@
 													<EffectSlot Name="" ID="{96BD0DB8-EAF9-4137-9E1B-2E4C02A85825}" ShortID="246880077">
 														<ReferenceList>
 															<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
-																<ObjectRef Name="Large_Bright_Chamber1" ID="{0BFA2291-5716-4759-AC24-F59D29E8F2E4}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+																<ObjectRef Name="Room_Large1" ID="{270959EA-9E0C-4E40-84D5-59207BF74AB8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 															</Reference>
 														</ReferenceList>
 													</EffectSlot>

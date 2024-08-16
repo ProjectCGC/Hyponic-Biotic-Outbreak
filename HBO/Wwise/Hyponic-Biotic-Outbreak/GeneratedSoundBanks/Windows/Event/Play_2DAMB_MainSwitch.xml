@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1641378436" Type="Event" GUID="{5FACC5C0-EBC3-491E-B2FF-847FCE128CBD}" Language="SFX" Hash="{A6BC1728-5C17-AF3F-56FC-A85759804A3E}">
+		<SoundBank Id="1641378436" Type="Event" GUID="{5FACC5C0-EBC3-491E-B2FF-847FCE128CBD}" Language="SFX" Hash="{A51415AA-C695-8334-1D96-174ECA0493B2}">
 			<ObjectPath>Play_2DAMB_MainSwitch</ObjectPath>
 			<ShortName>Play_2DAMB_MainSwitch</ShortName>
 			<Path>Event/Play_2DAMB_MainSwitch.bnk</Path>
@@ -49,5 +49,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DB7A8571-A07D-0084-AA5F-EC7BBA800C9D}</FileHash>
+	<FileHash>{C3B1FA1D-6985-736F-0585-BFC2D1FC310E}</FileHash>
 </SoundBanksInfo>

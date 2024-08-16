@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{5FACC5C0-EBC3-491E-B2FF-847FCE128CBD}",
     "Language": "SFX",
-    "Hash": "{A6BC1728-5C17-AF3F-56FC-A85759804A3E}",
+    "Hash": "{A51415AA-C695-8334-1D96-174ECA0493B2}",
     "ObjectPath": "Play_2DAMB_MainSwitch",
     "ShortName": "Play_2DAMB_MainSwitch",
     "Path": "Event/Play_2DAMB_MainSwitch.bnk",
@@ -119,6 +119,6 @@
     ]
    }
   ],
-  "FileHash": "{1FABDB32-1027-DD0C-57F1-CD50C669C257}"
+  "FileHash": "{FD9CFFA4-6621-1672-C0CE-13D3E332FBE0}"
  }
 }

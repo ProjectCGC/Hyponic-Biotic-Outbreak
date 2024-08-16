@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{BE3AAB44-520B-472A-984A-E0D9C809709B}",
     "Language": "SFX",
-    "Hash": "{D8D7C6F9-D4C6-8D88-DBDB-C8A7EA5126F5}",
+    "Hash": "{0C179645-0600-3127-617C-ECA9F472747E}",
     "ObjectPath": "Play_ButtonPush_Declined",
     "ShortName": "Play_ButtonPush_Declined",
     "Path": "Event/Play_ButtonPush_Declined.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{C72DB110-EB54-AA75-D18F-760334C9B49B}"
+  "FileHash": "{B6BB6F1F-226A-FE66-DA8A-2FC097E15E4C}"
  }
 }
