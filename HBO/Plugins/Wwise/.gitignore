@@ -85,7 +85,8 @@
 **.orig
 **.bak
 
-# PDBs
+# Generated files & PDBs
+***/Generated/*
 *.pdb
 
 # Wwise Whitelist
