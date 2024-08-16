@@ -96,7 +96,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="673033979" Type="Event" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" Language="SFX" Hash="{C2F3FA87-7DEB-BB6F-B328-9A5E06BADF1B}">
+		<SoundBank Id="673033979" Type="Event" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" Language="SFX" Hash="{02EB880C-CEDC-E234-DB8C-9633276239C9}">
 			<ObjectPath>Play_PLYR_Footsteps</ObjectPath>
 			<ShortName>Play_PLYR_Footsteps</ShortName>
 			<Path>Event/Play_PLYR_Footsteps.bnk</Path>
@@ -642,18 +642,8 @@
 					<CachePath>SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_00_818F3B66.wem</CachePath>
 				</File>
 			</Media>
-			<Plugins>
-				<Custom>
-					<Plugin Id="170609086" Name="Silence" ObjectPath="\Actor-Mixer Hierarchy\SFX\SFX_Player\PlayerLocomotion\PlayerLocomotion_Mixer\Player_Footsteps_Loop\Silence\Silence" GUID="{9F50187E-FC13-4BD1-9985-5CC3292E202B}" LibName="Wwise Silence" LibId="6619138"/>
-				</Custom>
-			</Plugins>
 			<Events>
-				<Event Id="673033979" Name="Play_PLYR_Footsteps" ObjectPath="\Events\Player\PlayerLocomotion\Play_PLYR_Footsteps" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" MaxAttenuation="500" DurationType="Infinite">
-					<PluginRefs>
-						<Custom>
-							<PluginRef Id="170609086"/>
-						</Custom>
-					</PluginRefs>
+				<Event Id="673033979" Name="Play_PLYR_Footsteps" ObjectPath="\Events\Player\PlayerLocomotion\Play_PLYR_Footsteps" GUID="{19FF983B-7744-4E47-989D-35EE3143C8A8}" MaxAttenuation="500" DurationType="OneShot" DurationMin="0" DurationMax="1.3714286">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="2051106367" Id="1296465089" GUID="{22259802-6366-43C9-B7F2-C6277591AC94}"/>
@@ -923,14 +913,6 @@
 			<Path>Event/Play_Stop_Heartbeat.bnk</Path>
 			<Events>
 				<Event Id="774311979" Name="Play_Stop_Heartbeat" ObjectPath="\Events\UX\Heartbeat\Play_Stop_Heartbeat" GUID="{4926F842-97EE-4F2E-A6E2-DD0E68984186}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
-			</Events>
-		</SoundBank>
-		<SoundBank Id="824917672" Type="Event" GUID="{54C80889-7574-4AB3-87DA-7C8BF185BDD3}" Language="SFX" Hash="{88FD84B4-3A53-5662-8735-BE1A40FBB4BF}">
-			<ObjectPath>Play_Stop_PLYR_Footsteps</ObjectPath>
-			<ShortName>Play_Stop_PLYR_Footsteps</ShortName>
-			<Path>Event/Play_Stop_PLYR_Footsteps.bnk</Path>
-			<Events>
-				<Event Id="824917672" Name="Play_Stop_PLYR_Footsteps" ObjectPath="\Events\Player\PlayerLocomotion\Play_Stop_PLYR_Footsteps" GUID="{54C80889-7574-4AB3-87DA-7C8BF185BDD3}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="858964037" Type="Event" GUID="{FEB8898A-E02F-4BFF-AC98-2CA1F8152788}" Language="SFX" Hash="{6A50D9D0-4627-3FD1-FF79-0C097371FDA0}">
@@ -1758,5 +1740,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{79A0FF72-4B3A-31DC-FA91-1D6D8BFD0ACA}</FileHash>
+	<FileHash>{13E19B77-0793-0E79-EFB0-284D91262934}</FileHash>
 </SoundBanksInfo>

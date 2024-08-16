@@ -191,7 +191,7 @@
     "Type": "Event",
     "GUID": "{19FF983B-7744-4E47-989D-35EE3143C8A8}",
     "Language": "SFX",
-    "Hash": "{C2F3FA87-7DEB-BB6F-B328-9A5E06BADF1B}",
+    "Hash": "{02EB880C-CEDC-E234-DB8C-9633276239C9}",
     "ObjectPath": "Play_PLYR_Footsteps",
     "ShortName": "Play_PLYR_Footsteps",
     "Path": "Event/Play_PLYR_Footsteps.bnk",
@@ -1169,18 +1169,6 @@
       "CachePath": "SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_00_818F3B66.wem"
      }
     ],
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "170609086",
-       "Name": "Silence",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\SFX\\SFX_Player\\PlayerLocomotion\\PlayerLocomotion_Mixer\\Player_Footsteps_Loop\\Silence\\Silence",
-       "GUID": "{9F50187E-FC13-4BD1-9985-5CC3292E202B}",
-       "LibName": "Wwise Silence",
-       "LibId": "6619138"
-      }
-     ]
-    },
     "Events": [
      {
       "Id": "673033979",
@@ -1188,14 +1176,9 @@
       "ObjectPath": "\\Events\\Player\\PlayerLocomotion\\Play_PLYR_Footsteps",
       "GUID": "{19FF983B-7744-4E47-989D-35EE3143C8A8}",
       "MaxAttenuation": "500",
-      "DurationType": "Infinite",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "170609086"
-        }
-       ]
-      },
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "1.3714286",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -1972,28 +1955,6 @@
       "Name": "Play_Stop_Heartbeat",
       "ObjectPath": "\\Events\\UX\\Heartbeat\\Play_Stop_Heartbeat",
       "GUID": "{4926F842-97EE-4F2E-A6E2-DD0E68984186}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     }
-    ]
-   },
-   {
-    "Id": "824917672",
-    "Type": "Event",
-    "GUID": "{54C80889-7574-4AB3-87DA-7C8BF185BDD3}",
-    "Language": "SFX",
-    "Hash": "{88FD84B4-3A53-5662-8735-BE1A40FBB4BF}",
-    "ObjectPath": "Play_Stop_PLYR_Footsteps",
-    "ShortName": "Play_Stop_PLYR_Footsteps",
-    "Path": "Event/Play_Stop_PLYR_Footsteps.bnk",
-    "Events": [
-     {
-      "Id": "824917672",
-      "Name": "Play_Stop_PLYR_Footsteps",
-      "ObjectPath": "\\Events\\Player\\PlayerLocomotion\\Play_Stop_PLYR_Footsteps",
-      "GUID": "{54C80889-7574-4AB3-87DA-7C8BF185BDD3}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -4082,6 +4043,6 @@
     ]
    }
   ],
-  "FileHash": "{58409907-B155-C449-AF3E-CC2EF1F91195}"
+  "FileHash": "{BAFA02F1-697E-D87B-7EA7-9B4FD5944A8A}"
  }
 }

@@ -8,21 +8,7 @@
 						<Action Name="" ID="{B18CBC3D-6309-482E-B856-22649F1EDC3C}" ShortID="272239648">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Player_Footsteps_Loop" ID="{24014E9E-BCB8-431F-BD3C-D8F101388DE6}" WorkUnitID="{2292A955-6878-4631-BDB3-8E9BA5D50E02}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Stop_PLYR_Footsteps" ID="{54C80889-7574-4AB3-87DA-7C8BF185BDD3}">
-					<ChildrenList>
-						<Action Name="" ID="{AAE80F5E-79B3-471F-AF54-262C90B26C8D}" ShortID="320706159">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Player_Footsteps_Loop" ID="{24014E9E-BCB8-431F-BD3C-D8F101388DE6}" WorkUnitID="{2292A955-6878-4631-BDB3-8E9BA5D50E02}"/>
+									<ObjectRef Name="PLYR_Footsteps_SpeedSwitch" ID="{0E863EA7-20BD-4CE0-A364-2D8C5AE1A0A0}" WorkUnitID="{2292A955-6878-4631-BDB3-8E9BA5D50E02}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

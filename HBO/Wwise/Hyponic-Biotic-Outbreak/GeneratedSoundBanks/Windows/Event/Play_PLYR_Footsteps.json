@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{19FF983B-7744-4E47-989D-35EE3143C8A8}",
     "Language": "SFX",
-    "Hash": "{C2F3FA87-7DEB-BB6F-B328-9A5E06BADF1B}",
+    "Hash": "{02EB880C-CEDC-E234-DB8C-9633276239C9}",
     "ObjectPath": "Play_PLYR_Footsteps",
     "ShortName": "Play_PLYR_Footsteps",
     "Path": "Event/Play_PLYR_Footsteps.bnk",
@@ -988,18 +988,6 @@
       "CachePath": "SFX/Player/Player_Locomotion/Player_Footsteps/Player_Sprint/Player_Sprint_MetalMuted/MetalMuted_Sprint_00_818F3B66.wem"
      }
     ],
-    "Plugins": {
-     "Custom": [
-      {
-       "Id": "170609086",
-       "Name": "Silence",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\SFX\\SFX_Player\\PlayerLocomotion\\PlayerLocomotion_Mixer\\Player_Footsteps_Loop\\Silence\\Silence",
-       "GUID": "{9F50187E-FC13-4BD1-9985-5CC3292E202B}",
-       "LibName": "Wwise Silence",
-       "LibId": "6619138"
-      }
-     ]
-    },
     "Events": [
      {
       "Id": "673033979",
@@ -1007,14 +995,9 @@
       "ObjectPath": "\\Events\\Player\\PlayerLocomotion\\Play_PLYR_Footsteps",
       "GUID": "{19FF983B-7744-4E47-989D-35EE3143C8A8}",
       "MaxAttenuation": "500",
-      "DurationType": "Infinite",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "170609086"
-        }
-       ]
-      },
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "1.3714286",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -1777,6 +1760,6 @@
     ]
    }
   ],
-  "FileHash": "{08C17B17-5E04-5FD9-0CD6-7F52C7F12D75}"
+  "FileHash": "{13EDA707-3177-DD32-BA91-E7CF700EB68D}"
  }
 }
