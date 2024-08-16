@@ -21,7 +21,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -30,7 +29,6 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
@@ -58,7 +56,7 @@
 **/SourceArt/**/*.tga
 
 # Binary Files
-**/Binaries/*
+// **/Binaries/*
 
 # ThirdParty files
 **/ThirdParty/*
@@ -86,3 +84,10 @@
 # WinMerge-generated files
 **.orig
 **.bak
+
+# PDBs
+*.pdb
+
+# Wwise Whitelist
+!*.dll
+!*.lib
