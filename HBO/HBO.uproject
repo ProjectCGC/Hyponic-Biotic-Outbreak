@@ -18,6 +18,10 @@
 		{
 			"Name": "Wwise",
 			"Enabled": false
+		},
+		{
+			"Name": "FMODStudio",
+			"Enabled": true
 		}
 	]
 }
