@@ -53,6 +53,9 @@ Plugins/*/Binaries/*
 !Plugins/Wwise/Binaries/*
 !Plugins/WwiseNiagara/Binaries/*
 
+# FMOD Whitelist
+!Plugins/FMODStudio/*
+
 # Builds
 Build/*
 
