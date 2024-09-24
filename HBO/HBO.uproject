@@ -14,6 +14,10 @@
 		{
 			"Name": "WwiseNiagara",
 			"Enabled": false
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": false
 		}
 	]
 }

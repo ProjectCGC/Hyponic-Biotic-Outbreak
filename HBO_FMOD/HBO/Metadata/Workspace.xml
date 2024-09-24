@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{a99967d4-3c24-4cac-b65f-149fe6078103}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../HBO/Content/FMOD</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{9384c95c-e18a-4217-96e8-983bc70d1276}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{a17f904d-dc08-4c59-8052-8dccacef5982}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{25d63d34-d078-4952-83ac-c2a9d32d6955}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{bbf416df-012d-486a-93e8-0a2d96108e49}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{1c0f46f2-6a2e-4ae3-83cd-383c4776eedb}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{3d342399-7d2c-4ec7-b9ad-99541f7b64bf}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{39c1c70e-b44b-42a7-8090-891336d8b3d4}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{76f67f31-94a4-4d67-97e7-f2e87ae305c0}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{7789ed10-a33b-4402-9b6c-468cc97e5160}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{42523324-d69c-4f34-bf8e-b2e3676e832c}</destination>
+		</relationship>
+	</object>
+</objects>
