@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Perception Extension",
+	"Description": "AI Perception Extended Functions",
+	"Category": "AI",
+	"CreatedBy": "Slashin8r",
+	"CreatedByURL": "https://slashin8r.gitbook.io/perception-extension/",
+	"DocsURL": "https://slashin8r.gitbook.io/perception-extension/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/3554adbb682840be9abe0db1afef4b32",
+	"SupportURL": "https://slashin8r.gitbook.io/perception-extension/",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "PerceptionExtension",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac",
+				"IOS"
+			]
+		}
+	]
+}
