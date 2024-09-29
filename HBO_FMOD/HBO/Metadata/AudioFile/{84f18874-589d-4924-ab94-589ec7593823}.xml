@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{84f18874-589d-4924-ab94-589ec7593823}">
 		<property name="assetPath">
-			<value>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_06.wav</value>
+			<value>SFX/Player/Player_Locomotion/Player_Footsteps/PLYR_Footsteps_MetalMuted/MetalMuted_Walk_06.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -1,6 +1,0 @@
-Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	1990128658	Room_Medium			\Master Mixers\Master Audio Bus\Reverbs\Room_Medium	
-
-Effect plug-ins	ID	Name	Type				Notes
-	1919828840	Room_Med1	Wwise Matrix Reverb			
-

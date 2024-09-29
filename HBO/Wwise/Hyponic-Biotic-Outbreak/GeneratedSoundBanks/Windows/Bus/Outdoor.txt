@@ -1,6 +1,0 @@
-Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	144697359	Outdoor			\Master Mixers\Master Audio Bus\Reverbs\Outdoor	
-
-Effect plug-ins	ID	Name	Type				Notes
-	862898182	Matrix Reverb (Custom)	Wwise Matrix Reverb			
-
