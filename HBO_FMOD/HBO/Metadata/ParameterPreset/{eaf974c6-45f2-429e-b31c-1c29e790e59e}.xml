@@ -19,7 +19,7 @@
 			<value>2</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>NoCombat</value>
+			<value>OutOfCombat</value>
 			<value>InCombat</value>
 		</property>
 		<property name="isGlobal">
