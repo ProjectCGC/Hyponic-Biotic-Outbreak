@@ -1,2 +1,5 @@
 # Whitelisted
 !*
+
+# ...but don't include Intermediate files
+Intermediate/
