@@ -1,8 +1,0 @@
-{
-	"OutputFiles": [
-		"../../../arm64/UnrealGame/Shipping/PerceptionExtension/Module.PerceptionExtension.cpp.o",
-		"../../../arm64/UnrealGame/Shipping/PerceptionExtension/Module.PerceptionExtension.cpp.o",
-		"../../../x64/UnrealGame/Shipping/PerceptionExtension/Module.PerceptionExtension.cpp.o",
-		"../../../x64/UnrealGame/Shipping/PerceptionExtension/Module.PerceptionExtension.cpp.o"
-	]
-}
