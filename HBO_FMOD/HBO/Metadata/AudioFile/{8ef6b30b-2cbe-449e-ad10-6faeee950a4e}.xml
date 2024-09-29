@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8ef6b30b-2cbe-449e-ad10-6faeee950a4e}">
+		<property name="assetPath">
+			<value>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/Player_CrouchWalk_MetalMuted/MetalMuted_Walk_11.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.3714285714285714</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{39c1c70e-b44b-42a7-8090-891336d8b3d4}</destination>
+		</relationship>
+	</object>
+</objects>

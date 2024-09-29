@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{e7f56e00-dced-42f3-94b7-0baf6987a038}">
+		<property name="name">
+			<value>3DAmbienceMaster</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{a3598930-3873-4fec-aee0-b1bf15dc476e}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b41820ca-4098-42ab-aa51-fe651c0a5a1f}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f41ac6a3-1e7d-405b-a481-1dcd80f5b1d2}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a3598930-3873-4fec-aee0-b1bf15dc476e}">
+		<relationship name="effects">
+			<destination>{408fa687-f7db-4504-94e8-a00a5339ce66}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b41820ca-4098-42ab-aa51-fe651c0a5a1f}" />
+	<object class="MixerBusFader" id="{408fa687-f7db-4504-94e8-a00a5339ce66}" />
+</objects>

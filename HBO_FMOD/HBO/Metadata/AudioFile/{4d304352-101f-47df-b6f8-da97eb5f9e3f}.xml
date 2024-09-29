@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4d304352-101f-47df-b6f8-da97eb5f9e3f}">
+		<property name="assetPath">
+			<value>Ambience/2D_Ambiences/2DAMB_Facility_Offices.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>120</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{39c1c70e-b44b-42a7-8090-891336d8b3d4}</destination>
+		</relationship>
+	</object>
+</objects>
