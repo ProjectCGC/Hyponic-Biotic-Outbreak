@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	3965059671	Play_ButtonPush_Declined			\Object\Button\Play_ButtonPush_Declined	
-

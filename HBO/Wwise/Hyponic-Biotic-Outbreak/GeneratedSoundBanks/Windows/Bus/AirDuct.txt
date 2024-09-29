@@ -1,6 +1,0 @@
-Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	2847862451	AirDuct			\Master Mixers\Master Audio Bus\Reverbs\AirDuct	
-
-Effect plug-ins	ID	Name	Type				Notes
-	488030007	Matrix Reverb (Custom)	Wwise Matrix Reverb			
-

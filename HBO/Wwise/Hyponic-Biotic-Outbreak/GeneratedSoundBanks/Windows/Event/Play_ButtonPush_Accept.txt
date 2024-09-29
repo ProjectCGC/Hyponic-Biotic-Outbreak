@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	1315362221	Play_ButtonPush_Accept			\Object\Button\Play_ButtonPush_Accept	
-
