@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{90f18787-6b55-4535-b5fd-0362510c3efa}">
+		<property name="name">
+			<value>RVB_Room_Small</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{1e3270f9-17a8-470d-bcaf-3c4e3fff2a25}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{f061c85d-8a0a-4a31-bf66-418df37a4181}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f0095130-71f9-4e8c-9ca2-8d9b23494f18}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{1e3270f9-17a8-470d-bcaf-3c4e3fff2a25}">
+		<relationship name="effects">
+			<destination>{8ca25a7f-2c64-4ed5-99be-f35f638b1c26}</destination>
+			<destination>{81163d26-8789-44d4-809a-857e36bb5fc0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{f061c85d-8a0a-4a31-bf66-418df37a4181}" />
+	<object class="ConvolutionReverbEffect" id="{8ca25a7f-2c64-4ed5-99be-f35f638b1c26}" />
+	<object class="MixerBusFader" id="{81163d26-8789-44d4-809a-857e36bb5fc0}" />
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{72b2ed8c-e6ed-4fdf-8e88-b9ece0c1753b}">
+		<property name="name">
+			<value>PLYR_Locomotion</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e11ffdd4-87ab-49cd-9da8-bc80280aa361}</destination>
+		</relationship>
+	</object>
+</objects>

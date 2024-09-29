@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{a9c81606-6385-4b59-83d5-cd2e7c224d41}">
+		<property name="assetPath">
+			<value>SFX/Player/Player_Locomotion/Player_Footsteps/Player_CrouchWalk/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{39c1c70e-b44b-42a7-8090-891336d8b3d4}</destination>
+		</relationship>
+	</object>
+</objects>

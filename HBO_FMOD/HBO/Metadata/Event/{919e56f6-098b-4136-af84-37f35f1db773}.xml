@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{919e56f6-098b-4136-af84-37f35f1db773}">
 		<property name="name">
-			<value>SFX_TestBeep_100ms</value>
+			<value>Debug_TestBeep</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -32,7 +32,7 @@
 			<destination>{2f094e00-23aa-4275-a8e6-f44135df876f}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{82a33c8d-5196-4d4c-ae90-b97c9347b7fc}</destination>
+			<destination>{25babec3-d16f-4fad-b3de-aa0e9319c800}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{7b2d8da5-83d3-4930-b96f-9cd1445892dc}">
@@ -56,7 +56,7 @@
 			<destination>{d11c755d-03e9-494f-aef1-83357186a357}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{968136da-5d99-4c2a-960d-6c578dd8a19e}</destination>
+			<destination>{bc21e7cb-0bc1-4aee-8958-707437acc62a}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{c96fb356-7054-4b65-8c8a-ebd68a2e968e}" />
@@ -84,7 +84,7 @@
 	</object>
 	<object class="MultiSound" id="{358411fb-0632-4f4b-87cb-fcb010870d0d}">
 		<relationship name="sounds">
-			<destination>{90973bac-af35-4795-a97d-453731520987}</destination>
+			<destination>{c110c5cd-e9bd-46e6-8247-2f29c00322e3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{98bd3351-7954-4a3b-bcda-34d488c0fc44}">
@@ -99,9 +99,9 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{76a45fe5-82e3-470a-b75f-af717f244517}" />
-	<object class="SingleSound" id="{90973bac-af35-4795-a97d-453731520987}">
+	<object class="SingleSound" id="{c110c5cd-e9bd-46e6-8247-2f29c00322e3}">
 		<relationship name="audioFile">
-			<destination>{e7c68f26-4505-4eea-ad56-cf7458c80a55}</destination>
+			<destination>{bf388ddc-d306-4e5e-9af6-fe028be1fbb7}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{5f7ca2b5-f7d2-4592-85ab-25c5b375873b}" />
