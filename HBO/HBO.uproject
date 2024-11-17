@@ -27,6 +27,10 @@
 			"Name": "PerceptionExtension",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/3554adbb682840be9abe0db1afef4b32"
+		},
+		{
+			"Name": "UdpMessaging",
+			"Enabled": false
 		}
 	]
 }
